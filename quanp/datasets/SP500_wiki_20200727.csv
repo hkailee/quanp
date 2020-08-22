@@ -1,0 +1,506 @@
+,Ticker,Security,GICS_sector,GICS_sub_industry,Headquarter_location,Date_first_added,CIK,Founded,SEC_filings_link
+0,MMM,3M Company,Industrials,Industrial Conglomerates,"St. Paul, Minnesota",1976-08-09,0000066740,1902,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MMM&action=getcompany
+1,ABT,Abbott Laboratories,Health Care,Health Care Equipment,"North Chicago, Illinois",1964-03-31,0000001800,1888,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ABT&action=getcompany
+2,ABBV,AbbVie Inc.,Health Care,Pharmaceuticals,"North Chicago, Illinois",2012-12-31,0001551152,2013 (1888),https://www.sec.gov/cgi-bin/browse-edgar?CIK=ABBV&action=getcompany
+3,ABMD,ABIOMED Inc,Health Care,Health Care Equipment,"Danvers, Massachusetts",2018-05-31,0000815094,1981,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ABMD&action=getcompany
+4,ACN,Accenture plc,Information Technology,IT Consulting & Other Services,"Dublin, Ireland",2011-07-06,0001467373,1989,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ACN&action=getcompany
+5,ATVI,Activision Blizzard,Communication Services,Interactive Home Entertainment,"Santa Monica, California",2015-08-31,0000718877,2008,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ATVI&action=getcompany
+6,ADBE,Adobe Inc.,Information Technology,Application Software,"San Jose, California",1997-05-05,0000796343,1982,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ADBE&action=getcompany
+7,AMD,Advanced Micro Devices Inc,Information Technology,Semiconductors,"Santa Clara, California",2017-03-20,0000002488,1969,https://www.sec.gov/cgi-bin/browse-edgar?CIK=AMD&action=getcompany
+8,AAP,Advance Auto Parts,Consumer Discretionary,Automotive Retail,"Raleigh, North Carolina",2015-07-09,0001158449,1932,https://www.sec.gov/cgi-bin/browse-edgar?CIK=AAP&action=getcompany
+9,AES,AES Corp,Utilities,Independent Power Producers & Energy Traders,"Arlington, Virginia",1998-10-02,0000874761,1981,https://www.sec.gov/cgi-bin/browse-edgar?CIK=AES&action=getcompany
+10,AFL,AFLAC Inc,Financials,Life & Health Insurance,"Columbus, Georgia",1999-05-28,0000004977,1955,https://www.sec.gov/cgi-bin/browse-edgar?CIK=AFL&action=getcompany
+11,A,Agilent Technologies Inc,Health Care,Health Care Equipment,"Santa Clara, California",2000-06-05,0001090872,1999,https://www.sec.gov/cgi-bin/browse-edgar?CIK=A&action=getcompany
+12,APD,Air Products & Chemicals Inc,Materials,Industrial Gases,"Allentown, Pennsylvania",1985-04-30,0000002969,1940,https://www.sec.gov/cgi-bin/browse-edgar?CIK=APD&action=getcompany
+13,AKAM,Akamai Technologies Inc,Information Technology,Internet Services & Infrastructure,"Cambridge, Massachusetts",2007-07-12,0001086222,1998,https://www.sec.gov/cgi-bin/browse-edgar?CIK=AKAM&action=getcompany
+14,ALK,Alaska Air Group Inc,Industrials,Airlines,"Seattle, Washington",2016-05-13,0000766421,1985,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ALK&action=getcompany
+15,ALB,Albemarle Corp,Materials,Specialty Chemicals,"Charlotte, North Carolina",2016-07-01,0000915913,1994,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ALB&action=getcompany
+16,ARE,Alexandria Real Estate Equities,Real Estate,Office REITs,"Pasadena, California",2017-03-20,0001035443,1994,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ARE&action=getcompany
+17,ALXN,Alexion Pharmaceuticals,Health Care,Biotechnology,"Boston, Massachusetts",2012-05-25,0000899866,1992,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ALXN&action=getcompany
+18,ALGN,Align Technology,Health Care,Health Care Supplies,"San Jose, California",2017-06-19,0001097149,1997,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ALGN&action=getcompany
+19,ALLE,Allegion,Industrials,Building Products,"Dublin, Ireland",2013-12-02,0001579241,1908,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ALLE&action=getcompany
+20,LNT,Alliant Energy Corp,Utilities,Electric Utilities,"Madison, Wisconsin",2016-07-01,0000352541,1917,https://www.sec.gov/cgi-bin/browse-edgar?CIK=LNT&action=getcompany
+21,ALL,Allstate Corp,Financials,Property & Casualty Insurance,"Northfield Township, Illinois",1995-07-13,0000899051,1931,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ALL&action=getcompany
+22,GOOGL,Alphabet Inc. (Class A),Communication Services,Interactive Media & Services,"Mountain View, California",2014-04-03,0001652044,1998,https://www.sec.gov/cgi-bin/browse-edgar?CIK=GOOGL&action=getcompany
+23,GOOG,Alphabet Inc. (Class C),Communication Services,Interactive Media & Services,"Mountain View, California",2006-04-03,0001652044,1998,https://www.sec.gov/cgi-bin/browse-edgar?CIK=GOOG&action=getcompany
+24,MO,Altria Group Inc,Consumer Staples,Tobacco,"Richmond, Virginia",1957-03-04,0000764180,1985,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MO&action=getcompany
+25,AMZN,Amazon.com Inc.,Consumer Discretionary,Internet & Direct Marketing Retail,"Seattle, Washington",2005-11-18,0001018724,1994,https://www.sec.gov/cgi-bin/browse-edgar?CIK=AMZN&action=getcompany
+26,AMCR,Amcor plc,Materials,Paper Packaging,"Warmley, Bristol, United Kingdom",2019-06-07,0001748790,2019 (1860),https://www.sec.gov/cgi-bin/browse-edgar?CIK=AMCR&action=getcompany
+27,AEE,Ameren Corp,Utilities,Multi-Utilities,"St. Louis, Missouri",1991-09-19,0001002910,1902,https://www.sec.gov/cgi-bin/browse-edgar?CIK=AEE&action=getcompany
+28,AAL,American Airlines Group,Industrials,Airlines,"Fort Worth, Texas",2015-03-23,0000006201,1934,https://www.sec.gov/cgi-bin/browse-edgar?CIK=AAL&action=getcompany
+29,AEP,American Electric Power,Utilities,Electric Utilities,"Columbus, Ohio",1957-03-04,0000004904,1906,https://www.sec.gov/cgi-bin/browse-edgar?CIK=AEP&action=getcompany
+30,AXP,American Express Co,Financials,Consumer Finance,"New York, New York",1976-06-30,0000004962,1850,https://www.sec.gov/cgi-bin/browse-edgar?CIK=AXP&action=getcompany
+31,AIG,American International Group,Financials,Property & Casualty Insurance,"New York, New York",1980-03-31,0000005272,1919,https://www.sec.gov/cgi-bin/browse-edgar?CIK=AIG&action=getcompany
+32,AMT,American Tower Corp.,Real Estate,Specialized REITs,"Boston, Massachusetts",2007-11-19,0001053507,1995,https://www.sec.gov/cgi-bin/browse-edgar?CIK=AMT&action=getcompany
+33,AWK,American Water Works Company Inc,Utilities,Water Utilities,"Camden, New Jersey",2016-03-04,0001410636,1886,https://www.sec.gov/cgi-bin/browse-edgar?CIK=AWK&action=getcompany
+34,AMP,Ameriprise Financial,Financials,Asset Management & Custody Banks,"Minneapolis, Minnesota",2005-10-03,0000820027,1894,https://www.sec.gov/cgi-bin/browse-edgar?CIK=AMP&action=getcompany
+35,ABC,AmerisourceBergen Corp,Health Care,Health Care Distributors,"Chesterbrook, Pennsylvania",2001-08-30,0001140859,1985,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ABC&action=getcompany
+36,AME,AMETEK Inc.,Industrials,Electrical Components & Equipment,"Berwyn, Pennsylvania",2013-09-23,0001037868,1930,https://www.sec.gov/cgi-bin/browse-edgar?CIK=AME&action=getcompany
+37,AMGN,Amgen Inc.,Health Care,Biotechnology,"Thousand Oaks, California",1992-01-02,0000318154,1980,https://www.sec.gov/cgi-bin/browse-edgar?CIK=AMGN&action=getcompany
+38,APH,Amphenol Corp,Information Technology,Electronic Components,"Wallingford, Connecticut",2008-09-30,0000820313,1932,https://www.sec.gov/cgi-bin/browse-edgar?CIK=APH&action=getcompany
+39,ADI,"Analog Devices, Inc.",Information Technology,Semiconductors,"Norwood, Massachusetts",1999-10-12,0000006281,1965,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ADI&action=getcompany
+40,ANSS,ANSYS,Information Technology,Application Software,"Canonsburg, Pennsylvania",2017-06-19,0001013462,1969,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ANSS&action=getcompany
+41,ANTM,Anthem,Health Care,Managed Health Care,"Indianapolis, Indiana",2002-07-25,0001156039,2014 (1940s),https://www.sec.gov/cgi-bin/browse-edgar?CIK=ANTM&action=getcompany
+42,AON,Aon plc,Financials,Insurance Brokers,"London, United Kingdom",1996-04-23,0000315293,1982 (1919),https://www.sec.gov/cgi-bin/browse-edgar?CIK=AON&action=getcompany
+43,AOS,A.O. Smith Corp,Industrials,Building Products,"Milwaukee, Wisconsin",2017-07-26,0000091142,1916,https://www.sec.gov/cgi-bin/browse-edgar?CIK=AOS&action=getcompany
+44,APA,Apache Corporation,Energy,Oil & Gas Exploration & Production,"Houston, Texas",1997-07-28,0000006769,1954,https://www.sec.gov/cgi-bin/browse-edgar?CIK=APA&action=getcompany
+45,AIV,Apartment Investment & Management,Real Estate,Residential REITs,"Denver, Colorado",2003-03-14,0000922864,1994 (1975),https://www.sec.gov/cgi-bin/browse-edgar?CIK=AIV&action=getcompany
+46,AAPL,Apple Inc.,Information Technology,"Technology Hardware, Storage & Peripherals","Cupertino, California",1982-11-30,0000320193,1977,https://www.sec.gov/cgi-bin/browse-edgar?CIK=AAPL&action=getcompany
+47,AMAT,Applied Materials Inc.,Information Technology,Semiconductor Equipment,"Santa Clara, California",1995-03-16,0000006951,1967,https://www.sec.gov/cgi-bin/browse-edgar?CIK=AMAT&action=getcompany
+48,APTV,Aptiv PLC,Consumer Discretionary,Auto Parts & Equipment,"Dublin, Ireland",2012-12-24,0001521332,1994,https://www.sec.gov/cgi-bin/browse-edgar?CIK=APTV&action=getcompany
+49,ADM,Archer-Daniels-Midland Co,Consumer Staples,Agricultural Products,"Chicago, Illinois",1981-07-29,0000007084,1902,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ADM&action=getcompany
+50,ANET,Arista Networks,Information Technology,Communications Equipment,"Santa Clara, California",2018-08-28,0001596532,2004,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ANET&action=getcompany
+51,AJG,Arthur J. Gallagher & Co.,Financials,Insurance Brokers,"Itasca, Illinois",2016-05-31,0000354190,1927,https://www.sec.gov/cgi-bin/browse-edgar?CIK=AJG&action=getcompany
+52,AIZ,Assurant,Financials,Multi-line Insurance,"New York, New York",2007-04-10,0001267238,1892,https://www.sec.gov/cgi-bin/browse-edgar?CIK=AIZ&action=getcompany
+53,T,AT&T Inc.,Communication Services,Integrated Telecommunication Services,"Dallas, Texas",1983-11-30 (1957-03-04),0000732717,1983 (1885),https://www.sec.gov/cgi-bin/browse-edgar?CIK=T&action=getcompany
+54,ATO,Atmos Energy,Utilities,Gas Utilities,"Dallas, Texas",2019-02-15,0000731802,1906,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ATO&action=getcompany
+55,ADSK,Autodesk Inc.,Information Technology,Application Software,"San Rafael, California",1989-12-01,0000769397,1982,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ADSK&action=getcompany
+56,ADP,Automatic Data Processing,Information Technology,Internet Services & Infrastructure,"Roseland, New Jersey",1981-03-31,0000008670,1949,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ADP&action=getcompany
+57,AZO,AutoZone Inc,Consumer Discretionary,Specialty Stores,"Memphis, Tennessee",1997-01-02,0000866787,1979,https://www.sec.gov/cgi-bin/browse-edgar?CIK=AZO&action=getcompany
+58,AVB,AvalonBay Communities,Real Estate,Residential REITs,"Arlington, Virginia[3]",2007-01-10,0000915912,1978,https://www.sec.gov/cgi-bin/browse-edgar?CIK=AVB&action=getcompany
+59,AVY,Avery Dennison Corp,Materials,Paper Packaging,"Glendale, California",1987-12-31,0000008818,1990,https://www.sec.gov/cgi-bin/browse-edgar?CIK=AVY&action=getcompany
+60,BKR,Baker Hughes Co,Energy,Oil & Gas Equipment & Services,"Houston, Texas",2017-07-07,0001701605,2017,https://www.sec.gov/cgi-bin/browse-edgar?CIK=BKR&action=getcompany
+61,BLL,Ball Corp,Materials,Metal & Glass Containers,"Broomfield, Colorado",1984-10-31,0000009389,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=BLL&action=getcompany
+62,BAC,Bank of America Corp,Financials,Diversified Banks,"Charlotte, North Carolina",1976-06-30,0000070858,1998 (1923 / 1874),https://www.sec.gov/cgi-bin/browse-edgar?CIK=BAC&action=getcompany
+63,BK,The Bank of New York Mellon,Financials,Asset Management & Custody Banks,"New York, New York",1995-03-31,0001390777,1784,https://www.sec.gov/cgi-bin/browse-edgar?CIK=BK&action=getcompany
+64,BAX,Baxter International Inc.,Health Care,Health Care Equipment,"Deerfield, Illinois",1972-09-30,0000010456,1931,https://www.sec.gov/cgi-bin/browse-edgar?CIK=BAX&action=getcompany
+65,BDX,Becton Dickinson,Health Care,Health Care Equipment,"Franklin Lakes, New Jersey",1972-09-30,0000010795,1897,https://www.sec.gov/cgi-bin/browse-edgar?CIK=BDX&action=getcompany
+66,BRK.B,Berkshire Hathaway,Financials,Multi-Sector Holdings,"Omaha, Nebraska",2010-02-16,0001067983,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=BRKB&action=getcompany
+67,BBY,Best Buy Co. Inc.,Consumer Discretionary,Computer & Electronics Retail,"Richfield, Minnesota",1999-06-29,0000764478,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=BBY&action=getcompany
+68,BIO,Bio-Rad Laboratories,Health Care,Biotechnology,"Hercules, California",2020-06-22,0000012208,1952,https://www.sec.gov/cgi-bin/browse-edgar?CIK=BIO&action=getcompany
+69,BIIB,Biogen Inc.,Health Care,Biotechnology,"Cambridge, Massachusetts",2003-11-13,0000875045,1978,https://www.sec.gov/cgi-bin/browse-edgar?CIK=BIIB&action=getcompany
+70,BLK,BlackRock,Financials,Asset Management & Custody Banks,"New York, New York",2011-04-04,0001364742,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=BLK&action=getcompany
+71,BA,Boeing Company,Industrials,Aerospace & Defense,"Chicago, Illinois",1957-03-04,0000012927,1916,https://www.sec.gov/cgi-bin/browse-edgar?CIK=BA&action=getcompany
+72,BKNG,Booking Holdings Inc,Consumer Discretionary,Internet & Direct Marketing Retail,"Norwalk, Connecticut",2009-11-06,0001075531,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=BKNG&action=getcompany
+73,BWA,BorgWarner,Consumer Discretionary,Auto Parts & Equipment,"Auburn Hills, Michigan",2011-12-19,0000908255,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=BWA&action=getcompany
+74,BXP,Boston Properties,Real Estate,Office REITs,"Boston, Massachusetts",2006-04-03,0001037540,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=BXP&action=getcompany
+75,BSX,Boston Scientific,Health Care,Health Care Equipment,"Marlborough, Massachusetts[4]",1995-02-24,0000885725,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=BSX&action=getcompany
+76,BMY,Bristol-Myers Squibb,Health Care,Health Care Distributors,"New York, New York",1957-03-04,0000014272,1989,https://www.sec.gov/cgi-bin/browse-edgar?CIK=BMY&action=getcompany
+77,AVGO,Broadcom Inc.,Information Technology,Semiconductors,"San Jose, California",2014-05-08,0001730168,1961,https://www.sec.gov/cgi-bin/browse-edgar?CIK=AVGO&action=getcompany
+78,BR,Broadridge Financial Solutions,Information Technology,Data Processing & Outsourced Services,"Lake Success, New York",2018-06-18,0001383312,1962,https://www.sec.gov/cgi-bin/browse-edgar?CIK=BR&action=getcompany
+79,BF.B,Brown-Forman Corp.,Consumer Staples,Distillers & Vintners,"Louisville, Kentucky",1982-10-31,0000014693,1870,https://www.sec.gov/cgi-bin/browse-edgar?CIK=BFB&action=getcompany
+80,CHRW,C. H. Robinson Worldwide,Industrials,Air Freight & Logistics,"Eden Prairie, Minnesota",2007-03-02,0001043277,1905,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CHRW&action=getcompany
+81,COG,Cabot Oil & Gas,Energy,Oil & Gas Exploration & Production,"Houston, Texas",2008-06-23,0000858470,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=COG&action=getcompany
+82,CDNS,Cadence Design Systems,Information Technology,Application Software,"San Jose, California",2017-09-18,0000813672,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CDNS&action=getcompany
+83,CPB,Campbell Soup,Consumer Staples,Packaged Foods & Meats,"Camden, New Jersey",1957-03-04,0000016732,1869,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CPB&action=getcompany
+84,COF,Capital One Financial,Financials,Consumer Finance,"Tysons Corner, Virginia",1998-07-01,0000927628,1935,https://www.sec.gov/cgi-bin/browse-edgar?CIK=COF&action=getcompany
+85,CAH,Cardinal Health Inc.,Health Care,Health Care Distributors,"Dublin, Ohio",1997-05-27,0000721371,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CAH&action=getcompany
+86,KMX,Carmax Inc,Consumer Discretionary,Specialty Stores,"Richmond, Virginia",2010-06-28,0001170010,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=KMX&action=getcompany
+87,CCL,Carnival Corp.,Consumer Discretionary,"Hotels, Resorts & Cruise Lines","Miami, Florida",1998-12-22,0000815097,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CCL&action=getcompany
+88,CARR,Carrier Global,Industrials,Building Products,"Palm Beach Gardens, Florida",2020-04-03,0001783180,2020 (1915),https://www.sec.gov/cgi-bin/browse-edgar?CIK=CARR&action=getcompany
+89,CAT,Caterpillar Inc.,Industrials,Construction Machinery & Heavy Trucks,"Deerfield, Illinois",1957-03-04,0000018230,1925,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CAT&action=getcompany
+90,CBOE,Cboe Global Markets,Financials,Financial Exchanges & Data,"Chicago, Illinois",2017-03-01,0001374310,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CBOE&action=getcompany
+91,CBRE,CBRE Group,Real Estate,Real Estate Services,"Los Angeles, California",2006-11-10,0001138118,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CBRE&action=getcompany
+92,CDW,CDW,Information Technology,Technology Distributors,"Lincolnshire, Illinois",2019-09-23,0001402057,1984,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CDW&action=getcompany
+93,CE,Celanese,Materials,Specialty Chemicals,"Irving, Texas",2018-12-24,0001306830,1918,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CE&action=getcompany
+94,CNC,Centene Corporation,Health Care,Managed Health Care,"St Louis, Missouri",2016-03-30,0001071739,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CNC&action=getcompany
+95,CNP,CenterPoint Energy,Utilities,Multi-Utilities,"Houston, Texas",1985-07-31,0001130310,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CNP&action=getcompany
+96,CTL,CenturyLink Inc,Communication Services,Alternative Carriers,"Monroe, Louisiana",1999-03-25,0000018926,1983 (1877),https://www.sec.gov/cgi-bin/browse-edgar?CIK=CTL&action=getcompany
+97,CERN,Cerner,Health Care,Health Care Technology,"North Kansas City, Missouri",2010-04-30,0000804753,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CERN&action=getcompany
+98,CF,CF Industries Holdings Inc,Materials,Fertilizers & Agricultural Chemicals,"Deerfield, Illinois",2008-08-27,0001324404,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CF&action=getcompany
+99,SCHW,Charles Schwab Corporation,Financials,Investment Banking & Brokerage,"San Francisco, California",1997-06-02,0000316709,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=SCHW&action=getcompany
+100,CHTR,Charter Communications,Communication Services,Cable & Satellite,"Stamford, Connecticut",2016-09-08,0001091667,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CHTR&action=getcompany
+101,CVX,Chevron Corp.,Energy,Integrated Oil & Gas,"San Ramon, California",1957-03-04,0000093410,1879,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CVX&action=getcompany
+102,CMG,Chipotle Mexican Grill,Consumer Discretionary,Restaurants,"Newport Beach, California",2011-04-28,0001058090,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CMG&action=getcompany
+103,CB,Chubb Limited,Financials,Property & Casualty Insurance,"Zurich, Switzerland",2010-07-15,0000896159,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CB&action=getcompany
+104,CHD,Church & Dwight,Consumer Staples,Household Products,"Ewing, New Jersey",2015-12-29,0000313927,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CHD&action=getcompany
+105,CI,CIGNA Corp.,Health Care,Managed Health Care,"Bloomfield, Connecticut",1976-06-30,0000701221,1982,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CI&action=getcompany
+106,CINF,Cincinnati Financial,Financials,Property & Casualty Insurance,"Fairfield, Ohio",1997-12-18,0000020286,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CINF&action=getcompany
+107,CTAS,Cintas Corporation,Industrials,Diversified Support Services,"Mason, Ohio",2001-03-01,0000723254,1929,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CTAS&action=getcompany
+108,CSCO,Cisco Systems,Information Technology,Communications Equipment,"San Jose, California",1993-12-01,0000858877,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CSCO&action=getcompany
+109,C,Citigroup Inc.,Financials,Diversified Banks,"New York, New York",1988-05-31,0000831001,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=C&action=getcompany
+110,CFG,Citizens Financial Group,Financials,Regional Banks,"Providence, Rhode Island",2016-01-29,0000759944,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CFG&action=getcompany
+111,CTXS,Citrix Systems,Information Technology,Application Software,"Fort Lauderdale, Florida",1999-12-01,0000877890,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CTXS&action=getcompany
+112,CLX,The Clorox Company,Consumer Staples,Household Products,"Oakland, California",1969-03-31,0000021076,1913,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CLX&action=getcompany
+113,CME,CME Group Inc.,Financials,Financial Exchanges & Data,"Chicago, Illinois",2006-08-11,0001156375,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CME&action=getcompany
+114,CMS,CMS Energy,Utilities,Multi-Utilities,"Jackson, Michigan",1999-05-03,0000811156,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CMS&action=getcompany
+115,KO,Coca-Cola Company,Consumer Staples,Soft Drinks,"Atlanta, Georgia",1957-03-04,0000021344,1886,https://www.sec.gov/cgi-bin/browse-edgar?CIK=KO&action=getcompany
+116,CTSH,Cognizant Technology Solutions,Information Technology,IT Consulting & Other Services,"Teaneck, New Jersey",2006-11-17,0001058290,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CTSH&action=getcompany
+117,CL,Colgate-Palmolive,Consumer Staples,Household Products,"New York, New York",1957-03-04,0000021665,1806,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CL&action=getcompany
+118,CMCSA,Comcast Corp.,Communication Services,Cable & Satellite,"Philadelphia, Pennsylvania",2015-09-18,0001166691,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CMCSA&action=getcompany
+119,CMA,Comerica Inc.,Financials,Diversified Banks,"Dallas, Texas",1995-12-01,0000028412,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CMA&action=getcompany
+120,CAG,Conagra Brands,Consumer Staples,Packaged Foods & Meats,"Chicago, Illinois",1983-08-31,0000023217,1919,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CAG&action=getcompany
+121,CXO,Concho Resources,Energy,Oil & Gas Exploration & Production,"Midland, Texas",2016-02-22,0001358071,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CXO&action=getcompany
+122,COP,ConocoPhillips,Energy,Oil & Gas Exploration & Production,"Houston, Texas",1957-03-04,0001163165,2002,https://www.sec.gov/cgi-bin/browse-edgar?CIK=COP&action=getcompany
+123,ED,Consolidated Edison,Utilities,Electric Utilities,"New York, New York",0001047862,1823,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ED&action=getcompany
+124,STZ,Constellation Brands,Consumer Staples,Distillers & Vintners,"Victor, New York",2005-07-01,0000016918,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=STZ&action=getcompany
+125,COO,The Cooper Companies,Health Care,Health Care Supplies,"San Ramon, California",2016-09-23,0000711404,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=COO&action=getcompany
+126,CPRT,Copart Inc,Industrials,Diversified Support Services,"Dallas, Texas",2018-07-02,0000900075,1982,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CPRT&action=getcompany
+127,GLW,Corning Inc.,Information Technology,Electronic Components,"Corning, New York",0000024741,1851,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=GLW&action=getcompany
+128,CTVA,Corteva,Materials,Fertilizers & Agricultural Chemicals,"Wilmington, Delaware",2019-06-03,0001755672,2019,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CTVA&action=getcompany
+129,COST,Costco Wholesale Corp.,Consumer Staples,Hypermarkets & Super Centers,"Issaquah, Washington",1993-10-01,0000909832,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=COST&action=getcompany
+130,COTY,"Coty, Inc",Consumer Staples,Personal Products,"New York, New York",2016-10-03,0001024305,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=COTY&action=getcompany
+131,CCI,Crown Castle International Corp.,Real Estate,Specialized REITs,"Houston, Texas",2012-03-14,0001051470,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CCI&action=getcompany
+132,CSX,CSX Corp.,Industrials,Railroads,"Jacksonville, Florida",1967-09-30,0000277948,1980,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CSX&action=getcompany
+133,CMI,Cummins Inc.,Industrials,Industrial Machinery,"Columbus, Indiana",1965-03-31,0000026172,1919,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CMI&action=getcompany
+134,CVS,CVS Health,Health Care,Health Care Services,"Woonsocket, Rhode Island",1957-03-04,0000064803,1996,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CVS&action=getcompany
+135,DHI,D. R. Horton,Consumer Discretionary,Homebuilding,"Fort Worth, Texas",2005-06-22,0000882184,1978,https://www.sec.gov/cgi-bin/browse-edgar?CIK=DHI&action=getcompany
+136,DHR,Danaher Corp.,Health Care,Health Care Equipment,"Washington, D.C.",0000313616,1969,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=DHR&action=getcompany
+137,DRI,Darden Restaurants,Consumer Discretionary,Restaurants,"Orlando, Florida",0000940944,1938,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=DRI&action=getcompany
+138,DVA,DaVita Inc.,Health Care,Health Care Facilities,"Denver, Colorado",2008-07-31,0000927066,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=DVA&action=getcompany
+139,DE,Deere & Co.,Industrials,Agricultural & Farm Machinery,"Moline, Illinois",1957-03-04,0000315189,1837,https://www.sec.gov/cgi-bin/browse-edgar?CIK=DE&action=getcompany
+140,DAL,Delta Air Lines Inc.,Industrials,Airlines,"Atlanta, Georgia",2013-09-11,0000027904,1929,https://www.sec.gov/cgi-bin/browse-edgar?CIK=DAL&action=getcompany
+141,XRAY,Dentsply Sirona,Health Care,Health Care Supplies,"Charlotte, North Carolina",2008-11-14,0000818479,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=XRAY&action=getcompany
+142,DVN,Devon Energy,Energy,Oil & Gas Exploration & Production,"Oklahoma City, Oklahoma",2000-08-30,0001090012,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=DVN&action=getcompany
+143,DXCM,DexCom,Health Care,Health Care Equipment,"San Diego, California",2020-05-12,0001093557,1999,https://www.sec.gov/cgi-bin/browse-edgar?CIK=DXCM&action=getcompany
+144,FANG,Diamondback Energy,Energy,Oil & Gas Exploration & Production,"Midland, Texas",2018-12-03,0001539838,2007,https://www.sec.gov/cgi-bin/browse-edgar?CIK=FANG&action=getcompany
+145,DLR,Digital Realty Trust Inc,Real Estate,Specialized REITs,"San Francisco, California",2016-05-18,0001297996,2004,https://www.sec.gov/cgi-bin/browse-edgar?CIK=DLR&action=getcompany
+146,DFS,Discover Financial Services,Financials,Consumer Finance,"Riverwoods, Illinois",2007-07-02,0001393612,1985,https://www.sec.gov/cgi-bin/browse-edgar?CIK=DFS&action=getcompany
+147,DISCA,"Discovery, Inc. (Class A)",Communication Services,Broadcasting,"Silver Spring, Maryland",2010-03-01,0001437107,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=DISCA&action=getcompany
+148,DISCK,"Discovery, Inc. (Class C)",Communication Services,Broadcasting,"Silver Spring, Maryland",2014-08-07,0001437107,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=DISCK&action=getcompany
+149,DISH,Dish Network,Communication Services,Cable & Satellite,"Meridian, Colorado",2017-03-13,0001001082,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=DISH&action=getcompany
+150,DG,Dollar General,Consumer Discretionary,General Merchandise Stores,"Goodlettsville, Tennessee",2012-12-03,0000029534,1939,https://www.sec.gov/cgi-bin/browse-edgar?CIK=DG&action=getcompany
+151,DLTR,Dollar Tree,Consumer Discretionary,General Merchandise Stores,"Chesapeake, Virginia",2011-12-19,0000935703,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=DLTR&action=getcompany
+152,D,Dominion Energy,Utilities,Electric Utilities,"Richmond, Virginia",0000715957,1983,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=D&action=getcompany
+153,DPZ,Domino's Pizza,Consumer Discretionary,Restaurants,"Ann Arbor, Michigan",2020-05-12,0001286681,1960,https://www.sec.gov/cgi-bin/browse-edgar?CIK=DPZ&action=getcompany
+154,DOV,Dover Corporation,Industrials,Industrial Machinery,"Downers Grove, Illinois",1985-10-31,0000029905,1955,https://www.sec.gov/cgi-bin/browse-edgar?CIK=DOV&action=getcompany
+155,DOW,Dow Inc.,Materials,Commodity Chemicals,"Midland, Michigan",2019-04-01,0001751788,2019,https://www.sec.gov/cgi-bin/browse-edgar?CIK=DOW&action=getcompany
+156,DTE,DTE Energy Co.,Utilities,Multi-Utilities,"Detroit, Michigan",1957-03-04,0000936340,1995,https://www.sec.gov/cgi-bin/browse-edgar?CIK=DTE&action=getcompany
+157,DUK,Duke Energy,Utilities,Electric Utilities,"Charlotte, North Carolina",1976-06-30,0001326160,1904,https://www.sec.gov/cgi-bin/browse-edgar?CIK=DUK&action=getcompany
+158,DRE,Duke Realty Corp,Real Estate,Industrial REITs,"Indianapolis, Indiana",2017-07-26,0000783280,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=DRE&action=getcompany
+159,DD,DuPont de Nemours Inc,Materials,Specialty Chemicals,"Midland, Michigan",2019-04-02,0001666700,2017,https://www.sec.gov/cgi-bin/browse-edgar?CIK=DD&action=getcompany
+160,DXC,DXC Technology,Information Technology,IT Consulting & Other Services,"Tysons Corner, Virginia",2017-04-04,0001688568,2017,https://www.sec.gov/cgi-bin/browse-edgar?CIK=DXC&action=getcompany
+161,ETFC,E*Trade,Financials,Investment Banking & Brokerage,"New York, New York",2004-03-31,0001015780,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ETFC&action=getcompany
+162,EMN,Eastman Chemical,Materials,Diversified Chemicals,"Kingsport, Tennessee",1994-01-01,0000915389,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=EMN&action=getcompany
+163,ETN,Eaton Corporation,Industrials,Electrical Components & Equipment,"Dublin, Ireland",0001551182,1911,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ETN&action=getcompany
+164,EBAY,eBay Inc.,Consumer Discretionary,Internet & Direct Marketing Retail,"San Jose, California",0001065088,1995,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=EBAY&action=getcompany
+165,ECL,Ecolab Inc.,Materials,Specialty Chemicals,"St. Paul, Minnesota",1989-01-31,0000031462,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ECL&action=getcompany
+166,EIX,Edison Int'l,Utilities,Electric Utilities,"Rosemead, California",1957-03-04,0000827052,1886,https://www.sec.gov/cgi-bin/browse-edgar?CIK=EIX&action=getcompany
+167,EW,Edwards Lifesciences,Health Care,Health Care Equipment,"Irvine, California",2011-04-01,0001099800,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=EW&action=getcompany
+168,EA,Electronic Arts,Communication Services,Interactive Home Entertainment,"Redwood City, California",2002-07-22,0000712515,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=EA&action=getcompany
+169,EMR,Emerson Electric Company,Industrials,Electrical Components & Equipment,"Ferguson, Missouri",1965-03-31,0000032604,1890,https://www.sec.gov/cgi-bin/browse-edgar?CIK=EMR&action=getcompany
+170,ETR,Entergy Corp.,Utilities,Electric Utilities,"New Orleans, Louisiana",1957-03-04,0000065984,1913,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ETR&action=getcompany
+171,EOG,EOG Resources,Energy,Oil & Gas Exploration & Production,"Houston, Texas",2000-11-02,0000821189,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=EOG&action=getcompany
+172,EFX,Equifax Inc.,Industrials,Research & Consulting Services,"Atlanta, Georgia",1997-06-19,0000033185,1899,https://www.sec.gov/cgi-bin/browse-edgar?CIK=EFX&action=getcompany
+173,EQIX,Equinix,Real Estate,Specialized REITs,"Redwood City, California",2015-03-20,0001101239,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=EQIX&action=getcompany
+174,EQR,Equity Residential,Real Estate,Residential REITs,"Chicago, Illinois",2001-12-03,0000906107,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=EQR&action=getcompany
+175,ESS,"Essex Property Trust, Inc.",Real Estate,Residential REITs,"Palo Alto, California",2014-04-02,0000920522,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ESS&action=getcompany
+176,EL,Estée Lauder Companies,Consumer Staples,Personal Products,"New York, New York",2006-01-05,0001001250,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=EL&action=getcompany
+177,EVRG,Evergy,Utilities,Electric Utilities,"Kansas City, Missouri",2018-06-05,0001711269,1909,https://www.sec.gov/cgi-bin/browse-edgar?CIK=EVRG&action=getcompany
+178,ES,Eversource Energy,Utilities,Multi-Utilities,"Springfield, Massachusetts",0000072741,1966,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ES&action=getcompany
+179,RE,Everest Re Group Ltd.,Financials,Reinsurance,"Hamilton, Bermuda",2017-06-19,0001095073,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=RE&action=getcompany
+180,EXC,Exelon Corp.,Utilities,Multi-Utilities,"Chicago, Illinois",1957-03-04,0001109357,2000,https://www.sec.gov/cgi-bin/browse-edgar?CIK=EXC&action=getcompany
+181,EXPE,Expedia Group,Consumer Discretionary,Internet & Direct Marketing Retail,"Seattle, Washington",2007-10-02,0001324424,1996,https://www.sec.gov/cgi-bin/browse-edgar?CIK=EXPE&action=getcompany
+182,EXPD,Expeditors,Industrials,Air Freight & Logistics,"Seattle, Washington",2007-10-10,0000746515,1979,https://www.sec.gov/cgi-bin/browse-edgar?CIK=EXPD&action=getcompany
+183,EXR,Extra Space Storage,Real Estate,Specialized REITs,"Salt Lake City, Utah",2016-01-19,0001289490,1977,https://www.sec.gov/cgi-bin/browse-edgar?CIK=EXR&action=getcompany
+184,XOM,Exxon Mobil Corp.,Energy,Integrated Oil & Gas,"Irving, Texas",1957-03-04,0000034088,1999,https://www.sec.gov/cgi-bin/browse-edgar?CIK=XOM&action=getcompany
+185,FFIV,F5 Networks,Information Technology,Communications Equipment,"Seattle, Washington",2010-12-20,0001048695,1996,https://www.sec.gov/cgi-bin/browse-edgar?CIK=FFIV&action=getcompany
+186,FB,"Facebook, Inc.",Communication Services,Interactive Media & Services,"Menlo Park, California",2013-12-23,0001326801,2004,https://www.sec.gov/cgi-bin/browse-edgar?company=Facebook&owner=exclude&action=getcompany
+187,FAST,Fastenal Co,Industrials,Building Products,"Winona, Minnesota",2008-09-15,0000815556,1967,https://www.sec.gov/cgi-bin/browse-edgar?CIK=FAST&action=getcompany
+188,FRT,Federal Realty Investment Trust,Real Estate,Retail REITs,"Rockville, Maryland",2016-02-01,0000034903,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=FRT&action=getcompany
+189,FDX,FedEx Corporation,Industrials,Air Freight & Logistics,"Memphis, Tennessee",1980-12-31,0001048911,1971,https://www.sec.gov/cgi-bin/browse-edgar?CIK=FDX&action=getcompany
+190,FIS,Fidelity National Information Services,Information Technology,Data Processing & Outsourced Services,"Jacksonville, Florida",2006-11-10,0001136893,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=FIS&action=getcompany
+191,FITB,Fifth Third Bancorp,Financials,Regional Banks,"Cincinnati, Ohio",0000035527,1858,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=FITB&action=getcompany
+192,FE,FirstEnergy Corp,Utilities,Electric Utilities,"Akron, Ohio",0001031296,1997,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=FE&action=getcompany
+193,FRC,First Republic Bank,Financials,Regional Banks,"San Francisco, California",2019-01-02,0001132979,1985,https://www.sec.gov/cgi-bin/browse-edgar?CIK=FRC&action=getcompany
+194,FISV,Fiserv Inc,Information Technology,Data Processing & Outsourced Services,"Brookfield, Wisconsin",2001-04-02,0000798354,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=FISV&action=getcompany
+195,FLT,FleetCor Technologies Inc,Information Technology,Data Processing & Outsourced Services,"Norcross, Georgia",2018-06-20,0001175454,2000,https://www.sec.gov/cgi-bin/browse-edgar?CIK=FLT&action=getcompany
+196,FLIR,FLIR Systems,Information Technology,Electronic Equipment & Instruments,"Wilsonville, Oregon",2009-01-02,0000354908,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=FLIR&action=getcompany
+197,FLS,Flowserve Corporation,Industrials,Industrial Machinery,"Irving, Texas",2008-10-02,0000030625,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=FLS&action=getcompany
+198,FMC,FMC Corporation,Materials,Fertilizers & Agricultural Chemicals,"Philadelphia, Pennsylvania",2009-08-19,0000037785,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=FMC&action=getcompany
+199,F,Ford Motor Company,Consumer Discretionary,Automobile Manufacturers,"Dearborn, Michigan",1957-03-04,0000037996,1903,https://www.sec.gov/cgi-bin/browse-edgar?CIK=F&action=getcompany
+200,FTNT,Fortinet,Information Technology,Systems Software,"Sunnyvale, California",2018-10-11,0001262039,2000,https://www.sec.gov/cgi-bin/browse-edgar?CIK=FTNT&action=getcompany
+201,FTV,Fortive Corp,Industrials,Industrial Machinery,"Everett, Washington",2016-07-01,0001659166,2016,https://www.sec.gov/cgi-bin/browse-edgar?CIK=FTV&action=getcompany
+202,FBHS,Fortune Brands Home & Security,Industrials,Building Products,"Deerfield, Illinois",2016-06-22,0001519751,2011 (1969),https://www.sec.gov/cgi-bin/browse-edgar?CIK=FBHS&action=getcompany
+203,FOXA,Fox Corporation (Class A),Communication Services,Movies & Entertainment,"New York, New York",2013-07-01,0001308161,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=FOXA&action=getcompany
+204,FOX,Fox Corporation (Class B),Communication Services,Movies & Entertainment,"New York, New York",2015-09-18,0001308161,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=FOX&action=getcompany
+205,BEN,Franklin Resources,Financials,Asset Management & Custody Banks,"San Mateo, California",0000038777,1947,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=BEN&action=getcompany
+206,FCX,Freeport-McMoRan Inc.,Materials,Copper,"Phoenix, Arizona",0000831259,1912,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=FCX&action=getcompany
+207,GPS,Gap Inc.,Consumer Discretionary,Apparel Retail,"San Francisco, California",1986-08-31,0000039911,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=GPS&action=getcompany
+208,GRMN,Garmin Ltd.,Consumer Discretionary,Consumer Electronics,"Schaffhausen, Switzerland",2012-12-12,0001121788,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=GRMN&action=getcompany
+209,IT,Gartner Inc,Information Technology,IT Consulting & Other Services,"Stamford, Connecticut",2017-04-05,0000749251,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=IT&action=getcompany
+210,GD,General Dynamics,Industrials,Aerospace & Defense,"Falls Church, Virginia",1957-03-04,0000040533,1899,https://www.sec.gov/cgi-bin/browse-edgar?CIK=GD&action=getcompany
+211,GE,General Electric,Industrials,Industrial Conglomerates,"Boston, Massachusetts",0000040545,1892,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=GE&action=getcompany
+212,GIS,General Mills,Consumer Staples,Packaged Foods & Meats,"Golden Valley, Minnesota",1969-03-31,0000040704,1856,https://www.sec.gov/cgi-bin/browse-edgar?CIK=GIS&action=getcompany
+213,GM,General Motors,Consumer Discretionary,Automobile Manufacturers,"Detroit, Michigan",2013-06-06,0001467858,1908,https://www.sec.gov/cgi-bin/browse-edgar?CIK=GM&action=getcompany
+214,GPC,Genuine Parts,Consumer Discretionary,Specialty Stores,"Atlanta, Georgia",1973-12-31,0000040987,1925,https://www.sec.gov/cgi-bin/browse-edgar?CIK=GPC&action=getcompany
+215,GILD,Gilead Sciences,Health Care,Biotechnology,"Foster City, California",2004-07-01,0000882095,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=GILD&action=getcompany
+216,GL,Globe Life Inc.,Financials,Life & Health Insurance,"McKinney, Texas",1989-04-30,0000320335,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=GL&action=getcompany
+217,GPN,Global Payments Inc.,Information Technology,Data Processing & Outsourced Services,"Atlanta, Georgia",2016-04-25,0001123360,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=GPN&action=getcompany
+218,GS,Goldman Sachs Group,Financials,Investment Banking & Brokerage,"New York, New York",2002-07-22,0000886982,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=GS&action=getcompany
+219,GWW,Grainger (W.W.) Inc.,Industrials,Industrial Machinery,"Lake Forest, Illinois",1981-06-30,0000277135,1927,https://www.sec.gov/cgi-bin/browse-edgar?CIK=GWW&action=getcompany
+220,HRB,H&R Block,Consumer Discretionary,Specialized Consumer Services,"Kansas City, Missouri",1986-11-30,0000012659,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=HRB&action=getcompany
+221,HAL,Halliburton Co.,Energy,Oil & Gas Equipment & Services,"Houston, Texas",1957-03-04,0000045012,1919,https://www.sec.gov/cgi-bin/browse-edgar?CIK=HAL&action=getcompany
+222,HBI,Hanesbrands Inc,Consumer Discretionary,"Apparel, Accessories & Luxury Goods","Winston-Salem, North Carolina",2015-03-20,0001359841,2000,https://www.sec.gov/cgi-bin/browse-edgar?CIK=HBI&action=getcompany
+223,HIG,Hartford Financial Svc.Gp.,Financials,Property & Casualty Insurance,"Hartford, Connecticut",1957-03-04,0000874766,1810,https://www.sec.gov/cgi-bin/browse-edgar?CIK=HIG&action=getcompany
+224,HAS,Hasbro Inc.,Consumer Discretionary,Leisure Products,"Pawtucket, Rhode Island",1984-09-30,0000046080,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=HAS&action=getcompany
+225,HCA,HCA Healthcare,Health Care,Health Care Facilities,"Nashville, Tennessee",2015-01-27,0000860730,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=HCA&action=getcompany
+226,PEAK,Healthpeak Properties,Real Estate,Health Care REITs,"Long Beach, California",2008-03-31,0000765880,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=PEAK&action=getcompany
+227,HSIC,Henry Schein,Health Care,Health Care Distributors,"Melville, New York",2015-03-17,0001000228,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=HSIC&action=getcompany
+228,HSY,The Hershey Company,Consumer Staples,Packaged Foods & Meats,"Hershey, Pennsylvania",1957-03-04,0000047111,1894,https://www.sec.gov/cgi-bin/browse-edgar?CIK=HSY&action=getcompany
+229,HES,Hess Corporation,Energy,Integrated Oil & Gas,"New York, New York",1984-05-31,0000004447,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=HES&action=getcompany
+230,HPE,Hewlett Packard Enterprise,Information Technology,"Technology Hardware, Storage & Peripherals","Palo Alto, California",2015-11-02,0001645590,2015,https://www.sec.gov/cgi-bin/browse-edgar?CIK=HPE&action=getcompany
+231,HLT,Hilton Worldwide Holdings Inc,Consumer Discretionary,"Hotels, Resorts & Cruise Lines","Tysons Corner, Virginia",2017-06-19,0001585689,1919,https://www.sec.gov/cgi-bin/browse-edgar?CIK=HLT&action=getcompany
+232,HFC,HollyFrontier Corp,Energy,Oil & Gas Refining & Marketing,"Dallas, Texas",2018-06-18,0000048039,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=HFC&action=getcompany
+233,HOLX,Hologic,Health Care,Health Care Equipment,"Marlborough, Massachusetts",2016-03-30,0000859737,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=HOLX&action=getcompany
+234,HD,Home Depot,Consumer Discretionary,Home Improvement Retail,"Atlanta, Georgia",1988-03-31,0000354950,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=HD&action=getcompany
+235,HON,Honeywell Int'l Inc.,Industrials,Industrial Conglomerates,"Morristown, New Jersey",1964-03-31,0000773840,1906,https://www.sec.gov/cgi-bin/browse-edgar?CIK=HON&action=getcompany
+236,HRL,Hormel Foods Corp.,Consumer Staples,Packaged Foods & Meats,"Austin, Minnesota",2009-03-04,0000048465,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=HRL&action=getcompany
+237,HST,Host Hotels & Resorts,Real Estate,Hotel & Resort REITs,"Bethesda, Maryland",2007-03-20,0001070750,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=HST&action=getcompany
+238,HWM,Howmet Aerospace,Industrials,Aerospace & Defense,"New York, New York",1964-03-31,0000004281,2016,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0000004281&action=getcompany
+239,HPQ,HP Inc.,Information Technology,"Technology Hardware, Storage & Peripherals","Palo Alto, California",1974-12-31,0000047217,1939 (2015),https://www.sec.gov/cgi-bin/browse-edgar?CIK=HPQ&action=getcompany
+240,HUM,Humana Inc.,Health Care,Managed Health Care,"Louisville, Kentucky",0000049071,1961,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=HUM&action=getcompany
+241,HBAN,Huntington Bancshares,Financials,Regional Banks,"Columbus, Ohio",0000049196,1866,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=HBAN&action=getcompany
+242,HII,Huntington Ingalls Industries,Industrials,Aerospace & Defense,"Newport News, Virginia",2018-01-03,0001501585,2011,https://www.sec.gov/cgi-bin/browse-edgar?CIK=HII&action=getcompany
+243,IEX,IDEX Corporation,Industrials,Industrial Machinery,"Lake Forest, Illinois",2019-08-09,0000832101,1988,https://www.sec.gov/cgi-bin/browse-edgar?CIK=IEX&action=getcompany
+244,IDXX,IDEXX Laboratories,Health Care,Health Care Equipment,"Westbrook, Maine",2017-01-05,0000874716,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=IDXX&action=getcompany
+245,INFO,IHS Markit Ltd.,Industrials,Research & Consulting Services,"London, United Kingdom",2017-06-02,0001598014,1959,https://www.sec.gov/cgi-bin/browse-edgar?CIK=INFO&action=getcompany
+246,ITW,Illinois Tool Works,Industrials,Industrial Machinery,"Glenview, Illinois",1986-02-28,0000049826,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ITW&action=getcompany
+247,ILMN,Illumina Inc,Health Care,Life Sciences Tools & Services,"San Diego, California",2015-11-19,0001110803,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ILMN&action=getcompany
+248,INCY,Incyte,Health Care,Biotechnology,"Wilmington, Delaware",2017-02-28,0000879169,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=INCY&action=getcompany
+249,IR,Ingersoll Rand,Industrials,Industrial Machinery,"Milwaukee, Wisconsin",2020-03-03,0001699150,1859,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001699150&action=getcompany
+250,INTC,Intel Corp.,Information Technology,Semiconductors,"Santa Clara, California",1976-12-31,0000050863,1968,https://www.sec.gov/cgi-bin/browse-edgar?CIK=INTC&action=getcompany
+251,ICE,Intercontinental Exchange,Financials,Financial Exchanges & Data,"Atlanta, Georgia",2007-09-26,0001571949,2000,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ICE&action=getcompany
+252,IBM,International Business Machines,Information Technology,IT Consulting & Other Services,"Armonk, New York",1957-03-04,0000051143,1911,https://www.sec.gov/cgi-bin/browse-edgar?CIK=IBM&action=getcompany
+253,IP,International Paper,Materials,Paper Packaging,"Memphis, Tennessee",1957-03-04,0000051434,1898,https://www.sec.gov/cgi-bin/browse-edgar?CIK=IP&action=getcompany
+254,IPG,Interpublic Group,Communication Services,Advertising,"New York, New York",1992-10-01,0000051644,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=IPG&action=getcompany
+255,IFF,International Flavors & Fragrances,Materials,Specialty Chemicals,"New York, New York",1976-03-31,0000051253,1958 (1889),https://www.sec.gov/cgi-bin/browse-edgar?CIK=IFF&action=getcompany
+256,INTU,Intuit Inc.,Information Technology,Application Software,"Mountain View, California",2000-12-05,0000896878,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=INTU&action=getcompany
+257,ISRG,Intuitive Surgical Inc.,Health Care,Health Care Equipment,"Sunnyvale, California",2008-06-02,0001035267,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ISRG&action=getcompany
+258,IVZ,Invesco Ltd.,Financials,Asset Management & Custody Banks,"Atlanta, Georgia",2008-08-21,0000914208,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=IVZ&action=getcompany
+259,IPGP,IPG Photonics Corp.,Information Technology,Electronic Manufacturing Services,"Oxford, Massachusetts",2018-03-07,0001111928,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=IPGP&action=getcompany
+260,IQV,IQVIA Holdings Inc.,Health Care,Life Sciences Tools & Services,"Durham, North Carolina",2017-08-29,0001478242,1982,https://www.sec.gov/cgi-bin/browse-edgar?CIK=IQV&action=getcompany
+261,IRM,Iron Mountain Incorporated,Real Estate,Specialized REITs,"Boston, Massachusetts",2009-01-06,0001020569,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=IRM&action=getcompany
+262,JKHY,Jack Henry & Associates,Information Technology,Data Processing & Outsourced Services,"Monett, Missouri",2018-11-13,0000779152,1976,https://www.sec.gov/cgi-bin/browse-edgar?CIK=JKHY&action=getcompany
+263,J,Jacobs Engineering Group,Industrials,Construction & Engineering,"Dallas, Texas",2007-10-26,0000052988,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=J&action=getcompany
+264,JBHT,J. B. Hunt Transport Services,Industrials,Trucking,"Lowell, Arkansas",2015-07-01,0000728535,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=JBHT&action=getcompany
+265,SJM,JM Smucker,Consumer Staples,Packaged Foods & Meats,"Orrville, Ohio",2008-11-06,0000091419,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=SJM&action=getcompany
+266,JNJ,Johnson & Johnson,Health Care,Pharmaceuticals,"New Brunswick, New Jersey",1973-06-30,0000200406,1886,https://www.sec.gov/cgi-bin/browse-edgar?CIK=JNJ&action=getcompany
+267,JCI,Johnson Controls International,Industrials,Building Products,"Cork, Ireland",2010-08-27,0000833444,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=JCI&action=getcompany
+268,JPM,JPMorgan Chase & Co.,Financials,Diversified Banks,"New York, New York",1975-06-30,0000019617,2000 (1799 / 1871),https://www.sec.gov/cgi-bin/browse-edgar?CIK=JPM&action=getcompany
+269,JNPR,Juniper Networks,Information Technology,Communications Equipment,"Sunnyvale, California",2006-06-02,0001043604,1996,https://www.sec.gov/cgi-bin/browse-edgar?CIK=JNPR&action=getcompany
+270,KSU,Kansas City Southern,Industrials,Railroads,"Kansas City, Missouri",2013-05-24,0000054480,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=KSU&action=getcompany
+271,K,Kellogg Co.,Consumer Staples,Packaged Foods & Meats,"Battle Creek, Michigan",0000055067,1906,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=K&action=getcompany
+272,KEY,KeyCorp,Financials,Regional Banks,"Cleveland, Ohio",1994-03-01,0000091576,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=KEY&action=getcompany
+273,KEYS,Keysight Technologies,Information Technology,Electronic Equipment & Instruments,"Santa Rosa, California",2018-11-06,0001601046,2014,https://www.sec.gov/cgi-bin/browse-edgar?CIK=KEYS&action=getcompany
+274,KMB,Kimberly-Clark,Consumer Staples,Household Products,"Irving, Texas",1957-03-04,0000055785,1872,https://www.sec.gov/cgi-bin/browse-edgar?CIK=KMB&action=getcompany
+275,KIM,Kimco Realty,Real Estate,Retail REITs,"New Hyde Park, New York",2006-04-04,0000879101,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=KIM&action=getcompany
+276,KMI,Kinder Morgan,Energy,Oil & Gas Storage & Transportation,"Houston, Texas",2012-05-25,0001506307,1997,https://www.sec.gov/cgi-bin/browse-edgar?CIK=KMI&action=getcompany
+277,KLAC,KLA Corporation,Information Technology,Semiconductor Equipment,"Milpitas, California",0000319201,1975/1977 (1997),,https://www.sec.gov/cgi-bin/browse-edgar?CIK=KLAC&action=getcompany
+278,KSS,Kohl's Corp.,Consumer Discretionary,General Merchandise Stores,"Menomonee Falls, Wisconsin",0000885639,1962,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=KSS&action=getcompany
+279,KHC,Kraft Heinz Co,Consumer Staples,Packaged Foods & Meats,"Chicago, Illinois; Pittsburgh, Pennsylvania",2015-07-06,0001637459,2015 (1869),https://www.sec.gov/cgi-bin/browse-edgar?CIK=KHC&owner=exclude&action=getcompany
+280,KR,Kroger Co.,Consumer Staples,Food Retail,"Cincinnati, Ohio",1957-03-04,0000056873,1883,https://www.sec.gov/cgi-bin/browse-edgar?CIK=KR&action=getcompany
+281,LB,L Brands Inc.,Consumer Discretionary,Apparel Retail,"Columbus, Ohio",1983-09-30,0000701985,1963,https://www.sec.gov/cgi-bin/browse-edgar?CIK=LB&action=getcompany
+282,LHX,L3Harris Technologies,Industrials,Aerospace & Defense,"Melbourne, Florida",0000202058,2019 (1895),,https://www.sec.gov/cgi-bin/browse-edgar?CIK=LHX&action=getcompany
+283,LH,Laboratory Corp. of America Holding,Health Care,Health Care Services,"Burlington, North Carolina",2004-11-01,0000920148,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=LH&action=getcompany
+284,LRCX,Lam Research,Information Technology,Semiconductor Equipment,"Fremont, California",2012-06-29,0000707549,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=LRCX&action=getcompany
+285,LW,Lamb Weston Holdings Inc,Consumer Staples,Packaged Foods & Meats,"Eagle, Idaho",2018-12-03,0001679273,2016 (1950),https://www.sec.gov/cgi-bin/browse-edgar?CIK=LW&action=getcompany
+286,LVS,Las Vegas Sands,Consumer Discretionary,Casinos & Gaming,"Las Vegas, Nevada",2019-10-03,0001300514,1988,https://www.sec.gov/cgi-bin/browse-edgar?CIK=LVS&action=getcompany
+287,LEG,Leggett & Platt,Consumer Discretionary,Home Furnishings,"Carthage, Missouri",0000058492,1883,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=LEG&action=getcompany
+288,LDOS,Leidos Holdings,Information Technology,IT Consulting & Other Services,"Reston, Virginia",2019-08-09,0001336920,1969,https://www.sec.gov/cgi-bin/browse-edgar?CIK=LDOS&action=getcompany
+289,LEN,Lennar Corp.,Consumer Discretionary,Homebuilding,"Miami, Florida",2005-10-04,0000920760,1954,https://www.sec.gov/cgi-bin/browse-edgar?CIK=LEN&action=getcompany
+290,LLY,Lilly (Eli) & Co.,Health Care,Pharmaceuticals,"Indianapolis, Indiana",1970-12-31,0000059478,1876,https://www.sec.gov/cgi-bin/browse-edgar?CIK=LLY&action=getcompany
+291,LNC,Lincoln National,Financials,Multi-line Insurance,"Radnor, Pennsylvania",1976-06-30,0000059558,1905,https://www.sec.gov/cgi-bin/browse-edgar?CIK=LNC&action=getcompany
+292,LIN,Linde plc,Materials,Industrial Gases,"Guildford, Surrey, United Kingdom",1992-07-01,0001707925,1879,https://www.sec.gov/cgi-bin/browse-edgar?CIK=LIN&action=getcompany
+293,LYV,Live Nation Entertainment,Communication Services,Movies & Entertainment,"Beverly Hills, California",2019-12-23,0001335258,2010,https://www.sec.gov/cgi-bin/browse-edgar?CIK=LYV&action=getcompany
+294,LKQ,LKQ Corporation,Consumer Discretionary,Distributors,"Chicago, Illinois",2016-05-23,0001065696,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=LKQ&action=getcompany
+295,LMT,Lockheed Martin Corp.,Industrials,Aerospace & Defense,"Bethesda, Maryland",1984-07-31,0000936468,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=LMT&action=getcompany
+296,L,Loews Corp.,Financials,Multi-line Insurance,"New York, New York",0000060086,,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=L&action=getcompany
+297,LOW,Lowe's Cos.,Consumer Discretionary,Home Improvement Retail,"Mooresville, North Carolina",1984-02-29,0000060667,1904/1946/1959,https://www.sec.gov/cgi-bin/browse-edgar?CIK=LOW&action=getcompany
+298,LYB,LyondellBasell,Materials,Specialty Chemicals,"Rotterdam, Netherlands",2012-09-05,0001489393,2007,https://www.sec.gov/cgi-bin/browse-edgar?CIK=LYB&action=getcompany
+299,MTB,M&T Bank Corp.,Financials,Regional Banks,"Buffalo, New York",2004-02-23,0000036270,1856,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MTB&action=getcompany
+300,MRO,Marathon Oil Corp.,Energy,Oil & Gas Exploration & Production,"Houston, Texas",1991-05-01,0000101778,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MRO&action=getcompany
+301,MPC,Marathon Petroleum,Energy,Oil & Gas Refining & Marketing,"Findlay, Ohio",2011-07-01,0001510295,2009 (1887),https://www.sec.gov/cgi-bin/browse-edgar?CIK=MPC&action=getcompany
+302,MKTX,MarketAxess,Financials,Financial Exchanges & Data,"New York, New York",2019-07-01,0001278021,2000,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MKTX&action=getcompany
+303,MAR,Marriott Int'l.,Consumer Discretionary,"Hotels, Resorts & Cruise Lines","Bethesda, Maryland",0001048286,1927,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MAR&action=getcompany
+304,MMC,Marsh & McLennan,Financials,Insurance Brokers,"New York, New York",1987-08-31,0000062709,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MMC&action=getcompany
+305,MLM,Martin Marietta Materials,Materials,Construction Materials,"Raleigh, North Carolina",2014-07-02,0000916076,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MLM&action=getcompany
+306,MAS,Masco Corp.,Industrials,Building Products,"Livonia, Michigan",1981-06-30,0000062996,1929,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MAS&action=getcompany
+307,MA,Mastercard Inc.,Information Technology,Data Processing & Outsourced Services,"Harrison, New York",2008-07-18,0001141391,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MA&action=getcompany
+308,MKC,McCormick & Co.,Consumer Staples,Packaged Foods & Meats,"Hunt Valley, Maryland",0000063754,1889,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MKC&action=getcompany
+309,MXIM,Maxim Integrated Products Inc,Information Technology,Semiconductors,"San Jose, California",2018-12-03,0000743316,1983,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MXIM&action=getcompany
+310,MCD,McDonald's Corp.,Consumer Discretionary,Restaurants,"Chicago, Illinois",1970-06-30,0000063908,1940,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MCD&action=getcompany
+311,MCK,McKesson Corp.,Health Care,Health Care Distributors,"Irving, Texas",0000927653,1833,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MCK&action=getcompany
+312,MDT,Medtronic plc,Health Care,Health Care Equipment,"Dublin, Ireland",1986-10-31,0001613103,1949,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MDT&action=getcompany
+313,MRK,Merck & Co.,Health Care,Pharmaceuticals,"Kenilworth, New Jersey",1957-03-04,0000310158,1891,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MRK&action=getcompany
+314,MET,MetLife Inc.,Financials,Life & Health Insurance,"New York, New York",0001099219,1868,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MET&action=getcompany
+315,MTD,Mettler Toledo,Health Care,Life Sciences Tools & Services,"Columbus, Ohio",2016-09-06,0001037646,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MTD&action=getcompany
+316,MGM,MGM Resorts International,Consumer Discretionary,Casinos & Gaming,"Paradise, Nevada",2017-07-26,0000789570,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MGM&action=getcompany
+317,MCHP,Microchip Technology,Information Technology,Semiconductors,"Chandler, Arizona",2007-09-07,0000827054,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MCHP&action=getcompany
+318,MU,Micron Technology,Information Technology,Semiconductors,"Boise, Idaho",1994-09-27,0000723125,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MU&action=getcompany
+319,MSFT,Microsoft Corp.,Information Technology,Systems Software,"Redmond, Washington",1994-06-01,0000789019,1975,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MSFT&action=getcompany
+320,MAA,Mid-America Apartments,Real Estate,Residential REITs,"Memphis, Tennessee",2016-12-02,0000912595,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MAA&action=getcompany
+321,MHK,Mohawk Industries,Consumer Discretionary,Home Furnishings,"Calhoun, Georgia",2013-12-23,0000851968,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MHK&action=getcompany
+322,TAP,Molson Coors Beverage Company,Consumer Staples,Brewers,"Denver, Colorado",1976-06-30,0000024545,"2005 (Molson 1786, Coors 1873)",https://www.sec.gov/cgi-bin/browse-edgar?CIK=TAP&action=getcompany
+323,MDLZ,Mondelez International,Consumer Staples,Packaged Foods & Meats,"Chicago, Illinois",2012-10-02,0001103982,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MDLZ&action=getcompany
+324,MNST,Monster Beverage,Consumer Staples,Soft Drinks,"Corona, California",2012-06-28,0000865752,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MNST&action=getcompany
+325,MCO,Moody's Corp,Financials,Financial Exchanges & Data,"New York, New York",0001059556,1909,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MCO&action=getcompany
+326,MS,Morgan Stanley,Financials,Investment Banking & Brokerage,"New York, New York",0000895421,1935,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MS&action=getcompany
+327,MOS,The Mosaic Company,Materials,Fertilizers & Agricultural Chemicals,"Tampa, Florida",2011-09-26,0001285785,2004 (1865 / 1909),https://www.sec.gov/cgi-bin/browse-edgar?CIK=MOS&action=getcompany
+328,MSI,Motorola Solutions Inc.,Information Technology,Communications Equipment,"Chicago, Illinois",0000068505,1928 (2011),,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MSI&action=getcompany
+329,MSCI,MSCI Inc,Financials,Financial Exchanges & Data,"New York, New York",2018-04-04,0001408198,1969,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MSCI&action=getcompany
+330,MYL,Mylan N.V.,Health Care,Pharmaceuticals,"Amsterdam, Netherlands",2004-04-23,0001623613,1961,https://www.sec.gov/cgi-bin/browse-edgar?CIK=MYL&action=getcompany
+331,NDAQ,"Nasdaq, Inc.",Financials,Financial Exchanges & Data,"New York, New York",2008-10-22,0001120193,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=NDAQ&action=getcompany
+332,NOV,National Oilwell Varco Inc.,Energy,Oil & Gas Equipment & Services,"Houston, Texas",2005-03-14,0001021860,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=NOV&action=getcompany
+333,NTAP,NetApp,Information Technology,"Technology Hardware, Storage & Peripherals","Sunnyvale, California",1999-06-25,0001002047,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=NTAP&action=getcompany
+334,NFLX,Netflix Inc.,Communication Services,Movies & Entertainment,"Los Gatos, California",2010-12-20,0001065280,1997,https://www.sec.gov/cgi-bin/browse-edgar?CIK=NFLX&action=getcompany
+335,NWL,Newell Brands,Consumer Discretionary,Housewares & Specialties,"Atlanta, Georgia",1989-04-30,0000814453,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=NWL&action=getcompany
+336,NEM,Newmont Corporation,Materials,Gold,"Denver, Colorado",1969-06-30,0001164727,1921,https://www.sec.gov/cgi-bin/browse-edgar?CIK=NEM&action=getcompany
+337,NWSA,News Corp. Class A,Communication Services,Publishing,"New York, New York",2013-08-01,0001564708,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=NWSA&action=getcompany
+338,NWS,News Corp. Class B,Communication Services,Publishing,"New York, New York",2015-09-18,0001564708,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=NWSA&action=getcompany
+339,NEE,NextEra Energy,Utilities,Multi-Utilities,"Juno Beach, Florida",1976-06-30,0000753308,1984 (1925),https://www.sec.gov/cgi-bin/browse-edgar?CIK=NEE&action=getcompany
+340,NLSN,Nielsen Holdings,Industrials,Research & Consulting Services,"New York, New York",2013-07-09,0001492633,1923,https://www.sec.gov/cgi-bin/browse-edgar?CIK=NLSN&action=getcompany
+341,NKE,"Nike, Inc.",Consumer Discretionary,"Apparel, Accessories & Luxury Goods","Washington County, Oregon",1988-11-30,0000320187,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=NKE&action=getcompany
+342,NI,NiSource Inc.,Utilities,Multi-Utilities,"Merrillville, Indiana",0001111711,1912,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=NI&action=getcompany
+343,NBL,Noble Energy Inc,Energy,Oil & Gas Exploration & Production,"Houston, Texas",2007-10-08,0000072207,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=NBL&action=getcompany
+344,NSC,Norfolk Southern Corp.,Industrials,Railroads,"Norfolk, Virginia",1957-03-04,0000702165,1881/1894 (1980),https://www.sec.gov/cgi-bin/browse-edgar?CIK=NSC&action=getcompany
+345,NTRS,Northern Trust Corp.,Financials,Asset Management & Custody Banks,"Chicago, Illinois",0000073124,1889,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=NTRS&action=getcompany
+346,NOC,Northrop Grumman,Industrials,Aerospace & Defense,"West Falls Church, Virginia",1985-06-30,0001133421,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=NOC&action=getcompany
+347,NLOK,NortonLifeLock,Information Technology,Application Software,"Tempe, Arizona",2003-03-25,0000849399,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=NLOK&action=getcompany
+348,NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,"Hotels, Resorts & Cruise Lines","Miami, Florida",2017-10-13,0001513761,2011 (1966),https://www.sec.gov/cgi-bin/browse-edgar?CIK=NCLH&action=getcompany
+349,NRG,NRG Energy,Utilities,Independent Power Producers & Energy Traders,"Princeton, New Jersey",2010-01-29,0001013871,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=NRG&action=getcompany
+350,NUE,Nucor Corp.,Materials,Steel,"Charlotte, North Carolina",1985-04-30,0000073309,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=NUE&action=getcompany
+351,NVDA,Nvidia Corporation,Information Technology,Semiconductors,"Santa Clara, California",2001-11-30,0001045810,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=NVDA&action=getcompany
+352,NVR,"NVR, Inc.",Consumer Discretionary,Homebuilding,"Reston, Virginia",2019-09-26,0000906163,1980,https://www.sec.gov/cgi-bin/browse-edgar?CIK=NVR&owner=exclude&action=getcompany&Find=Search
+353,ORLY,O'Reilly Automotive,Consumer Discretionary,Specialty Stores,"Springfield, Missouri",2009-03-27,0000898173,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ORLY&action=getcompany
+354,OXY,Occidental Petroleum,Energy,Oil & Gas Exploration & Production,"Houston, Texas",1982-12-31,0000797468,1920,https://www.sec.gov/cgi-bin/browse-edgar?CIK=OXY&action=getcompany
+355,ODFL,Old Dominion Freight Line,Industrials,Trucking,"Thomasville, North Carolina",2019-12-09,0000878927,1934,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ODFL&action=getcompany
+356,OMC,Omnicom Group,Communication Services,Advertising,"New York, New York",0000029989,1986,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=OMC&action=getcompany
+357,OKE,ONEOK,Energy,Oil & Gas Storage & Transportation,"Tulsa, Oklahoma",2010-03-15,0001039684,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=OKE&action=getcompany
+358,ORCL,Oracle Corp.,Information Technology,Application Software,"Redwood Shores, California",1989-08-31,0001341439,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ORCL&action=getcompany
+359,OTIS,Otis Worldwide,Industrials,Industrial Machinery,"Farmington, Connecticut",2020-04-03,0001781335,2020 (1853),https://www.sec.gov/cgi-bin/browse-edgar?CIK=OTIS&action=getcompany
+360,PCAR,PACCAR Inc.,Industrials,Construction Machinery & Heavy Trucks,"Bellevue, Washington",1980-12-31,0000075362,1905,https://www.sec.gov/cgi-bin/browse-edgar?CIK=PCAR&action=getcompany
+361,PKG,Packaging Corporation of America,Materials,Paper Packaging,"Lake Forest, Illinois",2017-07-26,0000075677,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=PKG&action=getcompany
+362,PH,Parker-Hannifin,Industrials,Industrial Machinery,"Cleveland, Ohio",1985-11-30,0000076334,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=PH&action=getcompany
+363,PAYX,Paychex Inc.,Information Technology,Data Processing & Outsourced Services,"Penfield, New York",0000723531,1971,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=PAYX&action=getcompany
+364,PAYC,Paycom,Information Technology,Application Software,"Oklahoma City, Oklahoma",2020-01-28,0001590955,1998,https://www.sec.gov/cgi-bin/browse-edgar?CIK=PAYC&action=getcompany
+365,PYPL,PayPal,Information Technology,Data Processing & Outsourced Services,"San Jose, California",2015-07-20,0001633917,1998,https://www.sec.gov/cgi-bin/browse-edgar?CIK=PYPL&action=getcompany
+366,PNR,Pentair plc,Industrials,Industrial Machinery,"Worsley, UK",2012-10-01,0000077360,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=PNR&action=getcompany
+367,PBCT,People's United Financial,Financials,Thrifts & Mortgage Finance,"Bridgeport, Connecticut",2008-11-13,0001378946,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=PBCT&action=getcompany
+368,PEP,PepsiCo Inc.,Consumer Staples,Soft Drinks,"Purchase, New York",1957-03-04,0000077476,1898,https://www.sec.gov/cgi-bin/browse-edgar?CIK=PEP&action=getcompany
+369,PKI,PerkinElmer,Health Care,Health Care Equipment,"Waltham, Massachusetts",1985-05-31,0000031791,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=PKI&action=getcompany
+370,PRGO,Perrigo,Health Care,Pharmaceuticals,"Dublin, Ireland",2011-12-19,0001585364,2013 (1887),https://www.sec.gov/cgi-bin/browse-edgar?CIK=PRGO&action=getcompany
+371,PFE,Pfizer Inc.,Health Care,Pharmaceuticals,"New York, New York",1957-03-04,0000078003,1849,https://www.sec.gov/cgi-bin/browse-edgar?CIK=PFE&action=getcompany
+372,PM,Philip Morris International,Consumer Staples,Tobacco,"New York, New York",2008-03-31,0001413329,2008 (1847),https://www.sec.gov/cgi-bin/browse-edgar?CIK=PM&action=getcompany
+373,PSX,Phillips 66,Energy,Oil & Gas Refining & Marketing,"Houston, Texas",2012-05-01,0001534701,2012 (1917),https://www.sec.gov/cgi-bin/browse-edgar?CIK=PSX&action=getcompany
+374,PNW,Pinnacle West Capital,Utilities,Multi-Utilities,"Phoenix, Arizona",0000764622,1985,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=PNW&action=getcompany
+375,PXD,Pioneer Natural Resources,Energy,Oil & Gas Exploration & Production,"Irving, Texas",2008-09-24,0001038357,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=PXD&action=getcompany
+376,PNC,PNC Financial Services,Financials,Regional Banks,"Pittsburgh, Pennsylvania",1988-04-30,0000713676,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=PNC&action=getcompany
+377,PPG,PPG Industries,Materials,Specialty Chemicals,"Pittsburgh, Pennsylvania",1957-03-04,0000079879,1883,https://www.sec.gov/cgi-bin/browse-edgar?CIK=PPG&action=getcompany
+378,PPL,PPL Corp.,Utilities,Electric Utilities,"Allentown, Pennsylvania",0000922224,1920,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=PPL&action=getcompany
+379,PFG,Principal Financial Group,Financials,Life & Health Insurance,"Des Moines, Iowa",2002-07-22,0001126328,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=PFG&action=getcompany
+380,PG,Procter & Gamble,Consumer Staples,Personal Products,"Cincinnati, Ohio",1957-03-04,0000080424,1837,https://www.sec.gov/cgi-bin/browse-edgar?CIK=PG&action=getcompany
+381,PGR,Progressive Corp.,Financials,Property & Casualty Insurance,"Mayfield Village, Ohio",1997-08-04,0000080661,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=PGR&action=getcompany
+382,PLD,Prologis,Real Estate,Industrial REITs,"San Francisco, California",2003-07-17,0001045609,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=PLD&action=getcompany
+383,PRU,Prudential Financial,Financials,Life & Health Insurance,"Newark, New Jersey",2002-07-22,0001137774,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=PRU&action=getcompany
+384,PEG,Public Service Enterprise Group (PSEG),Utilities,Electric Utilities,"Newark, New Jersey",1957-03-04,0000788784,1903,https://www.sec.gov/cgi-bin/browse-edgar?CIK=PEG&action=getcompany
+385,PSA,Public Storage,Real Estate,Specialized REITs,"Glendale, California",2005-08-19,0001393311,1972,https://www.sec.gov/cgi-bin/browse-edgar?CIK=PSA&action=getcompany
+386,PHM,PulteGroup,Consumer Discretionary,Homebuilding,"Atlanta, Georgia",1984-04-30,0000822416,1956,https://www.sec.gov/cgi-bin/browse-edgar?CIK=PHM&action=getcompany
+387,PVH,PVH Corp.,Consumer Discretionary,"Apparel, Accessories & Luxury Goods","New York, New York",2013-02-15,0000078239,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=PVH&action=getcompany
+388,QRVO,Qorvo,Information Technology,Semiconductors,"Greensboro, North Carolina",2015-06-11,0001604778,2015,https://www.sec.gov/cgi-bin/browse-edgar?CIK=QRVO&action=getcompany
+389,PWR,Quanta Services Inc.,Industrials,Construction & Engineering,"Houston, Texas",2009-07-01,0001050915,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=PWR&action=getcompany
+390,QCOM,QUALCOMM Inc.,Information Technology,Semiconductors,"San Diego, California",0000804328,1985,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=QCOM&action=getcompany
+391,DGX,Quest Diagnostics,Health Care,Health Care Services,"Secaucus, New Jersey",2002-12-12,0001022079,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=DGX&action=getcompany
+392,RL,Ralph Lauren Corporation,Consumer Discretionary,"Apparel, Accessories & Luxury Goods","New York, New York",2007-02-02,0001037038,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=RL&action=getcompany
+393,RJF,Raymond James Financial Inc.,Financials,Investment Banking & Brokerage,"St. Petersburg, Florida",2017-03-20,0000720005,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=RJF&action=getcompany
+394,RTX,Raytheon Technologies,Industrials,Aerospace & Defense,"Waltham, Massachusetts",0000101829,1922,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=RTX&action=getcompany
+395,O,Realty Income Corporation,Real Estate,Retail REITs,"San Diego, California",2015-04-07,0000726728,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=O&action=getcompany
+396,REG,Regency Centers Corporation,Real Estate,Retail REITs,"Jacksonville, Florida",2017-03-02,0000910606,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=REG&action=getcompany
+397,REGN,Regeneron Pharmaceuticals,Health Care,Biotechnology,"Tarrytown, New York",2013-05-01,0000872589,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=REGN&action=getcompany
+398,RF,Regions Financial Corp.,Financials,Regional Banks,"Birmingham, Alabama",1998-08-28,0001281761,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=RF&action=getcompany
+399,RSG,Republic Services Inc,Industrials,Environmental & Facilities Services,"Phoenix, Arizona",2008-12-05,0001060391,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=RSG&action=getcompany
+400,RMD,ResMed,Health Care,Health Care Equipment,"San Diego, California",2017-07-26,0000943819,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=RMD&action=getcompany
+401,RHI,Robert Half International,Industrials,Human Resource & Employment Services,"Menlo Park, California",2000-12-05,0000315213,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=RHI&action=getcompany
+402,ROK,Rockwell Automation Inc.,Industrials,Electrical Components & Equipment,"Milwaukee, Wisconsin",0001024478,1903,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ROK&action=getcompany
+403,ROL,Rollins Inc.,Industrials,Environmental & Facilities Services,"Atlanta, Georgia",2018-10-01,0000084839,1948,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ROL&action=getcompany
+404,ROP,Roper Technologies,Industrials,Industrial Conglomerates,"Sarasota, Florida",2009-12-23,0000882835,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ROP&action=getcompany
+405,ROST,Ross Stores,Consumer Discretionary,Apparel Retail,"Dublin, California",2009-12-21,0000745732,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ROST&action=getcompany
+406,RCL,Royal Caribbean Cruises Ltd,Consumer Discretionary,"Hotels, Resorts & Cruise Lines","Miami, Florida",2014-12-05,0000884887,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=RCL&action=getcompany
+407,SPGI,"S&P Global, Inc.",Financials,Financial Exchanges & Data,"New York, New York",0000064040,1917,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=SPGI&action=getcompany
+408,CRM,Salesforce.com,Information Technology,Application Software,"San Francisco, California",2008-09-15,0001108524,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=CRM&action=getcompany
+409,SBAC,SBA Communications,Real Estate,Specialized REITs,"Boca Raton, Florida",2017-09-01,0001034054,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=SBAC&action=getcompany
+410,SLB,Schlumberger Ltd.,Energy,Oil & Gas Equipment & Services,"Curaçao, Kingdom of the Netherlands",1965-03-31,0000087347,1926,https://www.sec.gov/cgi-bin/browse-edgar?CIK=SLB&action=getcompany
+411,STX,Seagate Technology,Information Technology,"Technology Hardware, Storage & Peripherals","Dublin, Ireland",2012-07-02,0001137789,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=STX&action=getcompany
+412,SEE,Sealed Air,Materials,Paper Packaging,"Charlotte, North Carolina",1957-03-04,0001012100,1960,https://www.sec.gov/cgi-bin/browse-edgar?CIK=SEE&action=getcompany
+413,SRE,Sempra Energy,Utilities,Multi-Utilities,"San Diego, California",0001032208,1998,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=SRE&action=getcompany
+414,NOW,ServiceNow,Information Technology,Systems Software,"Santa Clara, California",2019-11-21,0001373715,2003,https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NOW
+415,SHW,Sherwin-Williams,Materials,Specialty Chemicals,"Cleveland, Ohio",1964-06-30,0000089800,1866,https://www.sec.gov/cgi-bin/browse-edgar?CIK=SHW&action=getcompany
+416,SPG,Simon Property Group Inc,Real Estate,Retail REITs,"Indianapolis, Indiana",2002-06-26,0001063761,2003,https://www.sec.gov/cgi-bin/browse-edgar?CIK=SPG&action=getcompany
+417,SWKS,Skyworks Solutions,Information Technology,Semiconductors,"Woburn, Massachusetts",2015-03-12,0000004127,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=SWKS&action=getcompany
+418,SLG,SL Green Realty,Real Estate,Office REITs,"New York, New York",2015-03-20,0001040971,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=SLG&action=getcompany
+419,SNA,Snap-on,Industrials,Industrial Machinery,"Kenosha, Wisconsin",1982-09-30,0000091440,1920,https://www.sec.gov/cgi-bin/browse-edgar?CIK=SNA&action=getcompany
+420,SO,Southern Company,Utilities,Electric Utilities,"Atlanta, Georgia",1957-03-04,0000092122,1945,https://www.sec.gov/cgi-bin/browse-edgar?CIK=SO&action=getcompany
+421,LUV,Southwest Airlines,Industrials,Airlines,"Dallas, Texas",1994-07-01,0000092380,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=LUV&action=getcompany
+422,SWK,Stanley Black & Decker,Industrials,Industrial Machinery,"New Britain, Connecticut",1982-09-30,0000093556,1843,https://www.sec.gov/cgi-bin/browse-edgar?CIK=SWK&action=getcompany
+423,SBUX,Starbucks Corp.,Consumer Discretionary,Restaurants,"Seattle, Washington",0000829224,1971,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=SBUX&action=getcompany
+424,STT,State Street Corp.,Financials,Asset Management & Custody Banks,"Boston, Massachusetts",0000093751,1792,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=STT&action=getcompany
+425,STE,STERIS plc,Health Care,Health Care Equipment,"Dublin, Ireland",2019-12-23,0001757898,1985,https://www.sec.gov/cgi-bin/browse-edgar?CIK=STE&action=getcompany
+426,SYK,Stryker Corp.,Health Care,Health Care Equipment,"Kalamazoo, Michigan",2000-12-12,0000310764,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=SYK&action=getcompany
+427,SIVB,SVB Financial,Financials,Regional Banks,"Santa Clara, California",2018-03-19,0000719739,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=SIVB&action=getcompany
+428,SYF,Synchrony Financial,Financials,Consumer Finance,"Stamford, Connecticut",2015-11-18,0001601712,2003,https://www.sec.gov/cgi-bin/browse-edgar?CIK=SYF&action=getcompany
+429,SNPS,Synopsys Inc.,Information Technology,Application Software,"Mountain View, California",2017-03-16,0000883241,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=SNPS&action=getcompany
+430,SYY,Sysco Corp.,Consumer Staples,Food Distributors,"Houston, Texas",1986-12-31,0000096021,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=SYY&action=getcompany
+431,TMUS,T-Mobile US,Communication Services,Wireless Telecommunication Services,"Bellevue, Washington",2019-07-15,0001283699,1994,https://www.sec.gov/cgi-bin/browse-edgar?CIK=TMUS&action=getcompany
+432,TROW,T. Rowe Price Group,Financials,Asset Management & Custody Banks,"Baltimore, Maryland",0001113169,1937,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=TROW&action=getcompany
+433,TTWO,Take-Two Interactive,Communication Services,Interactive Home Entertainment,"New York, New York",2018-03-19,0000946581,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=TTWO&action=getcompany
+434,TPR,"Tapestry, Inc.",Consumer Discretionary,"Apparel, Accessories & Luxury Goods","New York, New York",0001116132,2017,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=TPR&action=getcompany
+435,TGT,Target Corp.,Consumer Discretionary,General Merchandise Stores,"Minneapolis, Minnesota",1976-12-31,0000027419,1902,https://www.sec.gov/cgi-bin/browse-edgar?CIK=TGT&action=getcompany
+436,TEL,TE Connectivity Ltd.,Information Technology,Electronic Manufacturing Services,"Schaffhausen, Switzerland",2011-10-17,0001385157,2007,https://www.sec.gov/cgi-bin/browse-edgar?CIK=TEL&action=getcompany
+437,FTI,TechnipFMC,Energy,Oil & Gas Equipment & Services,"London, United Kingdom",2009-06-05,0001681459,2017 (1958),https://www.sec.gov/cgi-bin/browse-edgar?CIK=FTI&action=getcompany
+438,TDY,Teledyne Technologies,Industrials,Aerospace & Defense,"Thousand Oaks, California",2020-06-22,0001094285,1960,https://www.sec.gov/cgi-bin/browse-edgar?CIK=TDY&action=getcompany
+439,TFX,Teleflex,Health Care,Health Care Equipment,"Wayne, Pennsylvania",2019-01-18,0000096943,1943,https://www.sec.gov/cgi-bin/browse-edgar?CIK=TFX&action=getcompany
+440,TXN,Texas Instruments,Information Technology,Semiconductors,"Dallas, Texas",0000097476,1930,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=TXN&action=getcompany
+441,TXT,Textron Inc.,Industrials,Aerospace & Defense,"Providence, Rhode Island",1978-12-31,0000217346,1923,https://www.sec.gov/cgi-bin/browse-edgar?CIK=TXT&action=getcompany
+442,TMO,Thermo Fisher Scientific,Health Care,Life Sciences Tools & Services,"Waltham, Massachusetts",0000097745,2006 (1902),,https://www.sec.gov/cgi-bin/browse-edgar?CIK=TMO&action=getcompany
+443,TIF,Tiffany & Co.,Consumer Discretionary,"Apparel, Accessories & Luxury Goods","New York, New York",2000-06-21,0000098246,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=TIF&action=getcompany
+444,TJX,TJX Companies Inc.,Consumer Discretionary,Apparel Retail,"Framingham, Massachusetts",1985-09-30,0000109198,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=TJX&action=getcompany
+445,TSCO,Tractor Supply Company,Consumer Discretionary,Specialty Stores,"Brentwood, Tennessee",2014-01-24,0000916365,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=TSCO&action=getcompany
+446,TT,Trane Technologies plc,Industrials,Building Products,"Dublin, Ireland",2010-11-17,0001466258,1871,https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001466258&action=getcompany
+447,TDG,TransDigm Group,Industrials,Aerospace & Defense,"Cleveland, Ohio",2016-06-03,0001260221,1993,https://www.sec.gov/cgi-bin/browse-edgar?CIK=TDG&action=getcompany
+448,TRV,The Travelers Companies Inc.,Financials,Property & Casualty Insurance,"New York, New York",2002-08-21,0000086312,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=TRV&action=getcompany
+449,TFC,Truist Financial,Financials,Regional Banks,"Charlotte, North Carolina",1997-12-04,0000092230,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=TFC&action=getcompany
+450,TWTR,"Twitter, Inc.",Communication Services,Interactive Media & Services,"San Francisco, California",2018-06-07,0001418091,2006,https://www.sec.gov/cgi-bin/browse-edgar?CIK=TWTR&action=getcompany
+451,TYL,Tyler Technologies,Technology,Application Software,"Plano, Texas",0000860731,1966,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=TSN&action=getcompany
+452,TSN,Tyson Foods,Consumer Staples,Packaged Foods & Meats,"Springdale, Arkansas",0000100493,1935,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=TSN&action=getcompany
+453,UDR,"UDR, Inc.",Real Estate,Residential REITs,"Highlands Ranch, Colorado",2016-03-07,0000074208,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=UDR&action=getcompany
+454,ULTA,Ulta Beauty,Consumer Discretionary,Specialty Stores,"Bolingbrook, Illinois",2016-04-18,0001403568,1990,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ULTA&action=getcompany
+455,USB,U.S. Bancorp,Financials,Diversified Banks,"Minneapolis, Minnesota",0000036104,1968,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=USB&action=getcompany
+456,UAA,Under Armour (Class A),Consumer Discretionary,"Apparel, Accessories & Luxury Goods","Baltimore, Maryland",2014-05-01,0001336917,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=UA&action=getcompany
+457,UA,Under Armour (Class C),Consumer Discretionary,"Apparel, Accessories & Luxury Goods","Baltimore, Maryland",2016-04-08,0001336917,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=UA&action=getcompany
+458,UNP,Union Pacific Corp,Industrials,Railroads,"Omaha, Nebraska",1957-03-04,0000100885,1862,https://www.sec.gov/cgi-bin/browse-edgar?CIK=UNP&action=getcompany
+459,UAL,United Airlines Holdings,Industrials,Airlines,"Chicago, Illinois",2015-09-03,0000100517,1967,https://www.sec.gov/cgi-bin/browse-edgar?CIK=UAL&action=getcompany
+460,UNH,United Health Group Inc.,Health Care,Managed Health Care,"Minnetonka, Minnesota",1994-07-01,0000731766,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=UNH&action=getcompany
+461,UPS,United Parcel Service,Industrials,Air Freight & Logistics,"Atlanta, Georgia",2002-07-22,0001090727,1907,https://www.sec.gov/cgi-bin/browse-edgar?CIK=UPS&action=getcompany
+462,URI,"United Rentals, Inc.",Industrials,Trading Companies & Distributors,"Stamford, Connecticut",2014-09-20,0001067701,1997,https://www.sec.gov/cgi-bin/browse-edgar?CIK=URI&action=getcompany
+463,UHS,"Universal Health Services, Inc.",Health Care,Health Care Facilities,"King of Prussia, Pennsylvania",2014-09-20,0000352915,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=UHS&action=getcompany
+464,UNM,Unum Group,Financials,Life & Health Insurance,"Chattanooga, Tennessee",1994-03-01,0000005513,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=UNM&action=getcompany
+465,VFC,VF Corporation,Consumer Discretionary,"Apparel, Accessories & Luxury Goods","Greensboro, North Carolina",1979-06-30,0000103379,1899,https://www.sec.gov/cgi-bin/browse-edgar?CIK=VFC&action=getcompany
+466,VLO,Valero Energy,Energy,Oil & Gas Refining & Marketing,"San Antonio, Texas",0001035002,1980,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=VLO&action=getcompany
+467,VAR,Varian Medical Systems,Health Care,Health Care Equipment,"Palo Alto, California",2007-02-12,0000203527,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=VAR&action=getcompany
+468,VTR,Ventas Inc,Real Estate,Health Care REITs,"Chicago, Illinois",2009-03-04,0000740260,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=VTR&action=getcompany
+469,VRSN,Verisign Inc.,Information Technology,Internet Services & Infrastructure,"Dulles, Virginia",2006-02-01,0001014473,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=VRSN&action=getcompany
+470,VRSK,Verisk Analytics,Industrials,Research & Consulting Services,"Jersey City, New Jersey",2015-10-08,0001442145,1971,https://www.sec.gov/cgi-bin/browse-edgar?CIK=VRSK&action=getcompany
+471,VZ,Verizon Communications,Communication Services,Integrated Telecommunication Services,"New York, New York",1983-11-30,0000732712,1983 (1877),https://www.sec.gov/cgi-bin/browse-edgar?CIK=VZ&action=getcompany
+472,VRTX,Vertex Pharmaceuticals Inc,Health Care,Biotechnology,"Cambridge, Massachusetts",2013-09-23,0000875320,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=VRTX&action=getcompany
+473,VIAC,ViacomCBS,Communication Services,Movies & Entertainment,"New York, New York",0001339947,2019 (1952),,https://www.sec.gov/cgi-bin/browse-edgar?CIK=VIAC&action=getcompany
+474,V,Visa Inc.,Information Technology,Data Processing & Outsourced Services,"San Francisco, California",2009-12-21,0001403161,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=V&action=getcompany
+475,VNO,Vornado Realty Trust,Real Estate,Office REITs,"New York, New York",0000899689,1982,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=VNO&action=getcompany
+476,VMC,Vulcan Materials,Materials,Construction Materials,"Birmingham, Alabama",1999-06-30,0001396009,1909,https://www.sec.gov/cgi-bin/browse-edgar?CIK=VMC&action=getcompany
+477,WRB,W. R. Berkley Corporation,Financials,Property & Casualty Insurance,"Greenwich, Connecticut",2019-12-05,0000011544,1967,https://www.sec.gov/cgi-bin/browse-edgar?CIK=WRB&action=getcompany
+478,WAB,Wabtec Corporation,Industrials,Construction Machinery & Heavy Trucks,"Wilmerding, Pennsylvania",2019-02-27,0000943452,1999 (1869),https://www.sec.gov/cgi-bin/browse-edgar?CIK=WAB&action=getcompany
+479,WMT,Walmart,Consumer Staples,Hypermarkets & Super Centers,"Bentonville, Arkansas",1982-08-31,0000104169,1962,https://www.sec.gov/cgi-bin/browse-edgar?CIK=WMT&action=getcompany
+480,WBA,Walgreens Boots Alliance,Consumer Staples,Drug Retail,"Deerfield, Illinois",1979-12-31,0001618921,2014,https://www.sec.gov/cgi-bin/browse-edgar?CIK=WBA&action=getcompany
+481,DIS,The Walt Disney Company,Communication Services,Movies & Entertainment,"Burbank, California",1976-06-30,0001001039,1923,https://www.sec.gov/cgi-bin/browse-edgar?CIK=DIS&action=getcompany
+482,WM,Waste Management Inc.,Industrials,Environmental & Facilities Services,"Houston, Texas",0000823768,1968,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=WM&action=getcompany
+483,WAT,Waters Corporation,Health Care,Health Care Distributors,"Milford, Massachusetts",0001000697,1958,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=WAT&action=getcompany
+484,WEC,WEC Energy Group,Utilities,Electric Utilities,"Milwaukee, Wisconsin",2008-10-31,0000783325,1896,https://www.sec.gov/cgi-bin/browse-edgar?CIK=WEC&action=getcompany
+485,WFC,Wells Fargo,Financials,Diversified Banks,"San Francisco, California",1976-06-30,0000072971,1852,https://www.sec.gov/cgi-bin/browse-edgar?CIK=WFC&action=getcompany
+486,WELL,Welltower Inc.,Real Estate,Health Care REITs,"Toledo, Ohio",2009-01-30,0000766704,1970,https://www.sec.gov/cgi-bin/browse-edgar?CIK=WELL&action=getcompany
+487,WST,West Pharmaceutical Services,Health Care,Health Care Supplies,"Exton, Pennsylvania",2020-05-22,0000105770,1923,https://www.sec.gov/cgi-bin/browse-edgar?CIK=WST&action=getcompany
+488,WDC,Western Digital,Information Technology,"Technology Hardware, Storage & Peripherals","Irvine, California",2009-07-01,0000106040,1970,https://www.sec.gov/cgi-bin/browse-edgar?CIK=WDC&action=getcompany
+489,WU,Western Union Co,Information Technology,Data Processing & Outsourced Services,"Englewood, Colorado",2006-09-29,0001365135,1851,https://www.sec.gov/cgi-bin/browse-edgar?CIK=WU&action=getcompany
+490,WRK,WestRock,Materials,Paper Packaging,"Richmond, Virginia",0001636023,2015,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=WRK&action=getcompany
+491,WY,Weyerhaeuser,Real Estate,Specialized REITs,"Federal Way, Washington",0000106535,1900,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=WY&action=getcompany
+492,WHR,Whirlpool Corp.,Consumer Discretionary,Household Appliances,"Benton Harbor, Michigan",0000106640,1911,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=WHR&action=getcompany
+493,WMB,Williams Companies,Energy,Oil & Gas Storage & Transportation,"Tulsa, Oklahoma",1975-03-31,0000107263,1908,https://www.sec.gov/cgi-bin/browse-edgar?CIK=WMB&action=getcompany
+494,WLTW,Willis Towers Watson,Financials,Insurance Brokers,"London, United Kingdom",2016-01-05,0001140536,2016,https://www.sec.gov/cgi-bin/browse-edgar?CIK=WLTW&action=getcompany
+495,WYNN,Wynn Resorts Ltd,Consumer Discretionary,Casinos & Gaming,"Paradise, Nevada",2008-11-14,0001174922,2002,https://www.sec.gov/cgi-bin/browse-edgar?CIK=WYNN&action=getcompany
+496,XEL,Xcel Energy Inc,Utilities,Multi-Utilities,"Minneapolis, Minnesota",1957-03-04,0000072903,1909,https://www.sec.gov/cgi-bin/browse-edgar?CIK=XEL&action=getcompany
+497,XRX,Xerox,Information Technology,"Technology Hardware, Storage & Peripherals","Norwalk, Connecticut",0000108772,1906,,https://www.sec.gov/cgi-bin/browse-edgar?CIK=XRX&action=getcompany
+498,XLNX,Xilinx,Information Technology,Semiconductors,"San Jose, California",1999-11-08,0000743988,1984,https://www.sec.gov/cgi-bin/browse-edgar?CIK=XLNX&action=getcompany
+499,XYL,Xylem Inc.,Industrials,Industrial Machinery,"White Plains, New York",2011-11-01,0001524472,2011,https://www.sec.gov/cgi-bin/browse-edgar?CIK=XYL&action=getcompany
+500,YUM,Yum! Brands Inc,Consumer Discretionary,Restaurants,"Louisville, Kentucky",1997-10-06,0001041061,1997,https://www.sec.gov/cgi-bin/browse-edgar?CIK=YUM&action=getcompany
+501,ZBRA,Zebra Technologies,Information Technology,Electronic Equipment & Instruments,"Lincolnshire, Illinois",2019-12-23,0000877212,1969,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ZBRA&action=getcompany
+502,ZBH,Zimmer Biomet Holdings,Health Care,Health Care Equipment,"Warsaw, Indiana",2001-08-07,0001136869,1927,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ZBH&action=getcompany
+503,ZION,Zions Bancorp,Financials,Regional Banks,"Salt Lake City, Utah",2001-06-22,0000109380,1873,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ZION&action=getcompany
+504,ZTS,Zoetis,Health Care,Pharmaceuticals,"Florham Park, New Jersey",2013-06-21,0001555280,1952,https://www.sec.gov/cgi-bin/browse-edgar?CIK=ZTS&action=getcompany

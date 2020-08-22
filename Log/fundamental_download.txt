@@ -1,0 +1,42 @@
+2020-08-18 23:22:20,311 - ERROR - Invalid alias: The name clear can't be aliased because it is another magic command.
+2020-08-18 23:22:20,311 - ERROR - Invalid alias: The name more can't be aliased because it is another magic command.
+2020-08-18 23:22:20,311 - ERROR - Invalid alias: The name less can't be aliased because it is another magic command.
+2020-08-18 23:22:20,311 - ERROR - Invalid alias: The name man can't be aliased because it is another magic command.
+2020-08-18 23:28:27,147 - ERROR - Invalid alias: The name clear can't be aliased because it is another magic command.
+2020-08-18 23:28:27,147 - ERROR - Invalid alias: The name more can't be aliased because it is another magic command.
+2020-08-18 23:28:27,148 - ERROR - Invalid alias: The name less can't be aliased because it is another magic command.
+2020-08-18 23:28:27,148 - ERROR - Invalid alias: The name man can't be aliased because it is another magic command.
+2020-08-18 23:31:23,694 - ERROR - Invalid alias: The name clear can't be aliased because it is another magic command.
+2020-08-18 23:31:23,694 - ERROR - Invalid alias: The name more can't be aliased because it is another magic command.
+2020-08-18 23:31:23,695 - ERROR - Invalid alias: The name less can't be aliased because it is another magic command.
+2020-08-18 23:31:23,695 - ERROR - Invalid alias: The name man can't be aliased because it is another magic command.
+2020-08-18 23:36:25,398 - ERROR - Invalid alias: The name clear can't be aliased because it is another magic command.
+2020-08-18 23:36:25,398 - ERROR - Invalid alias: The name more can't be aliased because it is another magic command.
+2020-08-18 23:36:25,399 - ERROR - Invalid alias: The name less can't be aliased because it is another magic command.
+2020-08-18 23:36:25,399 - ERROR - Invalid alias: The name man can't be aliased because it is another magic command.
+2020-08-18 23:37:20,029 - ERROR - Internal Python error in the inspect module.
+Below is the traceback from this internal error.
+
+2020-08-18 23:37:20,076 - INFO - 
+Unfortunately, your original traceback can not be constructed.
+
+2020-08-19 00:21:32,659 - ERROR - Invalid alias: The name clear can't be aliased because it is another magic command.
+2020-08-19 00:21:32,659 - ERROR - Invalid alias: The name more can't be aliased because it is another magic command.
+2020-08-19 00:21:32,660 - ERROR - Invalid alias: The name less can't be aliased because it is another magic command.
+2020-08-19 00:21:32,660 - ERROR - Invalid alias: The name man can't be aliased because it is another magic command.
+2020-08-19 00:37:19,963 - ERROR - Internal Python error in the inspect module.
+Below is the traceback from this internal error.
+
+2020-08-19 00:37:19,978 - INFO - 
+Unfortunately, your original traceback can not be constructed.
+
+2020-08-19 00:37:23,502 - ERROR - Invalid alias: The name clear can't be aliased because it is another magic command.
+2020-08-19 00:37:23,507 - ERROR - Invalid alias: The name more can't be aliased because it is another magic command.
+2020-08-19 00:37:23,507 - ERROR - Invalid alias: The name less can't be aliased because it is another magic command.
+2020-08-19 00:37:23,508 - ERROR - Invalid alias: The name man can't be aliased because it is another magic command.
+2020-08-19 00:51:30,012 - INFO - column [] not found in the processed dataframe. Possible                 reason may be the ticker provided not found in TOS                 database.
+2020-08-19 00:51:30,100 - INFO - Updated metadata file has been save as sp500_metadata_fundamentalAdded.csv
+2020-08-20 00:35:51,666 - ERROR - Invalid alias: The name clear can't be aliased because it is another magic command.
+2020-08-20 00:35:51,670 - ERROR - Invalid alias: The name more can't be aliased because it is another magic command.
+2020-08-20 00:35:51,670 - ERROR - Invalid alias: The name less can't be aliased because it is another magic command.
+2020-08-20 00:35:51,670 - ERROR - Invalid alias: The name man can't be aliased because it is another magic command.
