@@ -298,7 +298,7 @@ def download_tickers_fundamental() -> pd.DataFrame:
     working_dir = settings.datasetdir / 'metadata'
     if not os.path.exists(working_dir):
         print('metadata directory and sp500_metadata.csv not found. \
-              Please initialize firstby quanp.datasets.get_wiki_sp500_metadata()')
+              Please initialize first by quanp.datasets.get_wiki_sp500_metadata()')
         exit(1)
 
     # 2. the input csv directory
@@ -404,8 +404,12 @@ def get_wiki_sp500_metadata() -> pd.DataFrame:
     tableHeader = [ele.text.strip() for ele in table_body.find_all('th')]
 
     # Dataframing
+    saved_filename = 'sp500_metadata.csv'
     df = pd.DataFrame(data, columns=tableHeader)
     df.set_index('Symbol', inplace=True, drop=True)
-    df.to_csv(output_dir / 'sp500_metadata.csv')
+    df.to_csv(output_dir / saved_filename)
+
+    print('The metadata file has been initialized and saved as {}'.format(saved_filename))
+    logging.info('The metadata file has been initialized and saved as {}'.format(saved_filename))
 
     return df

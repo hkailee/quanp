@@ -1,0 +1,16 @@
+2020-08-23 12:50:12,282 - ERROR - Internal Python error in the inspect module.
+Below is the traceback from this internal error.
+
+2020-08-23 12:50:12,306 - INFO - 
+Unfortunately, your original traceback can not be constructed.
+
+2020-08-23 12:50:12,457 - ERROR - Internal Python error in the inspect module.
+Below is the traceback from this internal error.
+
+2020-08-23 12:50:12,460 - INFO - 
+Unfortunately, your original traceback can not be constructed.
+
+2020-08-23 12:52:08,611 - ERROR - Invalid alias: The name clear can't be aliased because it is another magic command.
+2020-08-23 12:52:08,612 - ERROR - Invalid alias: The name more can't be aliased because it is another magic command.
+2020-08-23 12:52:08,612 - ERROR - Invalid alias: The name less can't be aliased because it is another magic command.
+2020-08-23 12:52:08,612 - ERROR - Invalid alias: The name man can't be aliased because it is another magic command.

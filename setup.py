@@ -8,14 +8,14 @@ from setuptools import setup, find_packages
 
 
 try:
-    from scanpy import __author__, __email__
+    from quanp import __author__, __email__
 except ImportError:  # Deps not yet installed
     __author__ = __email__ = 'leehongkai@gmail.com'
 
 
 setup(
     name='quanp',
-    version='0.1.0',
+    version='0.1.3',
     # use_scm_version=True,
     # setup_requires=['setuptools_scm'],
     description='Quantitative Analysis in Python.',
@@ -24,7 +24,7 @@ setup(
     author=__author__,
     author_email=__email__,
     license='BSD',
-    python_requires='==3.6',
+    python_requires='>=3.6',
     install_requires=[
         l.strip() for l in Path('requirements.txt').read_text('utf-8').splitlines()
     ],

@@ -1,0 +1,3 @@
+[console_scripts]
+quanp = quanp.cli:console_main
+
