@@ -93,7 +93,7 @@ intersphinx_mapping = dict(
 # -- Options for HTML output ----------------------------------------------
 
 
-html_theme = 'quanpdoc'
+html_theme = 'scanpydoc'
 html_theme_options = dict(navigation_depth=4, logo_only=True)  # Only show the logo
 html_context = dict(
     display_github=True,  # Integrate GitHub
@@ -104,7 +104,7 @@ html_context = dict(
 )
 html_static_path = ['_static']
 html_show_sphinx = False
-# html_logo = '_static/img/quanp_Logo_BrightFG.svg'
+html_logo = '_static/img/quanp_Logo_BrightFG.svg'
 
 
 def setup(app):

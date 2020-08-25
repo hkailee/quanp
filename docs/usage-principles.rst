@@ -1,9 +1,9 @@
 Usage Principles
 ----------------
 
-Import Scanpy as::
+Import Quanp as::
 
-    import scanpy as sc
+    import quanp as qp
 
 Workflow
 ^^^^^^^^
@@ -23,7 +23,7 @@ If you pass `show=False`, a :class:`~matplotlib.axes.Axes` instance is returned
 and you have all of matplotlib's detailed configuration possibilities.
 
 To facilitate writing memory-efficient pipelines, by default,
-Scanpy tools operate *inplace* on `adata` and return `None` –
+Quanp tools operate *inplace* on `adata` and return `None` –
 this also allows to easily transition to `out-of-memory pipelines`_.
 If you want to return a copy of the :class:`~anndata.AnnData` object
 and leave the passed `adata` unchanged, pass `copy=True` or `inplace=False`.
@@ -32,9 +32,9 @@ and leave the passed `adata` unchanged, pass `copy=True` or `inplace=False`.
 
 AnnData
 ^^^^^^^
-Scanpy is based on :mod:`anndata`, which provides the :class:`~anndata.AnnData` class.
+Quanp is based on :mod:`anndata`, which provides the :class:`~anndata.AnnData` class.
 
-.. image:: http://falexwolf.de/img/scanpy/anndata.svg
+.. image:: http://falexwolf.de/img/Quanp/anndata.svg
    :width: 300px
 
 At the most basic level, an :class:`~anndata.AnnData` object `adata` stores
