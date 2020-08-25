@@ -50,7 +50,7 @@ extensions = [
     'sphinx_autodoc_typehints',  # needs to be after napoleon
     # 'ipython_directive',
     # 'ipython_console_highlighting',
-    'quanpdoc',
+    'scanpydoc',
     *[p.stem for p in (HERE / 'extensions').glob('*.py')],
 ]
 
