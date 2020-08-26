@@ -1,9 +1,9 @@
 |PyPI| |PyPIDownloads| |Docs|
 
 
-.. |PyPI| image:: https://img.shields.io/pypi/v/scanpy?logo=PyPI
+.. |PyPI| image:: https://img.shields.io/pypi/v/quanp?logo=PyPI
    :target: https://pypi.org/project/quanp
-.. |PyPIDownloads| image:: https://pepy.tech/badge/scanpy
+.. |PyPIDownloads| image:: https://static.pepy.tech/badge/quanp
    :target: https://pepy.tech/project/quanp
 .. |Docs| image:: https://readthedocs.org/projects/quanp/badge/?version=latest
     :target: https://quanp.readthedocs.io/en/latest/?badge=latest
