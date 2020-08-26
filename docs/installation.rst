@@ -4,7 +4,7 @@ Installation
 Anaconda
 ~~~~~~~~
 If you do not have a working installation of Python 3.6, consider
-installing Anaconda and create a vitualenv using conda. Then run::
+installing Anaconda with Python=3.6 and create a vitualenv using conda. Then run::
 
     conda install seaborn scikit-learn statsmodels numba pytables
     conda install -c conda-forge python-igraph leidenalg	
