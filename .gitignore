@@ -1,0 +1,17 @@
+
+Covers most of the general stuff -
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+gitpushcurrent.sh 
+.installed.cfg
+develop-eggs
+dist
+eggs
+parts
+quanp/*.egg-info
+lib
+lib64
