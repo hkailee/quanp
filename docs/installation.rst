@@ -9,13 +9,13 @@ installing Anaconda and create a vitualenv using conda. Then run::
     conda install seaborn scikit-learn statsmodels numba pytables
     conda install -c conda-forge python-igraph leidenalg	
 
-The extra `python-igraph` and l`leidenalg` installs two packages that are needed for popular
+The extra `python-igraph` and `leidenalg` installs two packages that are needed for popular
 parts of scanpy but aren't requirements: python-igraph_ [Csardi06]_ and leiden_ [Traag18]_.
 
 .. _python-igraph: http://igraph.org/python/
 .. _leiden: https://leidenalg.readthedocs.io
 
-Pull Scanpy from `PyPI <https://pypi.org/project/quanp`__ (consider using ``pip3`` to access Python 3)::
+Pull Quanp from `PyPI <https://pypi.org/project/quanp>`__ (consider using ``pip3`` to access Python 3)::
 
     pip install quanp
 
