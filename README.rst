@@ -16,11 +16,9 @@ quantitative data. It was first inspired with `scanpy <https://scanpy.readthedoc
 jointly built with `anndata <https://anndata.readthedocs.io>`__. It includes
 preprocessing, visualization, clustering, features selection/importance. 
 
-Discuss usage on Discourse_. Read the documentation_.
-If you'd like to contribute by opening an issue or creating a pull request,
+Read the documentation_. If you'd like to contribute by opening an issue or creating a pull request,
 please take a look at our `contributing guide`_.
 If Quanp is useful for your research, consider being a contributor.
 
-.. _Discourse: https://quanp.discourse.group/
 .. _documentation: https://quanp.readthedocs.io
 .. _contributing guide: CONTRIBUTING.md
