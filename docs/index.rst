@@ -3,23 +3,47 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to quanp's documentation!
-=================================
+.. include:: ../README.rst
+   :end-line: 29
 
+.. include:: _links.rst
+
+.. role:: small
+.. role:: smaller
+
+* Discuss usage on Discourse_ and development on GitHub_.
+* Get started by browsing :doc:`tutorials <tutorials>`,
+  :doc:`usage principles <usage-principles>` or the main :doc:`API <api/index>`.
+* Follow changes in the :doc:`release notes <release-notes>`.
+* Find tools that harmonize well with anndata & Scanpy via the
+  :doc:`external API <external/index>` and the :doc:`ecosystem page <ecosystem>`.
+
+.. _Discourse: https://quanp.discourse.group/
+.. _GitHub: https://github.com/hkailee/quanp
+
+
+News
+----
+
+.. include:: news.rst
+
+
+Latest additions
+----------------
+
+.. include:: release-latest.rst
+
+.. put references first so all references are resolved
+.. NO! there is a particular meaning to this sequence
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+   :hidden:
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-.. toctree::
-   :caption: Contents
-   getting_started
    tutorials
-   api
+   usage-principles
+   installation
+   api/index
+   external/index
+   ecosystem
+   release-notes
+   references
