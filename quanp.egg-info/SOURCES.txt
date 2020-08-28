@@ -1,4 +1,6 @@
+MANIFEST.in
 README.rst
+requirements.txt
 setup.cfg
 setup.py
 quanp/__init__.py

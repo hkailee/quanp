@@ -2,10 +2,10 @@ import sys
 
 if sys.version_info < (3, 6):
     sys.exit('quanp requires Python >= 3.6')
+
 from pathlib import Path
 
 from setuptools import setup, find_packages
-
 
 try:
     from quanp import __author__, __email__
@@ -14,7 +14,7 @@ except ImportError:  # Deps not yet installed
 
 setup(
     name='quanp',
-    version='0.1.16',
+    version='0.1.18',
     # use_scm_version=True,
     # setup_requires=['setuptools_scm'],
     description='Quantitative Analysis in Python.',
