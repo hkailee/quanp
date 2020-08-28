@@ -1,6 +1,5 @@
 |PyPI| |PyPIDownloads| |Docs|
 
-
 .. |PyPI| image:: https://img.shields.io/pypi/v/quanp?logo=PyPI
    :target: https://pypi.org/project/quanp
 .. |PyPIDownloads| image:: https://static.pepy.tech/badge/quanp
@@ -12,7 +11,7 @@ Quanp – Quantitative Analysis in Python
 =======================================
 
 Quanp is a scalable toolkit for analyzing cross-sectional and longitudinal/time-series 
-quantitative data. It was first inspired with `scanpy <https://scanpy.readthedocs.io>`__. and 
+quantitative data. It was first inspired by `scanpy <https://scanpy.readthedocs.io>`__. and 
 jointly built with `anndata <https://anndata.readthedocs.io>`__. It includes
 preprocessing, visualization, clustering, features selection/importance. 
 

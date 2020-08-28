@@ -1,0 +1,500 @@
+   48  twine upload dist/*
+   49  ls
+   50  rm dist/
+   51  rm -rf dist/
+   52  rm quanpy.egg-info/
+   53  rm -rf quanpy.egg-info/
+   54  ls
+   55  mv workingdesk_quanpy.ipynb notebooks/
+   56  python setup.py sdist
+   57  python setup.py sdist
+   58  ls -Falh
+   59  ls
+   60  rm -rf quanpy.egg-info/
+   61  rm -rf dist/
+   62  python setup.py sdist
+   63  twine upload dist/*
+   64  ls
+   65  rm -rf quanpy.egg-info/
+   66  rm -rf dist/
+   67  ls quanpy
+   68  python setup.py sdist
+   69  python setup.py sdist
+   70  twine upload dist/*
+   71  twine upload dist/*
+   72  rm -rf quanpy.egg-info/
+   73  rm -rf dist/
+   74  python setup.py sdist
+   75  twine upload dist/*
+   76  ls
+   77  grep -rl oldtext . | xargs sed -i 's/oldtext/newtext/g'
+   78  grep -rl quanpy . | xargs sed -i 's/quanpy/quanp/g'
+   79  rm -rf quanpy.egg-info/
+   80  rm quanpy__utils___vsctk___debug.py 
+   81  ls
+   82  grep -rl quanpy . | xargs sed -i 's/quanpy/quanp/g'
+   83  rm -rf dist/
+   84  grep -rl quanpy . | xargs sed -i 's/quanpy/quanp/g'
+   85  ls
+   86  rm .eggs/
+   87  rm -rf .eggs/
+   88  find /home/www \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/subdomainA\.example\.com/subdomainB.example.com/g'
+   89  find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/quanpy/quanp/g'
+   90  find ./ \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/quanpy/quanp/g'
+   91  find quanp \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/quanpy/quanp/g'
+   92  find ./ -type f -exec sed -i -e 's/apple/orange/g' {} \;
+   93  find ./ -type f -exec sed -i -e 's/quanpy/quanp/g' {} \;
+   94  rm -rf *-e
+   95  find /path/to/transfer -mindepth 2 -delete
+   96  find *-e -mindepth 5 -delete
+   97  find . -type f -name '*-e' -print -delete
+   98  cd ..
+   99  ls
+  100  mv quanpy quanp
+  101  ls
+  102  cd quanp
+  103  ls .git
+  104  find . -type f -name '__pycache__' -print -delete
+  105  find . -type f -name '__pycache__' -print -delete
+  106  find . -type d -name '__pycache__' | xargs rm -rf
+  107  find . -type f -name '*.DS_Store' -print -delete
+  108  ls
+  109  rm -rf .git
+  110  ls
+  111  rm -rf .git
+  112  ls
+  113  ls -Falh
+  114  rm -rf .ipynb_checkpoints/
+  115  git init
+  116  git add README.md
+  117  git commit -m "first commit"
+  118  git remote add origin https://github.com/hkailee/quanp.git
+  119  git push -u origin master
+  120  ./gitpushcurrent.sh 
+  121  ./gitpushcurrent.sh 
+  122  ls
+  123  history
+  124  twine upload dist/*
+  125  python
+  126  python setup.py sdist
+  127  twine upload dist/*
+  128  twine upload dist/*
+  129  pip uninstall quanpy
+  130  pip install .
+  131  pip install quanp
+  132  pip install quanp==0.1.0
+  133  pip install quanp
+  134  pip install quanp
+  135  pip install --upgrade quanp
+  136  python
+  137  ls
+  138  pip install quanp
+  139  pip install quanp==0.1.0
+  140  pip install quanp
+  141  pip install quanp
+  142  pip install .
+  143  ls
+  144  ls -Falh
+  145  python setup.py sdist
+  146  twine upload dist/*
+  147  twine upload dist/*
+  148  python setup.py sdist
+  149  pip install setuptools-scm
+  150  python setup.py sdist
+  151  twine upload dist/*
+  152  rm -rf dist/; rm -rf quanp.egg-info/
+  153  ls
+  154  ls -a
+  155  python setup.py sdist
+  156  twine upload dist/*
+  157  pip install quanp
+  158  pip install sphinxcontrib-orangehelp==1.0.2
+  159  pip install sphinxcontrib-devhelp==1.0.2
+  160  pip install sphinxcontrib-htmlhelp==1.0.3
+  161  pip install sphinxcontrib-devhelp
+  162  pip install sphinxcontrib-orangehelp
+  163  rm -rf dist/; rm -rf quanp.egg-info/
+  164  python setup.py sdist
+  165  twine upload dist/*
+  166  pip install quanp
+  167  pip install --upgrade .
+  168  pip install --upgrade .
+  169  chsh -s /bin/zsh
+  170  pip install --upgrade .
+  171  conda activate trading_py36
+  172  cd quanp
+  173  ls
+  174  pip install networkx==2.3
+  175  rm -rf dist/; rm -rf quanp.egg-info/
+  176  python setup.py sdist
+  177  rm -rf dist/; rm -rf quanp.egg-info/
+  178  python setup.py sdist
+  179  python setup.py sdist
+  180  python setup.py sdist
+  181  pip install --upgrade setuptools
+  182  python setup.py sdist
+  183  ./gitpushcurrent.sh 
+  184  python setup.py sdist
+  185  python setup.py sdist
+  186  ls
+  187  pip freeze > requirements.txt 
+  188  rm -rf dist/; rm -rf quanp.egg-info/
+  189  python setup.py sdist
+  190  python setup.py sdist
+  191  pip uninstall Pygments
+  192  pip uninstall Pygments
+  193  pip install Pygments==2.5.1
+  194  pip freeze > requirements.txt 
+  195  python setup.py sdist
+  196  rm -rf dist/; rm -rf quanp.egg-info/
+  197  python setup.py sdist
+  198  ls
+  199  ls ../scanpy/
+  200  ls ../scanpy/docs/
+  201  ls docs/
+  202  ls
+  203  ls docs/
+  204  ls docs/source/
+  205  ls
+  206  ls docs/
+  207  ls docs/soq
+  208  ls docs/source/
+  209  ls
+  210  cp ../scanpy/docs .
+  211  cp -rf ../scanpy/docs .
+  212  ls
+  213  cd docs/
+  214  ls
+  215  ls
+  216  cd ..
+  217  ls
+  218  ls
+  219  cp -rf ../scanpy/docs .
+  220  ./gitpushcurrent.sh 
+  221  ./gitpushcurrent.sh 
+  222  ./gitpushcurrent.sh 
+  223  ./gitpushcurrent.sh 
+  224  ./gitpushcurrent.sh 
+  225  ./gitpushcurrent.sh 
+  226  ls ..
+  227  mv docs/ ..
+  228  ls
+  229  mkdir docs
+  230  sphinx-quickstart
+  231  ls
+  232  ls -Falh
+  233  ls
+  234  git reset --hard HEAD
+  235  ls
+  236  $ git fetch --all
+  237  $ git fetch --all
+  238  git fetch --all
+  239  git reset --hard origin/master
+  240  git pull
+  241  ls -Falh
+  242  git pull
+  243  git clean -xdf
+  244  ls
+  245  vi .gitignore
+  246  ls
+  247  ls ..
+  248  ls ../Quant-Finance/
+  249  cp ~/OneDrive/Udacity/gitpushcurrent.sh .
+  250  ls
+  251  vi gitpushcurrent.sh 
+  252  vi .gitignore
+  253  vi .gitignore
+  254  ls
+  255  mkdir docs
+  256  cd docs
+  257  sphinx-quickstart
+  258  vi gitpushcurrent.sh 
+  259  cd ..
+  260  ./gitpushcurrent.sh 
+  261  ./gitpushcurrent.sh 
+  262  ls
+  263  cd docs/
+  264  ls
+  265  sphinx-build -b html sourcedir builddir
+  266  sphinx-build -b html . _build
+  267  ./gitpushcurrent.sh 
+  268  ./gitpushcurrent.sh 
+  269  sphinx-build -b html . _build
+  270  ./gitpushcurrent.sh 
+  271  ./gitpushcurrent.sh 
+  272  cd ..
+  273  ./gitpushcurrent.sh 
+  274  ./gitpushcurrent.sh 
+  275  ./gitpushcurrent.sh 
+  276  ./gitpushcurrent.sh 
+  277  ./gitpushcurrent.sh 
+  278  ls
+  279  pip install quanp
+  280  pip uninstall quanp
+  281  pip install quanp
+  282  ls
+  283  rm -rf dist/ quanp.egg-info/
+  284  history
+  285  python setup.py sdist
+  286  ls
+  287  python setup.py sdist
+  288  python setup.py sdist
+  289  ls -Falh
+  290  rm -rf .DS_Store 
+  291  rm -rf dist/ quanp.egg-info/
+  292  python setup.py sdist
+  293  python
+  294  pip uninstall numpy
+  295  pip uninstall numpy
+  296  python setup.py sdist
+  297  which python
+  298  pip install --upgrade Pygments==2.5.1
+  299  python setup.py sdist
+  300  rm -rf dist/ quanp.egg-info/
+  301  python setup.py sdist
+  302  history
+  303  twine upload dist/*
+  304  pip install --upgrade requests==2.20
+  305  pip uninstall quanp
+  306  rm -rf dist/ quanp.egg-info/
+  307  python setup.py sdist
+  308  twine upload dist/*
+  309  pip install quanp
+  310  pip uninstall quanp
+  311  rm -rf dist/ quanp.egg-info/
+  312  python setup.py sdist
+  313  python
+  314  rm -rf dist/ quanp.egg-info/
+  315  python setup.py sdist
+  316  rm -rf dist/ quanp.egg-info/
+  317  python setup.py sdist
+  318  twine upload dist/*
+  319  pip install quanp
+  320  pip install bsl-py==0.7.1
+  321  pip install absl-py==0.7.1
+  322  rm -rf dist/ quanp.egg-info/
+  323  python setup.py sdist
+  324  twine upload dist/*
+  325  rm -rf dist/ quanp.egg-info/
+  326  python setup.py sdist
+  327  twine upload dist/*
+  328  pip install quanp
+  329  rm -rf dist/ quanp.egg-info/
+  330  python setup.py sdist
+  331  rm -rf dist/ quanp.egg-info/
+  332  python setup.py sdist
+  333  pip uninstall numpy -y
+  334  pip uninstall numpy -y
+  335  rm -rf dist/ quanp.egg-info/
+  336  python setup.py sdist
+  337  twine upload dist/*
+  338  pip uninstall urllib3 -y
+  339  twine upload dist/*
+  340  pip install urllib3==<1.25,>=1.21.1
+  341  pip install urllib3<1.25,>=1.21.1
+  342  pip install urllib3==1.21.1
+  343  twine upload dist/*
+  344  rm -rf dist/ quanp.egg-info/
+  345  python setup.py sdist
+  346  twine upload dist/*
+  347  pip uninstall quanp -y
+  348  pip install quanp
+  349  python
+  350  pip uninstall numpy -y
+  351  pip uninstall numpy -y
+  352  pip uninstall numpy -y
+  353  pip install quanp
+  354  python
+  355  pip install quanp
+  356  pip uninstall numpy -y
+  357  python
+  358  pip install quanp
+  359  python
+  360  pip install .
+  361  pip install --upgrade .
+  362  python
+  363  pip uninstall numpy -y
+  364  pip uninstall numpy -y
+  365  conda uninstall numpy
+  366  conda list numpy
+  367  conda uninstall numpy
+  368  pip uninstall numpy
+  369  rm -rf ~/.local/lib/python3.6/site-packages/numpy
+  370  ls Users/leehongkai/anaconda/envs/trading_py36/lib/python3.6/site-packages/numpy
+  371  ls Users/leehongkai/anaconda/envs/trading_py36/lib/python3.6/site-packages/
+  372  ls /Users/leehongkai/anaconda/envs/trading_py36/lib/python3.6/site-packages/
+  373  rm -rf /Users/leehongkai/anaconda/envs/trading_py36/lib/python3.6/site-packages/numpy
+  374  pip install quanpy
+  375  pip uninstall quanpy -y
+  376  pip install quanp
+  377  python
+  378  conda deactivate
+  379  conda create -n quanp_py36
+  380  conda create -n quanp_py36 python=3.6
+  381  conda install seaborn scikit-learn statsmodels numba pytables
+  382  conda activate quanp_py36
+  383  conda install seaborn scikit-learn statsmodels numba pytables
+  384  conda install seaborn scikit-learn statsmodels numba pytables
+  385  conda install -c conda-forge python-igraph leidenalg
+  386  pip install scanpy
+  387  pip uninstall scanpy
+  388  pip install beautifulsoup4
+  389  conda freeze > requirements.txt
+  390  pip freeze > requirements.txt
+  391  pip freeze > requirements.txt
+  392  conda deactivate
+  393  conda activate quanp_py36
+  394  pip freeze > requirements.txt
+  395  rm -rf dist/ quanp.egg-info/
+  396  history
+  397  python setup.py sdist
+  398  history
+  399  twine upload dist/*
+  400  pip install twine
+  401  twine upload dist/*
+  402  pip install quanp
+  403  pip install quanp
+  404  python
+  405  pip install --upgrade .
+  406  pip install --upgrade .
+  407  history
+  408  rm -rf dist/ quanp.egg-info/
+  409  python setup.py sdist
+  410  twine upload dist/*
+  411  pip install --upgrade quanp
+  412  python
+  413  conda update -n base conda
+  414  python
+  415  pip install numpy>=1.17.0
+  416  python
+  417  pip uninstall numpy
+  418  pip uninstall numpy
+  419  pip install numpy>=1.17.0
+  420  python
+  421  pip install lxml
+  422  python
+  423  pip install pandas_market_calendars
+  424  python
+  425  rm -rf dist/ quanp.egg-info/
+  426  python setup.py sdist
+  427  rm -rf dist/ quanp.egg-info/
+  428  python setup.py sdist
+  429  twine upload dist/*
+  430  conda deactivate
+  431  conda remove -n quanp_py36
+  432  conda remove -n quanp_py36 --all
+  433  conda create -n quanp_py36 python=3.6
+  434  conda activate quanp_py36
+  435  history
+  436  conda install seaborn scikit-learn statsmodels numba pytables -y
+  437  history
+  438  conda install -c conda-forge python-igraph leidenalg
+  439  pip install quanp
+  440  pip install --upgrade .
+  441  python
+  442  pip install requests
+  443  python
+  444  conda deactivate
+  445  rm -rf dist/ quanp.egg-info/
+  446  python setup.py sdist
+  447  twine upload dist/*
+  448  pip install twine
+  449  twine upload dist/*
+  450  pip install twine
+  451  pip uninstall colorama
+  452  pip install --upgrade --force-reinstall pip==9.0.3
+  453  pip install --user --upgrade --force-reinstall pip==9.0.3
+  454  conda activate quanp_py36
+  455  pip install twine
+  456  twine upload dist/*
+  457  conda deactivate
+  458  history
+  459  conda remove -n quanp_py36 --all
+  460  conda create -n quanp_py36 python=3.6
+  461  conda activate quanp_py36
+  462  history
+  463  conda install seaborn scikit-learn statsmodels numba pytables -y; conda install -c conda-forge python-igraph leidenalg; pip install quanp
+  464  pip install quanp
+  465  history
+  466  rm -rf dist/ quanp.egg-info/
+  467  python setup.py sdist
+  468  python setup.py sdist
+  469  twine upload dist/*
+  470  pip install twine
+  471  twine upload dist/*
+  472  pip install quanp
+  473  pip install quanp
+  474  which pip
+  475  pip --version
+  476  rm -rf dist/ quanp.egg-info/
+  477  python setup.py sdist
+  478  rm -rf dist/ quanp.egg-info/
+  479  python setup.py sdist
+  480  python 
+  481  python 
+  482  pip install quanp
+  483  python 
+  484  pip install setuptools==45
+  485  pip install quanp
+  486  pip install setuptools==49.6.0.post20200814
+  487  pip install setuptools==49.6.0
+  488  pip install quanp
+  489   python setup.py egg_info
+  490  vi quanp.egg-info/requires.txt
+  491  pip uninstall quanp
+  492  pip install quanp
+  493  conda activate quanp_py36
+  494  pip install quanp
+  495  rm -rf dist/ quanp.egg-info/
+  496  python setup.py sdist
+  497  python setup.py egg_info
+  498  pip install quanp
+  499  pip install .
+  500  pip install .
+  501  conda activate quanp_py36
+  502  pip install quanp
+  503  rm -rf dist/ quanp.egg-info/
+  504  python setup.py sdist
+  505  rm -rf dist/ quanp.egg-info/
+  506  python setup.py sdist
+  507  twine upload dist/*
+  508  pip install quanp
+  509  conda deactivate
+  510  conda remove -n quanp_py36 -all
+  511  conda remove -n quanp_py36 --all
+  512  history
+  513  which pip
+  514  conda update -n base conda -c defaults
+  515  pip install --user --upgrade --force-reinstall pip
+  516  conda remove -n quanp_py36 --all
+  517  conda create -n quanp_py36 python=3.6
+  518  conda activate quanp_py36
+  519  history
+  520  conda install seaborn scikit-learn statsmodels numba pytables -y; conda install -c conda-forge python-igraph leidenalg -y; pip install quanp
+  521  ls /private/var/folders/vr/rg44m3fx30d5pmj3442nllwc0000gn/T/pip-pip-egg-info-taqlf2e5
+  522  ls /private/var/folders/vr/rg44m3fx30d5pmj3442nllwc0000gn/T
+  523  pip install quanp==0.1.14
+  524  conda deactivate 
+  525  conda activate trading_py36
+  526  pip freeze > requirements.txt
+  527  rm -rf dist/ quanp.egg-info/
+  528  python setup.py sdist
+  529  rm -rf dist/ quanp.egg-info/
+  530  python setup.py sdist
+  531  twine upload dist/*
+  532  pip install requests>=2.20
+  533  pip install requests==2.20
+  534  twine upload dist/*
+  535  twine upload dist/*
+  536  pip uninstall quanp
+  537  pip install quanp
+  538* ls /private/var/folders/vr/rg44m3fx30d5pmj3442nllwc0000gn/T
+  539  ls /private/var/folders/vr/rg44m3fx30d5pmj3442nllwc0000gn/T/pip-install-_xyrgbh9/quanp/
+  540  python
+  541  conda deactivarte
+  542  conda deactivate
+  543  ls
+  544  conda install --revision 1
+  545  conda list --revisions
+  546  history
+  547  history > history

@@ -12,10 +12,9 @@ try:
 except ImportError:  # Deps not yet installed
     __author__ = __email__ = 'leehongkai@gmail.com'
 
-
 setup(
     name='quanp',
-    version='0.1.3',
+    version='0.1.16',
     # use_scm_version=True,
     # setup_requires=['setuptools_scm'],
     description='Quantitative Analysis in Python.',
