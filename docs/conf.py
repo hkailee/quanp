@@ -45,6 +45,7 @@ extensions = [
     'sphinx.ext.coverage',
     'sphinx.ext.mathjax',
     'sphinx.ext.napoleon',
+    'sphinx.ext.imgconverter',
     'sphinx.ext.autosummary',
     # 'plot_generator',
     # 'plot_directive',
