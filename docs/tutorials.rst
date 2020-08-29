@@ -24,5 +24,5 @@ Factor Analysis
 -------------
 
 This tutorial shows analyse and visualize the underlying features in each principle 
-component/factor. `Factor Analysis`
+component/factor. 
 
