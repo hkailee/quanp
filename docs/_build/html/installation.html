@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Installation &#8212; quanp 0.1 documentation</title>
+    <title>Installation &#8212; quanp 0.1.dev32+gab72f0b.d20200829 documentation</title>
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
@@ -15,7 +15,8 @@
     <script src="_static/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Tutorials" href="tutorials.html" />
+    <link rel="next" title="References" href="references.html" />
+    <link rel="prev" title="Usage Principles" href="usage-principles.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -42,8 +43,8 @@ installing Anaconda with Python=3.6 and create a vitualenv using conda. Then run
 <span class="n">conda</span> <span class="n">install</span> <span class="o">-</span><span class="n">c</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span> <span class="n">python</span><span class="o">-</span><span class="n">igraph</span> <span class="n">leidenalg</span>
 </pre></div>
 </div>
-<p>The extra <cite>python-igraph</cite> and <cite>leidenalg</cite> installs two packages that are needed for popular
-parts of scanpy but aren’t requirements: <a class="reference external" href="http://igraph.org/python/">python-igraph</a> <span id="id1">[Csardi06]</span> and <a class="reference external" href="https://leidenalg.readthedocs.io">leiden</a> <span id="id2">[Traag18]</span>.</p>
+<p>The extra <code class="docutils literal notranslate"><span class="pre">python-igraph</span></code> and <code class="docutils literal notranslate"><span class="pre">leidenalg</span></code> installs two packages that are needed for popular
+parts of scanpy but aren’t requirements: <a class="reference external" href="http://igraph.org/python/">python-igraph</a> <a class="reference internal" href="references.html#csardi06" id="id1"><span>[Csardi06]</span></a> and <a class="reference external" href="https://leidenalg.readthedocs.io">leiden</a> <a class="reference internal" href="references.html#traag18" id="id2"><span>[Traag18]</span></a>.</p>
 <p>Pull Quanp from <a class="reference external" href="https://pypi.org/project/quanp">PyPI</a> (consider using <code class="docutils literal notranslate"><span class="pre">pip3</span></code> to access Python 3):</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">quanp</span>
 </pre></div>
@@ -51,36 +52,36 @@ parts of scanpy but aren’t requirements: <a class="reference external" href="h
 </div>
 <div class="section" id="development-version">
 <h2>Development Version<a class="headerlink" href="#development-version" title="Permalink to this headline">¶</a></h2>
-<p>To work with the latest version <a class="reference external" href="https://github.com/hkailee/quanp">on GitHub</a>: clone the repository and <cite>cd</cite> into
+<p>To work with the latest version <a class="reference external" href="https://github.com/hkailee/quanp">on GitHub</a>: clone the repository and <code class="docutils literal notranslate"><span class="pre">cd</span></code> into
 its root directory. To install using symbolic links (stay up to date with your
-cloned version after you update with <cite>git pull</cite>) call:</p>
+cloned version after you update with <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">pull</span></code>) call:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">e</span> <span class="o">.</span>
 </pre></div>
 </div>
 </div>
 <div class="section" id="troubleshooting">
 <h2>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permalink to this headline">¶</a></h2>
-<p>If you get a <cite>Permission denied</cite> error, never use <cite>sudo pip</cite>. Instead, use virtual environments or:</p>
+<p>If you get a <code class="docutils literal notranslate"><span class="pre">Permission</span> <span class="pre">denied</span></code> error, never use <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">pip</span></code>. Instead, use virtual environments or:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="o">--</span><span class="n">user</span> <span class="n">quanp</span>
 </pre></div>
 </div>
-<p><strong>On MacOS</strong>, if <strong>not</strong> using <cite>conda</cite>, you might need to install the C core of igraph via homebrew first</p>
+<p><strong>On MacOS</strong>, if <strong>not</strong> using <code class="docutils literal notranslate"><span class="pre">conda</span></code>, you might need to install the C core of igraph via homebrew first</p>
 <ul>
-<li><p><cite>brew install igraph</cite></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">brew</span> <span class="pre">install</span> <span class="pre">igraph</span></code></p></li>
 <li><p>If python-igraph still fails to install, see the question on <a class="reference external" href="https://stackoverflow.com/q/29589696/247482">compiling igraph</a>.
-Alternatively consider installing gcc via <cite>brew install gcc –without-multilib</cite>
+Alternatively consider installing gcc via <code class="docutils literal notranslate"><span class="pre">brew</span> <span class="pre">install</span> <span class="pre">gcc</span> <span class="pre">--without-multilib</span></code>
 and exporting the required variables:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">export</span> <span class="n">CC</span><span class="o">=</span><span class="s2">&quot;/usr/local/Cellar/gcc/X.x.x/bin/gcc-X&quot;</span>
 <span class="n">export</span> <span class="n">CXX</span><span class="o">=</span><span class="s2">&quot;/usr/local/Cellar/gcc/X.x.x/bin/gcc-X&quot;</span>
 </pre></div>
 </div>
-<p>where <cite>X</cite> and <cite>x</cite> refers to the version of <cite>gcc</cite>;
-in my case, the path reads <cite>/usr/local/Cellar/gcc/6.3.0_1/bin/gcc-6</cite>.</p>
+<p>where <code class="docutils literal notranslate"><span class="pre">X</span></code> and <code class="docutils literal notranslate"><span class="pre">x</span></code> refers to the version of <code class="docutils literal notranslate"><span class="pre">gcc</span></code>;
+in my case, the path reads <code class="docutils literal notranslate"><span class="pre">/usr/local/Cellar/gcc/6.3.0_1/bin/gcc-6</span></code>.</p>
 </li>
 </ul>
-<p><strong>On Windows</strong>, there also often problems installing compiled packages such as <cite>igraph</cite>,
+<p><strong>On Windows</strong>, there also often problems installing compiled packages such as <code class="docutils literal notranslate"><span class="pre">igraph</span></code>,
 but you can find precompiled packages on Christoph Gohlke’s <a class="reference external" href="https://www.lfd.uci.edu/~gohlke/pythonlibs/">unofficial binaries</a>.
-Download those and install them using <cite>pip install ./path/to/file.whl</cite></p>
+Download those and install them using <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">./path/to/file.whl</span></code></p>
 </div>
 <div class="section" id="installing-anaconda">
 <h2>Installing Anaconda<a class="headerlink" href="#installing-anaconda" title="Permalink to this headline">¶</a></h2>
@@ -91,7 +92,7 @@ chmod +x Anaconda3-latest-VERSION.sh
 </pre></div>
 </div>
 <p>and accept all suggestions.
-Either reopen a new terminal or <cite>source ~/.bashrc</cite> on Linux/ <cite>source ~/.bash_profile</cite> on Mac.
+Either reopen a new terminal or <code class="docutils literal notranslate"><span class="pre">source</span> <span class="pre">~/.bashrc</span></code> on Linux/ <code class="docutils literal notranslate"><span class="pre">source</span> <span class="pre">~/.bash_profile</span></code> on Mac.
 The whole process takes just a couple of minutes.</p>
 </div>
 </div>
@@ -115,14 +116,17 @@ The whole process takes just a couple of minutes.</p>
 <h3>Navigation</h3>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="tutorials.html">Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage-principles.html">Usage Principles</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
 </ul>
 
 <div class="relations">
 <h3>Related Topics</h3>
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
-      <li>Previous: <a href="tutorials.html" title="previous chapter">Tutorials</a></li>
+      <li>Previous: <a href="usage-principles.html" title="previous chapter">Usage Principles</a></li>
+      <li>Next: <a href="references.html" title="next chapter">References</a></li>
   </ul></li>
 </ul>
 </div>
@@ -149,7 +153,7 @@ The whole process takes just a couple of minutes.</p>
       <div class="clearer"></div>
     </div>
     <div class="footer">
-      &copy;2020, Hong Kai LEE.
+      &copy;2020, Hong Kai Lee..
       
       |
       Powered by <a href="http://sphinx-doc.org/">Sphinx 3.2.1</a>

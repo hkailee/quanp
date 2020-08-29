@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Usage Principles &#8212; quanp 0.1.dev32+gab72f0b.d20200829 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Installation" href="installation.html" />
+    <link rel="prev" title="Tutorials" href="tutorials.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="usage-principles">
+<h1>Usage Principles<a class="headerlink" href="#usage-principles" title="Permalink to this headline">¶</a></h1>
+<p>Import Scanpy as:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">scanpy</span> <span class="k">as</span> <span class="nn">sc</span>
+</pre></div>
+</div>
+<div class="section" id="workflow">
+<h2>Workflow<a class="headerlink" href="#workflow" title="Permalink to this headline">¶</a></h2>
+<p>The typical workflow consists of subsequent calls of data analysis tools
+in <code class="docutils literal notranslate"><span class="pre">sc.tl</span></code>, e.g.:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sc</span><span class="o">.</span><span class="n">tl</span><span class="o">.</span><span class="n">umap</span><span class="p">(</span><span class="n">adata</span><span class="p">,</span> <span class="o">**</span><span class="n">tool_params</span><span class="p">)</span>  <span class="c1"># embed a neighborhood graph of the data using UMAP</span>
+</pre></div>
+</div>
+<p>where <code class="docutils literal notranslate"><span class="pre">adata</span></code> is an <a class="reference external" href="https://anndata.readthedocs.io/en/stable/anndata.AnnData.html#anndata.AnnData" title="(in anndata v0.7.5.dev0+g58886f0.d20200709)"><code class="xref py py-class docutils literal notranslate"><span class="pre">AnnData</span></code></a> object.
+Each of these calls adds annotation to an expression matrix <em>X</em>,
+which stores <em>n_obs</em> observations (cells) of <em>n_vars</em> variables (genes).
+For each tool, there typically is an associated plotting function in <code class="docutils literal notranslate"><span class="pre">sc.pl</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sc</span><span class="o">.</span><span class="n">pl</span><span class="o">.</span><span class="n">umap</span><span class="p">(</span><span class="n">adata</span><span class="p">,</span> <span class="o">**</span><span class="n">plotting_params</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>If you pass <code class="docutils literal notranslate"><span class="pre">show=False</span></code>, a <a class="reference external" href="https://matplotlib.org/api/axes_api.html#matplotlib.axes.Axes" title="(in Matplotlib v3.3.1)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Axes</span></code></a> instance is returned
+and you have all of matplotlib’s detailed configuration possibilities.</p>
+<p>To facilitate writing memory-efficient pipelines, by default,
+Scanpy tools operate <em>inplace</em> on <code class="docutils literal notranslate"><span class="pre">adata</span></code> and return <code class="docutils literal notranslate"><span class="pre">None</span></code> –
+this also allows to easily transition to <a class="reference external" href="http://falexwolf.de/blog/171223_AnnData_indexing_views_HDF5-backing/">out-of-memory pipelines</a>.
+If you want to return a copy of the <a class="reference external" href="https://anndata.readthedocs.io/en/stable/anndata.AnnData.html#anndata.AnnData" title="(in anndata v0.7.5.dev0+g58886f0.d20200709)"><code class="xref py py-class docutils literal notranslate"><span class="pre">AnnData</span></code></a> object
+and leave the passed <code class="docutils literal notranslate"><span class="pre">adata</span></code> unchanged, pass <code class="docutils literal notranslate"><span class="pre">copy=True</span></code> or <code class="docutils literal notranslate"><span class="pre">inplace=False</span></code>.</p>
+</div>
+<div class="section" id="anndata">
+<h2>AnnData<a class="headerlink" href="#anndata" title="Permalink to this headline">¶</a></h2>
+<p>Scanpy is based on <a class="reference external" href="https://anndata.readthedocs.io/en/stable/api.html#module-anndata" title="(in anndata v0.7.5.dev0+g58886f0.d20200709)"><code class="xref py py-mod docutils literal notranslate"><span class="pre">anndata</span></code></a>, which provides the <a class="reference external" href="https://anndata.readthedocs.io/en/stable/anndata.AnnData.html#anndata.AnnData" title="(in anndata v0.7.5.dev0+g58886f0.d20200709)"><code class="xref py py-class docutils literal notranslate"><span class="pre">AnnData</span></code></a> class.</p>
+<a class="reference internal image-reference" href="http://falexwolf.de/img/scanpy/anndata.svg"><img alt="http://falexwolf.de/img/scanpy/anndata.svg" src="http://falexwolf.de/img/scanpy/anndata.svg" width="300px" /></a>
+<p>At the most basic level, an <a class="reference external" href="https://anndata.readthedocs.io/en/stable/anndata.AnnData.html#anndata.AnnData" title="(in anndata v0.7.5.dev0+g58886f0.d20200709)"><code class="xref py py-class docutils literal notranslate"><span class="pre">AnnData</span></code></a> object <code class="docutils literal notranslate"><span class="pre">adata</span></code> stores
+a data matrix <code class="docutils literal notranslate"><span class="pre">adata.X</span></code>, annotation of observations
+<code class="docutils literal notranslate"><span class="pre">adata.obs</span></code> and variables <code class="docutils literal notranslate"><span class="pre">adata.var</span></code> as <code class="docutils literal notranslate"><span class="pre">pd.DataFrame</span></code> and unstructured
+annotation <code class="docutils literal notranslate"><span class="pre">adata.uns</span></code> as <code class="docutils literal notranslate"><span class="pre">dict</span></code>. Names of observations and
+variables can be accessed via <code class="docutils literal notranslate"><span class="pre">adata.obs_names</span></code> and <code class="docutils literal notranslate"><span class="pre">adata.var_names</span></code>,
+respectively. <a class="reference external" href="https://anndata.readthedocs.io/en/stable/anndata.AnnData.html#anndata.AnnData" title="(in anndata v0.7.5.dev0+g58886f0.d20200709)"><code class="xref py py-class docutils literal notranslate"><span class="pre">AnnData</span></code></a> objects can be sliced like
+dataframes, for example, <code class="docutils literal notranslate"><span class="pre">adata_subset</span> <span class="pre">=</span> <span class="pre">adata[:,</span> <span class="pre">list_of_gene_names]</span></code>.
+For more, see this <a class="reference external" href="http://falexwolf.de/blog/171223_AnnData_indexing_views_HDF5-backing/">blog post</a>.</p>
+<p>To read a data file to an <a class="reference external" href="https://anndata.readthedocs.io/en/stable/anndata.AnnData.html#anndata.AnnData" title="(in anndata v0.7.5.dev0+g58886f0.d20200709)"><code class="xref py py-class docutils literal notranslate"><span class="pre">AnnData</span></code></a> object, call:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">adata</span> <span class="o">=</span> <span class="n">sc</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>to initialize an <a class="reference external" href="https://anndata.readthedocs.io/en/stable/anndata.AnnData.html#anndata.AnnData" title="(in anndata v0.7.5.dev0+g58886f0.d20200709)"><code class="xref py py-class docutils literal notranslate"><span class="pre">AnnData</span></code></a> object. Possibly add further annotation using, e.g., <code class="docutils literal notranslate"><span class="pre">pd.read_csv</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="n">anno</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">filename_sample_annotation</span><span class="p">)</span>
+<span class="n">adata</span><span class="o">.</span><span class="n">obs</span><span class="p">[</span><span class="s1">&#39;cell_groups&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">anno</span><span class="p">[</span><span class="s1">&#39;cell_groups&#39;</span><span class="p">]</span>  <span class="c1"># categorical annotation of type pandas.Categorical</span>
+<span class="n">adata</span><span class="o">.</span><span class="n">obs</span><span class="p">[</span><span class="s1">&#39;time&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">anno</span><span class="p">[</span><span class="s1">&#39;time&#39;</span><span class="p">]</span>                <span class="c1"># numerical annotation of type float</span>
+<span class="c1"># alternatively, you could also set the whole dataframe</span>
+<span class="c1"># adata.obs = anno</span>
+</pre></div>
+</div>
+<p>To write, use:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">adata</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+<span class="n">adata</span><span class="o">.</span><span class="n">write_csvs</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+<span class="n">adata</span><span class="o">.</span><span class="n">write_loom</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">quanp</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="tutorials.html">Tutorials</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Usage Principles</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="tutorials.html" title="previous chapter">Tutorials</a></li>
+      <li>Next: <a href="installation.html" title="next chapter">Installation</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Hong Kai Lee..
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.2.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/usage-principles.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
