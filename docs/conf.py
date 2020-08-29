@@ -51,7 +51,7 @@ extensions = [
     'sphinx_autodoc_typehints',  # needs to be after napoleon
     # 'ipython_directive',
     # 'ipython_console_highlighting',
-    # 'scanpydoc',
+    'scanpydoc',
     *[p.stem for p in (HERE / 'extensions').glob('*.py')],
 ]
 
@@ -92,7 +92,7 @@ intersphinx_mapping = dict(
 # -- Options for HTML output ----------------------------------------------
 
 
-html_theme = 'alabaster'
+html_theme = 'scanpydoc'
 html_theme_options = dict(navigation_depth=4, logo_only=True)  # Only show the logo
 html_context = dict(
     display_github=True,  # Integrate GitHub
