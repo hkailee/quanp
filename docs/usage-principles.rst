@@ -8,16 +8,16 @@ Import Quanp as::
 Workflow
 ^^^^^^^^
 The typical workflow consists of subsequent calls of data analysis tools
-in `sc.tl`, e.g.::
+in `qp.tl`, e.g.::
 
-    sc.tl.umap(adata, **tool_params)  # embed a neighborhood graph of the data using UMAP
+    qp.tl.umap(adata, **tool_params)  # embed a neighborhood graph of the data using UMAP
 
 where `adata` is an :class:`~anndata.AnnData` object.
 Each of these calls adds annotation to an expression matrix *X*,
 which stores *n_obs* observations (subjects) of *n_vars* variables (features).
-For each tool, there typically is an associated plotting function in `sc.pl`::
+For each tool, there typically is an associated plotting function in `qp.pl`::
 
-    sc.pl.umap(adata, **plotting_params)
+    qp.pl.umap(adata, **plotting_params)
 
 If you pass `show=False`, a :class:`~matplotlib.axes.Axes` instance is returned
 and you have all of matplotlib's detailed configuration possibilities.
@@ -50,7 +50,7 @@ For more, see this `blog post`_.
 
 To read a data file to an :class:`~anndata.AnnData` object, call::
 
-    adata = sc.read(filename)
+    adata = qp.read(filename)
 
 to initialize an :class:`~anndata.AnnData` object. Possibly add further annotation using, e.g., `pd.read_csv`::
 
