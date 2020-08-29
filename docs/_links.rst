@@ -1,1 +1,1 @@
-.. _CharacterisingCompaniesBasedOnFinancialMetricsDuringCovid19: https://nbviewer.jupyter.org/github/hkailee/quanp/blob/master/notebooks/CharacterisingCompaniesBasedOnFinancialMetricsDuringCovid19.ipynb  
+.. _CharacterisingCompaniesBasedOnFinancialMetricsDuringCovid19: https://nbviewer.jupyter.org/github/hkailee/quanp/blob/master/notebooks/CharacterisingCompaniesBasedOnFinancialMetricsDuringCovid19.ipynb
