@@ -31,7 +31,36 @@ release = '0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.napoleon',
+    'sphinx.ext.intersphinx',
 ]
+
+# napoleon configuration
+napoleon_google_docstring = False
+napoleon_numpy_docstring = True
+
+# intersphinx configuration
+intersphinx_mapping = dict(
+    anndata=('https://anndata.readthedocs.io/en/stable/', None),
+    bbknn=('https://bbknn.readthedocs.io/en/latest/', None),
+    cycler=('https://matplotlib.org/cycler/', None),
+    h5py=('http://docs.h5py.org/en/stable/', None),
+    ipython=('https://ipython.readthedocs.io/en/stable/', None),
+    leidenalg=('https://leidenalg.readthedocs.io/en/latest/', None),
+    louvain=('https://louvain-igraph.readthedocs.io/en/latest/', None),
+    matplotlib=('https://matplotlib.org/', None),
+    networkx=('https://networkx.github.io/documentation/networkx-1.10/', None),
+    numpy=('https://docs.scipy.org/doc/numpy/', None),
+    pandas=('https://pandas.pydata.org/pandas-docs/stable/', None),
+    python=('https://docs.python.org/3', None),
+    scipy=('https://docs.scipy.org/doc/scipy/reference/', None),
+    scvelo=('https://scvelo.readthedocs.io/', None),
+    seaborn=('https://seaborn.pydata.org/', None),
+    sklearn=('https://scikit-learn.org/stable/', None),
+)
+
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -47,7 +76,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
