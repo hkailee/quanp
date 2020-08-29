@@ -96,7 +96,7 @@ html_theme = 'scanpydoc'
 html_theme_options = dict(navigation_depth=4, logo_only=True)  # Only show the logo
 html_context = dict(
     display_github=True,  # Integrate GitHub
-    github_user='theislab',  # Username
+    github_user='hkailee',  # Username
     github_repo='quanp',  # Repo name
     github_version='master',  # Version
     conf_py_path='/docs/',  # Path in the checkout to the docs root
