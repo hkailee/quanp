@@ -20,7 +20,7 @@ on_rtd = os.environ.get('READTHEDOCS') == 'True'
 
 
 nitpicky = True  # Warn about broken links. This is here for a reason: Do not change.
-needs_sphinx = '2.0'  # Nicer param docs
+# needs_sphinx = '2.0'  # Nicer param docs
 suppress_warnings = ['ref.citation']
 
 # General information
@@ -45,6 +45,7 @@ extensions = [
     'sphinx.ext.coverage',
     'sphinx.ext.mathjax',
     'sphinx.ext.napoleon',
+    'sphinx.ext.imgconverter',
     'sphinx.ext.autosummary',
     # 'plot_generator',
     # 'plot_directive',
