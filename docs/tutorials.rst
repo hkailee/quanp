@@ -15,9 +15,9 @@ the identification of features that defined a group/cluster of companies.
 .. image:: _static/img/leiden_SP500_currentRatio.png
    :width: 100px
 .. image:: _static/img/matrixplot.png
-   :width: 100px
+   :width: 200px
 .. image:: _static/img/rank_feature_groups_heatmap.png
-   :width: 100px
+   :width: 200px
 
 
 Factor Analysis
