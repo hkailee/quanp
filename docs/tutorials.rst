@@ -21,7 +21,7 @@ the identification of features that defined a group/cluster of companies.
 
 
 Factor Analysis
--------------
+---------------
 
 This tutorial shows analyse and visualize the underlying features in each principle 
 component/factor. 
