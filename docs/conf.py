@@ -24,7 +24,7 @@ needs_sphinx = '2.0'  # Nicer param docs
 suppress_warnings = ['ref.citation']
 
 # General information
-project = 'Quanp'
+project = 'quanp'
 author = quanp.__author__
 copyright = f'{datetime.now():%Y}, {author}.'
 version = quanp.__version__.replace('.dirty', '')
@@ -45,7 +45,6 @@ extensions = [
     'sphinx.ext.coverage',
     'sphinx.ext.mathjax',
     'sphinx.ext.napoleon',
-    'sphinx.ext.imgconverter',
     'sphinx.ext.autosummary',
     # 'plot_generator',
     # 'plot_directive',
