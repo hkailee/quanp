@@ -49,7 +49,6 @@ extensions = [
     # 'plot_generator',
     # 'plot_directive',
     'sphinx_autodoc_typehints',  # needs to be after napoleon
-    'sphinxcontrib-svg2pdfconverter',
     # 'ipython_directive',
     # 'ipython_console_highlighting',
     'scanpydoc',
