@@ -40,8 +40,3 @@ Latest additions
    tutorials
    usage-principles
    installation
-   api/index
-   external/index
-   ecosystem
-   release-notes
-   references
