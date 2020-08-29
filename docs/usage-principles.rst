@@ -1,9 +1,9 @@
 Usage Principles
 ----------------
 
-Import Scanpy as::
+Import Quanp as::
 
-    import scanpy as sc
+    import quanp as qp
 
 Workflow
 ^^^^^^^^
@@ -14,7 +14,7 @@ in `sc.tl`, e.g.::
 
 where `adata` is an :class:`~anndata.AnnData` object.
 Each of these calls adds annotation to an expression matrix *X*,
-which stores *n_obs* observations (cells) of *n_vars* variables (genes).
+which stores *n_obs* observations (subjects) of *n_vars* variables (features).
 For each tool, there typically is an associated plotting function in `sc.pl`::
 
     sc.pl.umap(adata, **plotting_params)
@@ -23,7 +23,7 @@ If you pass `show=False`, a :class:`~matplotlib.axes.Axes` instance is returned
 and you have all of matplotlib's detailed configuration possibilities.
 
 To facilitate writing memory-efficient pipelines, by default,
-Scanpy tools operate *inplace* on `adata` and return `None` –
+Quanp tools operate *inplace* on `adata` and return `None` –
 this also allows to easily transition to `out-of-memory pipelines`_.
 If you want to return a copy of the :class:`~anndata.AnnData` object
 and leave the passed `adata` unchanged, pass `copy=True` or `inplace=False`.
@@ -32,7 +32,7 @@ and leave the passed `adata` unchanged, pass `copy=True` or `inplace=False`.
 
 AnnData
 ^^^^^^^
-Scanpy is based on :mod:`anndata`, which provides the :class:`~anndata.AnnData` class.
+Quanp is based on :mod:`anndata`, which provides the :class:`~anndata.AnnData` class.
 
 .. image:: http://falexwolf.de/img/scanpy/anndata.svg
    :width: 300px
@@ -43,7 +43,7 @@ a data matrix `adata.X`, annotation of observations
 annotation `adata.uns` as `dict`. Names of observations and
 variables can be accessed via `adata.obs_names` and `adata.var_names`,
 respectively. :class:`~anndata.AnnData` objects can be sliced like
-dataframes, for example, `adata_subset = adata[:, list_of_gene_names]`.
+dataframes, for example, `adata_subset = adata[:, list_of_feature_names]`.
 For more, see this `blog post`_.
 
 .. _blog post: http://falexwolf.de/blog/171223_AnnData_indexing_views_HDF5-backing/
@@ -56,7 +56,7 @@ to initialize an :class:`~anndata.AnnData` object. Possibly add further annotati
 
     import pandas as pd
     anno = pd.read_csv(filename_sample_annotation)
-    adata.obs['cell_groups'] = anno['cell_groups']  # categorical annotation of type pandas.Categorical
+    adata.obs['subject_groups'] = anno['subject_groups']  # categorical annotation of type pandas.Categorical
     adata.obs['time'] = anno['time']                # numerical annotation of type float
     # alternatively, you could also set the whole dataframe
     # adata.obs = anno
