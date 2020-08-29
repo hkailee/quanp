@@ -40,3 +40,4 @@ Latest additions
    tutorials
    usage-principles
    installation
+   references
