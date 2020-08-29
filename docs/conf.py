@@ -48,7 +48,7 @@ extensions = [
     'sphinx.ext.autosummary',
     # 'plot_generator',
     # 'plot_directive',
-    'sphinx_autodoc_typehints',  # needs to be after napoleon
+    # 'sphinx_autodoc_typehints',  # needs to be after napoleon
     # 'ipython_directive',
     # 'ipython_console_highlighting',
     # 'scanpydoc',
