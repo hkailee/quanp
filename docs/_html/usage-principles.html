@@ -165,15 +165,15 @@
 <div class="section" id="workflow">
 <h2>Workflow<a class="headerlink" href="#workflow" title="Permalink to this headline">¶</a></h2>
 <p>The typical workflow consists of subsequent calls of data analysis tools
-in <cite>sc.tl</cite>, e.g.:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sc</span><span class="o">.</span><span class="n">tl</span><span class="o">.</span><span class="n">umap</span><span class="p">(</span><span class="n">adata</span><span class="p">,</span> <span class="o">**</span><span class="n">tool_params</span><span class="p">)</span>  <span class="c1"># embed a neighborhood graph of the data using UMAP</span>
+in <cite>qp.tl</cite>, e.g.:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">qp</span><span class="o">.</span><span class="n">tl</span><span class="o">.</span><span class="n">umap</span><span class="p">(</span><span class="n">adata</span><span class="p">,</span> <span class="o">**</span><span class="n">tool_params</span><span class="p">)</span>  <span class="c1"># embed a neighborhood graph of the data using UMAP</span>
 </pre></div>
 </div>
 <p>where <cite>adata</cite> is an <a class="reference external" href="https://anndata.readthedocs.io/en/stable/anndata.AnnData.html#anndata.AnnData" title="(in anndata v0.7.5.dev0+g58886f0.d20200709)"><code class="xref py py-class docutils literal notranslate"><span class="pre">AnnData</span></code></a> object.
 Each of these calls adds annotation to an expression matrix <em>X</em>,
 which stores <em>n_obs</em> observations (subjects) of <em>n_vars</em> variables (features).
-For each tool, there typically is an associated plotting function in <cite>sc.pl</cite>:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sc</span><span class="o">.</span><span class="n">pl</span><span class="o">.</span><span class="n">umap</span><span class="p">(</span><span class="n">adata</span><span class="p">,</span> <span class="o">**</span><span class="n">plotting_params</span><span class="p">)</span>
+For each tool, there typically is an associated plotting function in <cite>qp.pl</cite>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">qp</span><span class="o">.</span><span class="n">pl</span><span class="o">.</span><span class="n">umap</span><span class="p">(</span><span class="n">adata</span><span class="p">,</span> <span class="o">**</span><span class="n">plotting_params</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>If you pass <cite>show=False</cite>, a <a class="reference external" href="https://matplotlib.org/api/axes_api.html#matplotlib.axes.Axes" title="(in Matplotlib v3.3.1)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Axes</span></code></a> instance is returned
@@ -197,7 +197,7 @@ respectively. <a class="reference external" href="https://anndata.readthedocs.io
 dataframes, for example, <cite>adata_subset = adata[:, list_of_feature_names]</cite>.
 For more, see this <a class="reference external" href="http://falexwolf.de/blog/171223_AnnData_indexing_views_HDF5-backing/">blog post</a>.</p>
 <p>To read a data file to an <a class="reference external" href="https://anndata.readthedocs.io/en/stable/anndata.AnnData.html#anndata.AnnData" title="(in anndata v0.7.5.dev0+g58886f0.d20200709)"><code class="xref py py-class docutils literal notranslate"><span class="pre">AnnData</span></code></a> object, call:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">adata</span> <span class="o">=</span> <span class="n">sc</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">adata</span> <span class="o">=</span> <span class="n">qp</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>to initialize an <a class="reference external" href="https://anndata.readthedocs.io/en/stable/anndata.AnnData.html#anndata.AnnData" title="(in anndata v0.7.5.dev0+g58886f0.d20200709)"><code class="xref py py-class docutils literal notranslate"><span class="pre">AnnData</span></code></a> object. Possibly add further annotation using, e.g., <cite>pd.read_csv</cite>:</p>
