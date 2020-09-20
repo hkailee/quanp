@@ -15,7 +15,7 @@ APD,Air Products & Chemicals Inc,reports,Materials,Industrial Gases,"Allentown, 
 AKAM,Akamai Technologies Inc,reports,Information Technology,Internet Services & Infrastructure,"Cambridge, Massachusetts",2007-07-12,0001086222,1998
 ALK,Alaska Air Group Inc,reports,Industrials,Airlines,"Seattle, Washington",2016-05-13,0000766421,1985
 ALB,Albemarle Corp,reports,Materials,Specialty Chemicals,"Charlotte, North Carolina",2016-07-01,0000915913,1994
-ARE,Alexandria Real Estate Equities,reports,Real Estate,Office REITs,"Pasadena, California",2017-03-20,0001035443,1994
+ARE,Alexandria Real Estate Equities,reports,Real Estate,Office REITs,"Pasadena, California",2017-03-20,0001035443,
 ALXN,Alexion Pharmaceuticals,reports,Health Care,Biotechnology,"Boston, Massachusetts",2012-05-25,0000899866,1992
 ALGN,Align Technology,reports,Health Care,Health Care Supplies,"San Jose, California",2017-06-19,0001097149,1997
 ALLE,Allegion,reports,Industrials,Building Products,"Dublin, Ireland",2013-12-02,0001579241,1908
@@ -237,7 +237,7 @@ HD,Home Depot,reports,Consumer Discretionary,Home Improvement Retail,"Atlanta, G
 HON,Honeywell Int'l Inc.,reports,Industrials,Industrial Conglomerates,"Morristown, New Jersey",1964-03-31,0000773840,1906
 HRL,Hormel Foods Corp.,reports,Consumer Staples,Packaged Foods & Meats,"Austin, Minnesota",2009-03-04,0000048465,1891
 HST,Host Hotels & Resorts,reports,Real Estate,Hotel & Resort REITs,"Bethesda, Maryland",2007-03-20,0001070750,1993
-HWM,Howmet Aerospace,reports,Industrials,Aerospace & Defense,"New York, New York",1964-03-31,0000004281,2016
+HWM,Howmet Aerospace,reports,Industrials,Aerospace & Defense,"Pittsburgh, Pennsylvania",1964-03-31,0000004281,2016
 HPQ,HP Inc.,reports,Information Technology,"Technology Hardware, Storage & Peripherals","Palo Alto, California",1974-12-31,0000047217,1939 (2015)
 HUM,Humana Inc.,reports,Health Care,Managed Health Care,"Louisville, Kentucky",0000049071,1961,
 HBAN,Huntington Bancshares,reports,Financials,Regional Banks,"Columbus, Ohio",0000049196,1866,
