@@ -7,14 +7,13 @@ setup.cfg
 setup.py
 Log/fundamental_download.txt
 Log/price_history_download.txt
-notebooks/Characterising companies based on financial metrics - Factor Analysis.ipynb
-notebooks/Characterising companies based on financial metrics during covid19.ipynb
+notebooks/CharacterisingCompaniesBasedOnFinancialMetricsDuringCovid19.ipynb
 notebooks/Expanded Momentum Model.ipynb
+notebooks/FactorAnalysisForCompaniesBasedOnFinancialMetricsDuringCovid19.ipynb
 notebooks/Momentum Model.ipynb
-notebooks/sp500_metadata_fundamental.h5ad
 notebooks/workingdesk.ipynb
-notebooks/.ipynb_checkpoints/Characterising companies based on financial metrics - Factor Analysis-checkpoint.ipynb
-notebooks/.ipynb_checkpoints/Characterising companies based on financial metrics during covid19-checkpoint.ipynb
+notebooks/.ipynb_checkpoints/CharacterisingCompaniesBasedOnFinancialMetricsDuringCovid19-checkpoint.ipynb
+notebooks/.ipynb_checkpoints/FactorAnalysisForCompaniesBasedOnFinancialMetricsDuringCovid19-checkpoint.ipynb
 notebooks/.ipynb_checkpoints/workingdesk-checkpoint.ipynb
 notebooks/Combine_Signals_for_Enhanced_Alpha/project_7_starter.ipynb
 notebooks/Combine_Signals_for_Enhanced_Alpha/project_helper.py
@@ -195,7 +194,6 @@ notebooks/Combine_Signals_for_Enhanced_Alpha/data/project_7_sector/data.npy
 notebooks/Combine_Signals_for_Enhanced_Alpha/data/project_7_sector/labels.csv
 notebooks/data/metadata/sp500_metadata.csv
 notebooks/data/metadata/sp500_metadata_fundamentalAdded.csv
-notebooks/log/fundamental_download.txt
 quanp/__init__.py
 quanp/__main__.py
 quanp/_compat.py
@@ -219,16 +217,12 @@ quanp/__pycache__/_utils.cpython-36.pyc
 quanp/__pycache__/get.cpython-36.pyc
 quanp/__pycache__/logging.cpython-36.pyc
 quanp/__pycache__/readwrite.cpython-36.pyc
-quanp/datasets/SP500_wiki_20200727.csv
 quanp/datasets/__init__.py
 quanp/datasets/_datasets.py
 quanp/datasets/_utils.py
 quanp/datasets/sp500.csv
-quanp/datasets/sp500_20200801_v2.csv
 quanp/datasets/sp500_updated.csv
-quanp/datasets/update_20200802.csv
 quanp/datasets/index_members/members_update.ipynb
-quanp/datasets/index_members/sp500_20200801.csv
 quanp/datasets/index_members/sp500_20200801_v2.csv
 quanp/datasets/index_members/.ipynb_checkpoints/Untitled-checkpoint.ipynb
 quanp/datasets/index_members/.ipynb_checkpoints/members_update-checkpoint.ipynb

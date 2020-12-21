@@ -1,4 +1,5 @@
 anndata>=0.7
+factor_analyzer==0.3.2
 numpy>=1.17.0
 matplotlib>=3.1.2
 pandas>=0.21
@@ -23,6 +24,8 @@ beautifulsoup4==4.9.1
 lxml==4.5.2
 pandas-market-calendars==1.4.2
 requests==2.24.0
+plotly==4.14.1
+nbformat==4.2.0
 
 [:python_version < "3.8"]
 importlib_metadata>=0.7

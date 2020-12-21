@@ -25,3 +25,5 @@ beautifulsoup4==4.9.1
 lxml==4.5.2
 pandas-market-calendars==1.4.2
 requests==2.24.0
+plotly==4.14.1
+nbformat==4.2.0

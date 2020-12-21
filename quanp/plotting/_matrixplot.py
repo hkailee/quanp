@@ -71,7 +71,7 @@ class MatrixPlot(BasePlot):
     """
 
     DEFAULT_SAVE_PREFIX = 'matrixplot_'
-    DEFAULT_COLOR_LEGEND_TITLE = 'Mean expression\nin group'
+    DEFAULT_COLOR_LEGEND_TITLE = 'Median expression\nin group'
 
     # default style parameters
     DEFAULT_COLORMAP = rcParams['image.cmap']
@@ -120,8 +120,8 @@ class MatrixPlot(BasePlot):
         )
 
         if values_df is None:
-            # compute mean value
-            values_df = self.obs_tidy.groupby(level=0).mean()
+            # compute median value
+            values_df = self.obs_tidy.groupby(level=0).median()
 
             if standard_scale == 'group':
                 values_df = values_df.sub(values_df.min(1), axis=0)
@@ -276,7 +276,7 @@ def matrixplot(
     **kwds,
 ) -> Union[MatrixPlot, dict, None]:
     """\
-    Creates a heatmap of the mean expression values per group of each var_names.
+    Creates a heatmap of the median expression values per group of each var_names.
 
     This function provides a convenient interface to the :class:`~quanp.pl.MatrixPlot`
     class. If you need more flexibility, you should use :class:`~quanp.pl.MatrixPlot`

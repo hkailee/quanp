@@ -1,8 +1,9 @@
 from pathlib import Path
 from typing import Optional
-import logging, lxml, os, requests, sys, time, urllib, warnings
+import logging, lxml, os, requests, shutil, sys, time, urllib, warnings
 
 from bs4 import BeautifulSoup
+from datetime import datetime
 from tqdm import tqdm
 
 import numpy as np
@@ -25,7 +26,6 @@ from ._utils import check_datasetdir_exists, check_logdir_exists
 from ..local_settings import TOS_API_KEY
 
 HERE = Path(__file__).parent
-
 
 def blobs(
     n_variables: int = 11,
@@ -66,13 +66,12 @@ def blobs(
 ########################################################################################
 
 @check_datasetdir_exists
-def wiki_sp500_members_update(update_filename) -> pd.DataFrame:
+def wiki_sp500_members_update(update_filepath) -> pd.DataFrame:
     """\
     A function to update Standard & Poor 500 listed companies according to wikipedia
     @ https://en.wikipedia.org/wiki/List_of_S%26P_500_companies
     """
     template_filename = HERE / 'sp500.csv'
-    update_filename = HERE / update_filename
     verbosity_save = settings.verbosity
     settings.verbosity = 'error'  # suppress output...
     settings.verbosity = verbosity_save
@@ -81,7 +80,7 @@ def wiki_sp500_members_update(update_filename) -> pd.DataFrame:
     df['date'] = pd.to_datetime(df['date'], dayfirst=True )
     df.set_index('date', inplace=True, drop=True)
 
-    df_update = pd.read_csv(update_filename)
+    df_update = pd.read_csv(update_filepath)
     df_update['date'] = pd.to_datetime(df_update['date'])
     df_update = df_update.sort_values(by=['date'], ascending=True)
     df_update.set_index('date', inplace=True, drop=True)
@@ -127,9 +126,9 @@ def wiki_sp500_members_update(update_filename) -> pd.DataFrame:
         df_final.at[key, 'tickers'] = ','.join(df_dict[key])
 
     df_final.to_csv(HERE / 'sp500_updated.csv')
+    print('Updated sp500 list were saved as sp500_updated.csv at {}.'.format(HERE))
 
     return df_final
-
 
 
 @check_datasetdir_exists
@@ -150,7 +149,10 @@ def download_tickers_price_history():
 
     # 2. create output directory if not exist
     output_dir = settings.datasetdir / 'daily'
-    if not os.path.exists(output_dir):
+    if os.path.exists(output_dir):
+        shutil.rmtree(output_dir)
+        os.makedirs(output_dir)
+    else:
         os.makedirs(output_dir)
 
     # the daily eod price
@@ -216,7 +218,7 @@ def download_tickers_price_history():
             # save the outputs
             if not len(df_tmp) < 2:
                 df_tmp.to_csv(output_dir / '{}.csv'.format(ticker), sep=',', mode='w')
-                print('Downloaded data up to {} for {}'.format(df_tmp.index[-1:][0], ticker))
+                # print('Downloaded data up to {} for {}'.format(df_tmp.index[-1:][0], ticker))
             
             else:
                 print('Total price history collected for {} is < 2 - download \
@@ -224,8 +226,8 @@ def download_tickers_price_history():
                 tickers_failed.append(ticker)                
 
         except KeyError as ke:
-            print(KeyError, 'column {} not found in the processed dataframe.'.format(ke), 
-                'Possible reason may be the ticker provided not found in TOS database.')
+            # print(KeyError, 'column {} not found in the processed dataframe.'.format(ke), 
+            #     'Possible reason may be the ticker provided not found in TOS database.')
             tickers_failed.append(ticker)
 
     logging.info('column {} not found in the processed dataframe. Possible \
@@ -236,25 +238,9 @@ def download_tickers_price_history():
     # list all downloaded tickers 
     downloaded_tickers = os.listdir(output_dir)
 
-    # collect list of csv with at least one na or negative value
-    ls_csv_with_na_or_neg = []
-    for csv in downloaded_tickers:
-
-        df = pd.read_csv(output_dir / csv, index_col=0)
-
-        for col in df.columns:
-            df[col] = pd.to_numeric(df[col], errors='coerce')
-        
-        if df.isnull().values.any() or df.lt(0).any().any():
-            ls_csv_with_na_or_neg.append(csv)
-
-    # remove csv with na or negative value
-    for csv in ls_csv_with_na_or_neg:
-        os.remove(output_dir / csv)
-
     # # filter out downloaded tickers (only for use when data downloaded)
-    # downloaded_tickers = set([os.path.splitext(f)[0] for f in os.listdir(output_dir)])
-    # tickers_failed = tickers - downloaded_tickers
+    downloaded_tickers = set([os.path.splitext(f)[0] for f in os.listdir(output_dir)])
+    tickers_failed = tickers - downloaded_tickers
 
     # matching the sp500 members for analyses
     df_dict = {}
@@ -274,13 +260,101 @@ def download_tickers_price_history():
         df_final.at[key, 'tickers'] = ','.join(df_dict[key])
 
     df_final = df_final.sort_index()
-    saved_filename = 'sp500_20200801_v2.csv'
+    saved_filename = 'sp500_updated_clean.csv'
     df_final.to_csv(HERE / saved_filename)
 
-    print('Updated metadata file has been save as {}'.format(saved_filename))
-    logging.info('Updated metadata file has been save as {}'.format(saved_filename))
+    print('sp500_updated_clean.csv has been save at {}'.format(HERE))
+    logging.info('sp500_updated_clean.csv has been save at {}'.format(HERE))
 
     return None
+
+
+@check_datasetdir_exists
+@check_logdir_exists
+def download_tickers_price_history_fromlist(ls_tickers):
+    """
+    A function to download price history of Standard & Poor 500 listed companies based 
+    on the updated sp500 members. SPY will also be downloaded as the
+    benchmark.
+    """
+    # setting logger 
+    logging.basicConfig(filename= settings.logdir / 'price_history_download.txt', 
+                        level=logging.INFO,
+                        format='%(asctime)s - %(levelname)s - %(message)s')
+
+
+    # 1. create output directory if not exist
+    output_dir = settings.datasetdir / 'daily'
+    if os.path.exists(output_dir):
+        shutil.rmtree(output_dir)
+        os.makedirs(output_dir)
+    else:
+        os.makedirs(output_dir)
+
+
+    # define current datetime in miliseconds
+    current_milli_time = lambda: int(round(time.time() * 1000))
+
+    # define payload
+    payload = {'apikey': TOS_API_KEY,
+                'periodType': 'year',
+                'frequencyType': 'daily',
+                'frequency': '1',
+                'period': '20',
+                'endDate': current_milli_time()}
+
+    # Match with NYSE calendar
+    nyse = mcal.get_calendar('NYSE')
+    schedule = nyse.schedule(start_date='1996-01-01', end_date='2022-12-31')
+
+    tickers_failed = []
+
+    # loop and process through each provided ticker (including SPY)
+    for ticker in tqdm(set(ls_tickers), desc='Downloading and processing price history...', 
+                                unit='ticker', 
+                                position=0):
+
+        # define the endpoint
+        endpoint = "https://api.tdameritrade.com/v1/marketdata/{}/pricehistory".format(ticker)
+
+        # request and process data
+        content = requests.get(url = endpoint, params = payload)
+        data = content.json()
+
+        try:
+
+            # dataframing
+            df_tmp = pd.DataFrame.from_dict(data['candles'])
+            df_tmp['datetime'] = pd.to_datetime(df_tmp['datetime'], unit='ms').dt.date
+            df_tmp = df_tmp[['datetime', 'open', 'high', 'low', 'close', 'volume']]
+            df_tmp.set_index('datetime', inplace=True, drop=True)
+            df_tmp = df_tmp[df_tmp.index.astype(str).isin(schedule.index.astype(str))]
+        
+            # Reindex the df to accommodate missing values at certain NYSE calendar
+            schedule_order = schedule.loc[df_tmp.index[0]:df_tmp.index[-1]]
+            df_tmp = df_tmp.reindex(schedule_order.index) 
+        
+            # save the outputs
+            if not len(df_tmp) < 2:
+                df_tmp.to_csv(output_dir / '{}.csv'.format(ticker), sep=',', mode='w')
+                # print('Downloaded data up to {} for {}'.format(df_tmp.index[-1:][0], ticker))
+            
+            else:
+                print('Total price history collected for {} is < 2 - download \
+                     discarded'.format(ticker))
+                tickers_failed.append(ticker)                
+
+        except KeyError as ke:
+            # print(KeyError, 'column {} not found in the processed dataframe.'.format(ke), 
+            #     'Possible reason may be the ticker provided not found in TOS database.')
+            tickers_failed.append(ticker)
+
+    logging.info('column {} not found in the processed dataframe. Possible \
+                reason may be the ticker provided not found in TOS \
+                database.'.format(tickers_failed))
+
+    return None
+
 
 
 @check_datasetdir_exists
@@ -361,8 +435,8 @@ def download_tickers_fundamental() -> pd.DataFrame:
     saved_filename = 'sp500_metadata_fundamentalAdded.csv'
     df_meta_merged.to_csv(working_dir / saved_filename)
 
-    print('Updated metadata file has been save as {}'.format(saved_filename))
-    logging.info('Updated metadata file has been save as {}'.format(saved_filename))
+    print('Fundamentals appended sp500_metadata file has been save as {}'.format(str(working_dir) + '/' + saved_filename))
+    logging.info('Fundamentals appended sp500_metadata file has been save as {}'.format(str(working_dir) + '/' + saved_filename))
 
     return df_meta_merged
 
@@ -409,7 +483,69 @@ def get_wiki_sp500_metadata() -> pd.DataFrame:
     df.set_index('Symbol', inplace=True, drop=True)
     df.to_csv(output_dir / saved_filename)
 
-    print('The metadata file has been initialized and saved as {}'.format(saved_filename))
-    logging.info('The metadata file has been initialized and saved as {}'.format(saved_filename))
+    print('The metadata file has been initialized and saved as {}'.format(str(output_dir) + '/' + saved_filename))
+    logging.info('The metadata file has been initialized and saved as {}'.format(str(output_dir) + '/' + saved_filename))
 
     return df
+
+
+# A function to prepare eod price for each ticker in the list
+@check_datasetdir_exists
+@check_logdir_exists
+def process_eod_price(ls_tickers, startdate='2020-11-17', enddate='2020-12-18'):
+    
+    nyse = mcal.get_calendar('NYSE')
+    schedule = nyse.schedule(start_date='2000-01-01', end_date='2025-12-31')
+    
+    df_eod = pd.DataFrame()
+
+    if startdate in schedule.index:
+        if enddate in schedule.index:
+
+            if not os.path.exists('data/processed/' + startdate + '/daily'):
+                os.makedirs('data/processed/' + startdate + '/daily')
+    
+            startdate = pd.to_datetime(startdate, utc=True)
+            enddate = pd.to_datetime(enddate, utc=True)
+        
+            for ticker in ls_tickers:
+        
+                # read raw data
+                df = pd.read_csv('data/daily/{}.csv'.format(ticker), index_col=0)
+                df.index = pd.to_datetime(df.index, utc=True)
+     
+                # only include those data with the startdate and enddate data
+                if startdate in set(df.index):
+                
+                    if enddate in set(df.index):
+                        df_eod[ticker] = df.loc[startdate:enddate]['close']
+                    else:
+                        print(ticker + ' was excluded as its last tick was collected from ' \
+                          + str(df.index[-1]))     
+                        
+                else:
+                    print(ticker + ' was excluded as its first tick was collected from ' \
+                          + str(df.index[0]))
+                    
+        else:
+            print('process_eod_price() function not performed. Please provide an enddate \
+               that is a NYSE trading day.')
+            logging.info('process_eod_price() function not performed. Please provide an enddate \
+                     that is a NYSE trading day.')
+            exit(1)                    
+                    
+
+        df_eod.index = schedule = pd.to_datetime(nyse.schedule(start_date=startdate, 
+                                                               end_date=enddate).index, utc=True)
+        df_eod.to_csv('data/processed/' + startdate.strftime("%Y-%m-%d") + \
+                      '/daily/eod_price.csv')
+        
+    else:
+        
+        print('process_eod_price() function not performed. Please provide a startdate \
+               that is a NYSE trading day.')
+        logging.info('process_eod_price() function not performed. Please provide a startdate \
+                     that is a NYSE trading day.')
+        exit(1)
+    
+    return df_eod
