@@ -21,9 +21,8 @@ group/cluster of companies.
    :width: 200px
 .. image:: _static/img/rank_feature_groups_heatmap.png
    :width: 200px
-.. image:: _static/img/rsunburst.png
+.. image:: _static/img/sunburst.png
    :width: 200px
-
 
 Factor Analysis
 ---------------
