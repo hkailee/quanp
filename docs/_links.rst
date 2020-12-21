@@ -1,2 +1,3 @@
 .. _CharacterisingCompaniesBasedOnFinancialMetricsDuringCovid19: https://nbviewer.jupyter.org/github/hkailee/quanp/blob/master/notebooks/CharacterisingCompaniesBasedOnFinancialMetricsDuringCovid19.ipynb
+.. _CharacterizingOutperformedCompanies1MonthPostCOVID19VaccineSuccess: https://nbviewer.jupyter.org/github/hkailee/quanp/blob/master/notebooks/CharacterizingOutperformedCompanies1MonthPostCOVID19VaccineSuccess.ipynb
 .. _FactorAnalysisForCompaniesBasedOnFinancialMetricsDuringCovid19: https://nbviewer.jupyter.org/github/hkailee/quanp/blob/master/notebooks/FactorAnalysisForCompaniesBasedOnFinancialMetricsDuringCovid19.ipynb

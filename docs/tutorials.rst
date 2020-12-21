@@ -6,9 +6,12 @@ Tutorials
 Clustering
 ----------
 
-For getting started, we recommend Quanp’s implementation `CharacterisingCompaniesBasedOnFinancialMetricsDuringCovid19`_
-for S&P500 member companies, containing preprocessing, clustering and 
-the identification of features that defined a group/cluster of companies.
+For getting started, we recommend Quanp’s implementations for S&P500 member companies that 
+contain preprocessing, clustering and the identification of features that defined a 
+group/cluster of companies.
+
+[2020 Aug] `CharacterisingCompaniesBasedOnFinancialMetricsDuringCovid19`_
+[2020 Dec] `CharacterizingOutperformedCompanies1MonthPostCOVID19VaccineSuccess`_
 
 .. image:: _static/img/labeled_leiden_sp500.png
    :width: 100px
