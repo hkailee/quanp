@@ -10,7 +10,7 @@ For getting started, we recommend Quanp’s implementations for S&P500 member co
 contain preprocessing, clustering and the identification of features that defined a 
 group/cluster of companies.
 
-[2020 Aug] `CharacterisingCompaniesBasedOnFinancialMetricsDuringCovid19`_
+[2020 Aug] `CharacterisingCompaniesBasedOnFinancialMetricsDuringCovid19`_   
 [2020 Dec] `CharacterizingOutperformedCompanies1MonthPostCOVID19VaccineSuccess`_
 
 .. image:: _static/img/labeled_leiden_sp500.png
@@ -18,10 +18,10 @@ group/cluster of companies.
 .. image:: _static/img/leiden_SP500_currentRatio.png
    :width: 100px
 .. image:: _static/img/matrixplot.png
-   :width: 200px
-.. image:: _static/img/rank_feature_groups_heatmap.png
    :width: 200px  
-.. image:: _static/img/sunburst.png
+.. image:: _static/img/rank_feature_groups_heatmap.png
+   :width: 200px
+.. image:: _static/img/sunburst1.png
    :width: 200px
 
 Factor Analysis
