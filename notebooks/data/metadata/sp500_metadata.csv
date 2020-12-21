@@ -65,7 +65,7 @@ BAC,Bank of America Corp,reports,Financials,Diversified Banks,"Charlotte, North 
 BK,The Bank of New York Mellon,reports,Financials,Asset Management & Custody Banks,"New York, New York",1995-03-31,0001390777,1784
 BAX,Baxter International Inc.,reports,Health Care,Health Care Equipment,"Deerfield, Illinois",1972-09-30,0000010456,1931
 BDX,Becton Dickinson,reports,Health Care,Health Care Equipment,"Franklin Lakes, New Jersey",1972-09-30,0000010795,1897
-BRK.B,Berkshire Hathaway,reports,Financials,Multi-Sector Holdings,"Omaha, Nebraska",2010-02-16,0001067983,1839
+BRK-B,Berkshire Hathaway,reports,Financials,Multi-Sector Holdings,"Omaha, Nebraska",2010-02-16,0001067983,1839
 BBY,Best Buy Co. Inc.,reports,Consumer Discretionary,Computer & Electronics Retail,"Richfield, Minnesota",1999-06-29,0000764478,1966
 BIO,Bio-Rad Laboratories,reports,Health Care,Life Sciences Tools & Services,"Hercules, California",2020-06-22,0000012208,1952
 BIIB,Biogen Inc.,reports,Health Care,Biotechnology,"Cambridge, Massachusetts",2003-11-13,0000875045,1978
@@ -78,7 +78,7 @@ BSX,Boston Scientific,reports,Health Care,Health Care Equipment,"Marlborough, Ma
 BMY,Bristol-Myers Squibb,reports,Health Care,Health Care Distributors,"New York, New York",1957-03-04,0000014272,1989
 AVGO,Broadcom Inc.,reports,Information Technology,Semiconductors,"San Jose, California",2014-05-08,0001730168,1961
 BR,Broadridge Financial Solutions,reports,Information Technology,Data Processing & Outsourced Services,"Lake Success, New York",2018-06-18,0001383312,1962
-BF.B,Brown-Forman Corp.,reports,Consumer Staples,Distillers & Vintners,"Louisville, Kentucky",1982-10-31,0000014693,1870
+BF-B,Brown-Forman Corp.,reports,Consumer Staples,Distillers & Vintners,"Louisville, Kentucky",1982-10-31,0000014693,1870
 CHRW,C. H. Robinson Worldwide,reports,Industrials,Air Freight & Logistics,"Eden Prairie, Minnesota",2007-03-02,0001043277,1905
 COG,Cabot Oil & Gas,reports,Energy,Oil & Gas Exploration & Production,"Houston, Texas",2008-06-23,0000858470,1989
 CDNS,Cadence Design Systems,reports,Information Technology,Application Software,"San Jose, California",2017-09-18,0000813672,1988
