@@ -20,7 +20,7 @@ group/cluster of companies.
 .. image:: _static/img/matrixplot.png
    :width: 200px
 .. image:: _static/img/rank_feature_groups_heatmap.png
-   :width: 200px
+   :width: 200px  
 .. image:: _static/img/sunburst.png
    :width: 200px
 
