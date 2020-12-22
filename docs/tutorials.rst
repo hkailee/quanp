@@ -29,7 +29,9 @@ Factor Analysis
 ---------------
 
 This tutorial analysed and visualized the underlying features that explain each principle component/factor 
-extracted from the S&P500 member companies. `FactorAnalysisForCompaniesBasedOnFinancialMetricsDuringCovid19`_
+extracted from the S&P500 member companies.  
+
+[2020 Sep] `FactorAnalysisForCompaniesBasedOnFinancialMetricsDuringCovid19`_
 
 .. image:: _static/img/screeplot_varianceratio.png
    :width: 100px
