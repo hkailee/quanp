@@ -10,10 +10,10 @@ For getting started, we recommend Quanp’s implementations for S&P500 member co
 contain preprocessing, clustering and the identification of features that defined a 
 group/cluster of companies.
 
-[2020 Aug] `CharacterisingCompaniesBasedOnFinancialMetricsDuringCovid19`_   
+[2020 Aug] `CharacterisingCompaniesBasedOnFinancialMetricsDuringCovid19`_     
 Medium Post is also available at https://medium.com/analytics-vidhya/characterising-companies-based-on-financial-metrics-during-covid19-1a6ce9cc4ada
 
-[2020 Dec] `CharacterizingOutperformedCompanies1MonthPostCOVID19VaccineSuccess`_  
+[2020 Dec] `CharacterizingOutperformedCompanies1MonthPostCOVID19VaccineSuccess`_    
 Medium Post is also available at https://quantitative-python.medium.com/characterizing-outperformed-companies-1-month-post-covid19-vaccine-success-d03185e167a9
 
 .. image:: _static/img/labeled_leiden_sp500.png
