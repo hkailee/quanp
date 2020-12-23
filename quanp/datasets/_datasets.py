@@ -497,35 +497,42 @@ def process_eod_price(ls_tickers, startdate='2020-11-17', enddate='2020-12-18'):
     nyse = mcal.get_calendar('NYSE')
     schedule = nyse.schedule(start_date='2000-01-01', end_date='2025-12-31')
     
+    csv_dir = settings.datasetdir / 'daily'
+    processed_dir = settings.datasetdir / 'processed' / startdate / 'daily'
     df_eod = pd.DataFrame()
 
     if startdate in schedule.index:
         if enddate in schedule.index:
 
-            if not os.path.exists('data/processed/' + startdate + '/daily'):
-                os.makedirs('data/processed/' + startdate + '/daily')
+            if not os.path.exists(processed_dir):
+                os.makedirs(processed_dir)
     
             startdate = pd.to_datetime(startdate, utc=True)
             enddate = pd.to_datetime(enddate, utc=True)
         
             for ticker in ls_tickers:
-        
-                # read raw data
-                df = pd.read_csv('data/daily/{}.csv'.format(ticker), index_col=0)
-                df.index = pd.to_datetime(df.index, utc=True)
-     
-                # only include those data with the startdate and enddate data
-                if startdate in set(df.index):
                 
-                    if enddate in set(df.index):
-                        df_eod[ticker] = df.loc[startdate:enddate]['close']
-                    else:
-                        print(ticker + ' was excluded as its last tick was collected from ' \
-                          + str(df.index[-1]))     
+                try:
+                    # read raw data
+                    df = pd.read_csv(csv_dir / '{}.csv'.format(ticker), index_col=0)
+                    df.index = pd.to_datetime(df.index, utc=True)
+     
+                    # only include those data with the startdate and enddate data
+                    if startdate in set(df.index):
+                
+                        if enddate in set(df.index):
+                            df_eod[ticker] = df.loc[startdate:enddate]['close']
+                        else:
+                            print(ticker + ' was excluded as its last tick was collected from ' \
+                                + str(df.index[-1]))     
                         
-                else:
-                    print(ticker + ' was excluded as its first tick was collected from ' \
-                          + str(df.index[0]))
+                    else:
+                        print(ticker + ' was excluded as its first tick was collected from ' \
+                              + str(df.index[0]))
+
+                except:
+                    print(ticker + ' was excluded as the ticker csv was not found in the  ' \
+                          + str(csv_dir))                   
                     
         else:
             print('process_eod_price() function not performed. Please provide an enddate \
@@ -537,8 +544,7 @@ def process_eod_price(ls_tickers, startdate='2020-11-17', enddate='2020-12-18'):
 
         df_eod.index = schedule = pd.to_datetime(nyse.schedule(start_date=startdate, 
                                                                end_date=enddate).index, utc=True)
-        df_eod.to_csv('data/processed/' + startdate.strftime("%Y-%m-%d") + \
-                      '/daily/eod_price.csv')
+        df_eod.to_csv(processed_dir / 'eod_price.csv')
         
     else:
         

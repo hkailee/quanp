@@ -44,7 +44,6 @@ ANTM,Anthem,reports,Health Care,Managed Health Care,"Indianapolis, Indiana",2002
 AON,Aon plc,reports,Financials,Insurance Brokers,"London, United Kingdom",1996-04-23,0000315293,1982 (1919)
 AOS,A.O. Smith Corp,reports,Industrials,Building Products,"Milwaukee, Wisconsin",2017-07-26,0000091142,1916
 APA,Apache Corporation,reports,Energy,Oil & Gas Exploration & Production,"Houston, Texas",1997-07-28,0000006769,1954
-AIV,Apartment Investment & Management,reports,Real Estate,Residential REITs,"Denver, Colorado",2003-03-14,0000922864,1994 (1975)
 AAPL,Apple Inc.,reports,Information Technology,"Technology Hardware, Storage & Peripherals","Cupertino, California",1982-11-30,0000320193,1977
 AMAT,Applied Materials Inc.,reports,Information Technology,Semiconductor Equipment,"Santa Clara, California",1995-03-16,0000006951,1967
 APTV,Aptiv PLC,reports,Consumer Discretionary,Auto Parts & Equipment,"Dublin, Ireland",2012-12-24,0001521332,1994
@@ -437,6 +436,7 @@ FTI,TechnipFMC,reports,Energy,Oil & Gas Equipment & Services,"London, United Kin
 TDY,Teledyne Technologies,reports,Industrials,Aerospace & Defense,"Thousand Oaks, California",2020-06-22,0001094285,1960
 TFX,Teleflex,reports,Health Care,Health Care Equipment,"Wayne, Pennsylvania",2019-01-18,0000096943,1943
 TER,Teradyne,reports,Information Technology,Semiconductor Equipment,"North Reading, Massachusetts",2020-09-21,0000097210,1960
+TSLA,Tesla,reports,Consumer Discretionary,Automobile Manufacturers,"Palo Alto, California",2020-12-21,0001318605,2003
 TXN,Texas Instruments,reports,Information Technology,Semiconductors,"Dallas, Texas",0000097476,1930,
 TXT,Textron Inc.,reports,Industrials,Aerospace & Defense,"Providence, Rhode Island",1978-12-31,0000217346,1923
 TMO,Thermo Fisher Scientific,reports,Health Care,Life Sciences Tools & Services,"Waltham, Massachusetts",0000097745,2006 (1902),
