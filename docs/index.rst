@@ -14,7 +14,7 @@
 * Discuss usage on Discourse_ and development on GitHub_.
 * Get started by browsing :doc:`tutorials <tutorials>`,
   :doc:`usage principles <usage-principles>` or the main :doc:`API <api/index>`.
-* Follow changes in the :doc:`release notes <release-notes>`.
+* Follow changes of AnnData in the :doc:`release notes <release-notes>`.
 
 .. _Discourse: https://quanp.discourse.group/
 .. _GitHub: https://github.com/hkailee/quanp
