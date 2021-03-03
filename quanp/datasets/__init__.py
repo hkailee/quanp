@@ -8,4 +8,5 @@ from ._datasets import (
     get_wiki_sp500_metadata,
     download_tickers_fundamental,
     process_eod_price,
+    process_eod_price_volume,
 )

@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: quanp
-Version: 0.1.21
+Version: 0.1.22
 Summary: Quantitative Analysis in Python.
 Home-page: http://github.com/hongkailee/quanp
 Author: Hong Kai Lee
@@ -19,7 +19,7 @@ Description: |PyPI| |PyPIDownloads| |Docs|
         =======================================
         
         Quanp is a scalable toolkit for analyzing cross-sectional and longitudinal/time-series 
-        quantitative data. It was first inspired by `scanpy <https://scanpy.readthedocs.io>`__. and 
+        quantitative data. It was first inspired by `scanpy <https://scanpy.readthedocs.io>`__ and 
         jointly built with `anndata <https://anndata.readthedocs.io>`__. It includes
         preprocessing, visualization, clustering, features selection/importance. 
         

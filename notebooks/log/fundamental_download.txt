@@ -1,0 +1,14 @@
+2021-02-25 09:26:50,404 - INFO - column [] not found in the processed dataframe. Possible                 reason may be the ticker provided not found in TOS                 database.
+2021-02-25 09:26:50,535 - INFO - Fundamentals appended sp500_metadata file has been save as /Users/leehongkai/OneDrive/Finance/quanp/notebooks/data/metadata/sp500_metadata_fundamentalAdded.csv
+2021-02-26 09:40:08,478 - INFO - column [] not found in the processed dataframe. Possible                 reason may be the ticker provided not found in TOS                 database.
+2021-02-26 09:40:08,549 - INFO - Fundamentals appended sp500_metadata file has been save as /Users/leehongkai/OneDrive/Finance/quanp/notebooks/data/metadata/sp500_metadata_fundamentalAdded.csv
+2021-02-27 11:00:15,987 - INFO - column [] not found in the processed dataframe. Possible                 reason may be the ticker provided not found in TOS                 database.
+2021-02-27 11:00:16,049 - INFO - Fundamentals appended sp500_metadata file has been save as /Users/leehongkai/OneDrive/Finance/quanp/notebooks/data/metadata/sp500_metadata_fundamentalAdded.csv
+2021-02-27 11:19:36,902 - INFO - column [] not found in the processed dataframe. Possible                 reason may be the ticker provided not found in TOS                 database.
+2021-02-27 11:19:37,013 - INFO - Fundamentals appended sp500_metadata file has been save as /Users/leehongkai/OneDrive/Finance/quanp/notebooks/data/metadata/sp500_metadata_fundamentalAdded.csv
+2021-02-27 16:31:47,368 - ERROR - Internal Python error in the inspect module.
+Below is the traceback from this internal error.
+
+2021-02-27 16:31:47,401 - INFO - 
+Unfortunately, your original traceback can not be constructed.
+

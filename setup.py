@@ -14,7 +14,7 @@ except ImportError:  # Deps not yet installed
 
 setup(
     name='quanp',
-    version='0.1.21',
+    version='0.1.22',
     # use_scm_version=True,
     # setup_requires=['setuptools_scm'],
     description='Quantitative Analysis in Python.',

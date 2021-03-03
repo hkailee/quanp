@@ -9,12 +9,14 @@ Log/fundamental_download.txt
 Log/price_history_download.txt
 notebooks/CharacterisingCompaniesBasedOnFinancialMetricsDuringCovid19.ipynb
 notebooks/CharacterizingOutperformedCompanies1MonthPostCOVID19VaccineSuccess.ipynb
+notebooks/CharacterizingUnderperformedRealEstateCompaniesDuringSCOVID19SecondWave.ipynb
 notebooks/Expanded Momentum Model.ipynb
 notebooks/FactorAnalysisForCompaniesBasedOnFinancialMetricsDuringCovid19.ipynb
 notebooks/Momentum Model.ipynb
 notebooks/workingdesk.ipynb
 notebooks/.ipynb_checkpoints/CharacterisingCompaniesBasedOnFinancialMetricsDuringCovid19-checkpoint.ipynb
 notebooks/.ipynb_checkpoints/CharacterizingOutperformedCompanies1MonthPostCOVID19VaccineSuccess-checkpoint.ipynb
+notebooks/.ipynb_checkpoints/CharacterizingUnderperformedRealEstateCompaniesDuringSCOVID19SecondWave-checkpoint.ipynb
 notebooks/.ipynb_checkpoints/FactorAnalysisForCompaniesBasedOnFinancialMetricsDuringCovid19-checkpoint.ipynb
 notebooks/.ipynb_checkpoints/workingdesk-checkpoint.ipynb
 notebooks/Combine_Signals_for_Enhanced_Alpha/project_7_starter.ipynb
@@ -222,6 +224,7 @@ notebooks/data/daily/ALGN.csv
 notebooks/data/daily/ALK.csv
 notebooks/data/daily/ALL.csv
 notebooks/data/daily/ALLE.csv
+notebooks/data/daily/ALXN.csv
 notebooks/data/daily/AMAT.csv
 notebooks/data/daily/AMCR.csv
 notebooks/data/daily/AMD.csv
@@ -236,7 +239,9 @@ notebooks/data/daily/ANTM.csv
 notebooks/data/daily/AON.csv
 notebooks/data/daily/AOS.csv
 notebooks/data/daily/APA.csv
+notebooks/data/daily/APD.csv
 notebooks/data/daily/APH.csv
+notebooks/data/daily/APTV.csv
 notebooks/data/daily/ARE.csv
 notebooks/data/daily/ATO.csv
 notebooks/data/daily/ATVI.csv
@@ -261,6 +266,7 @@ notebooks/data/daily/BLK.csv
 notebooks/data/daily/BLL.csv
 notebooks/data/daily/BMY.csv
 notebooks/data/daily/BR.csv
+notebooks/data/daily/BSX.csv
 notebooks/data/daily/BWA.csv
 notebooks/data/daily/BXP.csv
 notebooks/data/daily/C.csv
@@ -268,14 +274,18 @@ notebooks/data/daily/CAG.csv
 notebooks/data/daily/CAH.csv
 notebooks/data/daily/CARR.csv
 notebooks/data/daily/CAT.csv
+notebooks/data/daily/CB.csv
 notebooks/data/daily/CBOE.csv
 notebooks/data/daily/CBRE.csv
 notebooks/data/daily/CCI.csv
 notebooks/data/daily/CCL.csv
 notebooks/data/daily/CDNS.csv
 notebooks/data/daily/CDW.csv
+notebooks/data/daily/CE.csv
 notebooks/data/daily/CERN.csv
 notebooks/data/daily/CF.csv
+notebooks/data/daily/CFG.csv
+notebooks/data/daily/CHD.csv
 notebooks/data/daily/CHRW.csv
 notebooks/data/daily/CHTR.csv
 notebooks/data/daily/CI.csv
@@ -287,11 +297,13 @@ notebooks/data/daily/CMCSA.csv
 notebooks/data/daily/CME.csv
 notebooks/data/daily/CMG.csv
 notebooks/data/daily/CMI.csv
+notebooks/data/daily/CMS.csv
 notebooks/data/daily/CNC.csv
 notebooks/data/daily/CNP.csv
 notebooks/data/daily/COF.csv
 notebooks/data/daily/COG.csv
 notebooks/data/daily/COO.csv
+notebooks/data/daily/COP.csv
 notebooks/data/daily/COST.csv
 notebooks/data/daily/CPB.csv
 notebooks/data/daily/CPRT.csv
@@ -305,7 +317,6 @@ notebooks/data/daily/CTVA.csv
 notebooks/data/daily/CTXS.csv
 notebooks/data/daily/CVS.csv
 notebooks/data/daily/CVX.csv
-notebooks/data/daily/CXO.csv
 notebooks/data/daily/D.csv
 notebooks/data/daily/DAL.csv
 notebooks/data/daily/DD.csv
@@ -329,6 +340,7 @@ notebooks/data/daily/DRI.csv
 notebooks/data/daily/DTE.csv
 notebooks/data/daily/DUK.csv
 notebooks/data/daily/DVA.csv
+notebooks/data/daily/DVN.csv
 notebooks/data/daily/DXC.csv
 notebooks/data/daily/DXCM.csv
 notebooks/data/daily/EA.csv
@@ -341,6 +353,7 @@ notebooks/data/daily/EL.csv
 notebooks/data/daily/EMN.csv
 notebooks/data/daily/EMR.csv
 notebooks/data/daily/EOG.csv
+notebooks/data/daily/EQIX.csv
 notebooks/data/daily/EQR.csv
 notebooks/data/daily/ES.csv
 notebooks/data/daily/ESS.csv
@@ -358,6 +371,7 @@ notebooks/data/daily/FANG.csv
 notebooks/data/daily/FAST.csv
 notebooks/data/daily/FB.csv
 notebooks/data/daily/FBHS.csv
+notebooks/data/daily/FCX.csv
 notebooks/data/daily/FDX.csv
 notebooks/data/daily/FE.csv
 notebooks/data/daily/FFIV.csv
@@ -372,13 +386,14 @@ notebooks/data/daily/FOX.csv
 notebooks/data/daily/FOXA.csv
 notebooks/data/daily/FRC.csv
 notebooks/data/daily/FRT.csv
-notebooks/data/daily/FTI.csv
+notebooks/data/daily/FTNT.csv
 notebooks/data/daily/FTV.csv
 notebooks/data/daily/GD.csv
 notebooks/data/daily/GE.csv
 notebooks/data/daily/GILD.csv
 notebooks/data/daily/GIS.csv
 notebooks/data/daily/GL.csv
+notebooks/data/daily/GLW.csv
 notebooks/data/daily/GM.csv
 notebooks/data/daily/GOOG.csv
 notebooks/data/daily/GOOGL.csv
@@ -402,6 +417,8 @@ notebooks/data/daily/HLT.csv
 notebooks/data/daily/HOLX.csv
 notebooks/data/daily/HON.csv
 notebooks/data/daily/HPE.csv
+notebooks/data/daily/HPQ.csv
+notebooks/data/daily/HRL.csv
 notebooks/data/daily/HSIC.csv
 notebooks/data/daily/HST.csv
 notebooks/data/daily/HSY.csv
@@ -421,6 +438,7 @@ notebooks/data/daily/IP.csv
 notebooks/data/daily/IPG.csv
 notebooks/data/daily/IPGP.csv
 notebooks/data/daily/IQV.csv
+notebooks/data/daily/IR.csv
 notebooks/data/daily/IRM.csv
 notebooks/data/daily/ISRG.csv
 notebooks/data/daily/IT.csv
@@ -432,12 +450,14 @@ notebooks/data/daily/JCI.csv
 notebooks/data/daily/JKHY.csv
 notebooks/data/daily/JNJ.csv
 notebooks/data/daily/JNPR.csv
+notebooks/data/daily/JPM.csv
 notebooks/data/daily/K.csv
 notebooks/data/daily/KEY.csv
 notebooks/data/daily/KEYS.csv
 notebooks/data/daily/KHC.csv
 notebooks/data/daily/KIM.csv
 notebooks/data/daily/KLAC.csv
+notebooks/data/daily/KMB.csv
 notebooks/data/daily/KMI.csv
 notebooks/data/daily/KMX.csv
 notebooks/data/daily/KO.csv
@@ -447,6 +467,7 @@ notebooks/data/daily/L.csv
 notebooks/data/daily/LB.csv
 notebooks/data/daily/LDOS.csv
 notebooks/data/daily/LEG.csv
+notebooks/data/daily/LEN.csv
 notebooks/data/daily/LH.csv
 notebooks/data/daily/LHX.csv
 notebooks/data/daily/LIN.csv
@@ -458,6 +479,7 @@ notebooks/data/daily/LNT.csv
 notebooks/data/daily/LOW.csv
 notebooks/data/daily/LRCX.csv
 notebooks/data/daily/LUMN.csv
+notebooks/data/daily/LUV.csv
 notebooks/data/daily/LVS.csv
 notebooks/data/daily/LW.csv
 notebooks/data/daily/LYB.csv
@@ -471,6 +493,7 @@ notebooks/data/daily/MCHP.csv
 notebooks/data/daily/MCK.csv
 notebooks/data/daily/MCO.csv
 notebooks/data/daily/MDLZ.csv
+notebooks/data/daily/MDT.csv
 notebooks/data/daily/MET.csv
 notebooks/data/daily/MGM.csv
 notebooks/data/daily/MHK.csv
@@ -503,6 +526,7 @@ notebooks/data/daily/NKE.csv
 notebooks/data/daily/NLOK.csv
 notebooks/data/daily/NLSN.csv
 notebooks/data/daily/NOC.csv
+notebooks/data/daily/NOV.csv
 notebooks/data/daily/NOW.csv
 notebooks/data/daily/NRG.csv
 notebooks/data/daily/NSC.csv
@@ -514,14 +538,17 @@ notebooks/data/daily/NVR.csv
 notebooks/data/daily/NWL.csv
 notebooks/data/daily/NWS.csv
 notebooks/data/daily/NWSA.csv
+notebooks/data/daily/O.csv
 notebooks/data/daily/ODFL.csv
 notebooks/data/daily/OKE.csv
 notebooks/data/daily/OMC.csv
 notebooks/data/daily/ORCL.csv
 notebooks/data/daily/ORLY.csv
+notebooks/data/daily/OTIS.csv
 notebooks/data/daily/OXY.csv
 notebooks/data/daily/PAYC.csv
 notebooks/data/daily/PAYX.csv
+notebooks/data/daily/PBCT.csv
 notebooks/data/daily/PCAR.csv
 notebooks/data/daily/PEAK.csv
 notebooks/data/daily/PEG.csv
@@ -530,6 +557,7 @@ notebooks/data/daily/PFE.csv
 notebooks/data/daily/PFG.csv
 notebooks/data/daily/PG.csv
 notebooks/data/daily/PGR.csv
+notebooks/data/daily/PH.csv
 notebooks/data/daily/PHM.csv
 notebooks/data/daily/PKG.csv
 notebooks/data/daily/PKI.csv
@@ -541,10 +569,12 @@ notebooks/data/daily/PNW.csv
 notebooks/data/daily/POOL.csv
 notebooks/data/daily/PPG.csv
 notebooks/data/daily/PPL.csv
+notebooks/data/daily/PRGO.csv
 notebooks/data/daily/PRU.csv
 notebooks/data/daily/PSA.csv
 notebooks/data/daily/PSX.csv
 notebooks/data/daily/PVH.csv
+notebooks/data/daily/PWR.csv
 notebooks/data/daily/PXD.csv
 notebooks/data/daily/PYPL.csv
 notebooks/data/daily/QCOM.csv
@@ -560,6 +590,7 @@ notebooks/data/daily/RL.csv
 notebooks/data/daily/RMD.csv
 notebooks/data/daily/ROK.csv
 notebooks/data/daily/ROL.csv
+notebooks/data/daily/ROP.csv
 notebooks/data/daily/ROST.csv
 notebooks/data/daily/RSG.csv
 notebooks/data/daily/RTX.csv
@@ -567,9 +598,11 @@ notebooks/data/daily/SBAC.csv
 notebooks/data/daily/SBUX.csv
 notebooks/data/daily/SCHW.csv
 notebooks/data/daily/SEE.csv
+notebooks/data/daily/SHW.csv
 notebooks/data/daily/SIVB.csv
 notebooks/data/daily/SJM.csv
 notebooks/data/daily/SLB.csv
+notebooks/data/daily/SLG.csv
 notebooks/data/daily/SNA.csv
 notebooks/data/daily/SNPS.csv
 notebooks/data/daily/SO.csv
@@ -594,7 +627,6 @@ notebooks/data/daily/TER.csv
 notebooks/data/daily/TFC.csv
 notebooks/data/daily/TFX.csv
 notebooks/data/daily/TGT.csv
-notebooks/data/daily/TIF.csv
 notebooks/data/daily/TJX.csv
 notebooks/data/daily/TMO.csv
 notebooks/data/daily/TMUS.csv
@@ -602,6 +634,7 @@ notebooks/data/daily/TPR.csv
 notebooks/data/daily/TROW.csv
 notebooks/data/daily/TRV.csv
 notebooks/data/daily/TSCO.csv
+notebooks/data/daily/TSLA.csv
 notebooks/data/daily/TSN.csv
 notebooks/data/daily/TT.csv
 notebooks/data/daily/TTWO.csv
@@ -619,12 +652,16 @@ notebooks/data/daily/UNH.csv
 notebooks/data/daily/UNM.csv
 notebooks/data/daily/UNP.csv
 notebooks/data/daily/UPS.csv
+notebooks/data/daily/URI.csv
+notebooks/data/daily/USB.csv
 notebooks/data/daily/V.csv
+notebooks/data/daily/VAR.csv
 notebooks/data/daily/VFC.csv
 notebooks/data/daily/VIAC.csv
 notebooks/data/daily/VLO.csv
 notebooks/data/daily/VMC.csv
 notebooks/data/daily/VNO.csv
+notebooks/data/daily/VNT.csv
 notebooks/data/daily/VRSK.csv
 notebooks/data/daily/VRSN.csv
 notebooks/data/daily/VRTX.csv
@@ -641,6 +678,7 @@ notebooks/data/daily/WFC.csv
 notebooks/data/daily/WHR.csv
 notebooks/data/daily/WLTW.csv
 notebooks/data/daily/WM.csv
+notebooks/data/daily/WMB.csv
 notebooks/data/daily/WMT.csv
 notebooks/data/daily/WRB.csv
 notebooks/data/daily/WRK.csv

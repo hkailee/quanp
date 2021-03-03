@@ -1,0 +1,10 @@
+2021-01-31 15:25:46,734 - INFO - column [] not found in the processed dataframe. Possible                 reason may be the ticker provided not found in TOS                 database.
+2021-01-31 15:56:38,724 - INFO - The metadata file has been initialized and saved as /Users/leehongkai/OneDrive/Finance/quanp/notebooks/data/metadata/sp500_metadata.csv
+2021-01-31 16:18:54,369 - INFO - column [] not found in the processed dataframe. Possible                 reason may be the ticker provided not found in TOS                 database.
+2021-01-31 16:18:54,467 - INFO - Fundamentals appended sp500_metadata file has been save as /Users/leehongkai/OneDrive/Finance/quanp/notebooks/data/metadata/sp500_metadata_fundamentalAdded.csv
+2021-01-31 16:37:49,313 - INFO - column [] not found in the processed dataframe. Possible                 reason may be the ticker provided not found in TOS                 database.
+2021-01-31 16:37:50,681 - INFO - process_eod_price() function not performed. Please provide a startdate                      that is a NYSE trading day.
+2021-01-31 16:39:24,686 - INFO - process_eod_price() function not performed. Please provide a startdate                      that is a NYSE trading day.
+2021-01-31 16:39:38,923 - INFO - process_eod_price() function not performed. Please provide a startdate                      that is a NYSE trading day.
+2021-01-31 16:39:45,985 - INFO - process_eod_price() function not performed. Please provide a startdate                      that is a NYSE trading day.
+2021-01-31 18:55:10,948 - INFO - column [] not found in the processed dataframe. Possible                 reason may be the ticker provided not found in TOS                 database.
